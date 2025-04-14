@@ -34,7 +34,7 @@ function writeLabel(svgGroup, cx, cy, rInner, rOuter, startAngle, endAngle, name
   const labelAngle = (startAngle + endAngle) / 2;
   const labelPos = polarToCartesian(cx, cy, (rInner + rOuter) / 2, labelAngle % 360);
   const arcLength = ((endAngle - startAngle + 360) % 360) * Math.PI * ((rOuter + rInner) / 2) / 180;
-  const scaleFactor = svgPixelWidth / 1000;
+  const scaleFactor = svgPixelWidth / 1272;
   const realArcLength = arcLength * scaleFactor;
   const arcHeight = (rOuter - rInner) * scaleFactor;
 
@@ -42,8 +42,8 @@ function writeLabel(svgGroup, cx, cy, rInner, rOuter, startAngle, endAngle, name
   const approxTextHeight = name.split(" ").length * fontSizePx * 1.6;
 
   let labelLines;
-  if (realArcLength < approxTextWidth || arcHeight < approxTextHeight) {
-    let approxABBRWidth = abbreviations[1].length * fontSizePx * 0.5;
+  if (realArcLength <= approxTextWidth || arcHeight <= approxTextHeight) {
+    let approxABBRWidth = abbreviations[1].length * fontSizePx * 0.6;
     let approxABBRHeight = abbreviations[1].length * fontSizePx * 1.6; 
     if (realArcLength > approxABBRWidth || arcHeight > approxABBRHeight) {
         labelLines = [abbreviations[1]];
