@@ -1,4 +1,90 @@
 <% layout('layout') -%>
 
-<h1>Banda Musicale</h1>
-<p>Benvenuto nella home dell'accademia!</p>
+<div class="container mt-5">
+    <div class="container py-5">
+        <h1 class="display-4">Accademia Musicale</h1>
+        <p class="lead">Un percorso formativo completo per musicisti di ogni età e livello</p>
+    
+        <!-- Sezione Banda -->
+        <div class="mt-5">
+          <h2 class="mb-3">Scopri la Banda Musicale</h2>
+          <p class="text-muted">Clicca sugli strumenti per scoprire il corso corrispondente</p>
+    
+          <div class="text-center mb-4">
+            <svg id="chart" viewBox="0 0 1000 500" width="100%"></svg>
+          </div>
+    
+          <div class="text-center">
+            <a href="#altri-corsi" class="btn btn-outline-primary">Non suono strumenti da banda? Scopri gli altri corsi</a>
+          </div>
+        </div>
+    
+        <!-- Sezione altri corsi -->
+        <div class="mt-5 pt-5" id="altri-corsi">
+          <h3 class="mb-3">🎵 Corsi individuali e complementari</h3>
+          <p>Oltre agli strumenti bandistici, la nostra Accademia offre un'ampia gamma di corsi per soddisfare ogni passione musicale:</p>
+          <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item">🎹 Pianoforte classico e moderno</li>
+            <li class="list-group-item">🎤 Canto moderno</li>
+            <li class="list-group-item">🎸 Chitarra classica, elettrica e basso</li>
+            <li class="list-group-item">📘 Teoria, solfeggio e armonia</li>
+            <li class="list-group-item">🎼 Musica d'insieme</li>
+          </ul>
+          <a href="/accademia/iscrizione" class="btn btn-success">Scopri come iscriverti</a>
+        </div>
+      </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Strumenti a fiato</h5>
+          <p class="card-text">
+            Flauto, clarinetto, sax, tromba, trombone e molto altro
+          </p>
+          <a href="/accademia/corsi" class="btn btn-outline-primary"
+            >Scopri di più</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Percussioni</h5>
+          <p class="card-text">Timpani, tamburo, xilofono e strumenti Orff</p>
+          <a href="/accademia/corsi" class="btn btn-outline-primary"
+            >Scopri di più</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Teoria e solfeggio</h5>
+          <p class="card-text">
+            Impara le basi della musica in modo chiaro e divertente
+          </p>
+          <a href="/accademia/corsi" class="btn btn-outline-primary"
+            >Scopri di più</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5">
+    <h3>Vuoi iniziare a suonare?</h3>
+    <a href="/accademia/contatti" class="btn btn-primary btn-lg mt-3"
+      >Contattaci ora</a
+    >
+  </div>
+</div>
+
+<script src="/js/sections.js"></script>
+<script>
+  window.onload = function () {
+    drawSections();
+  };
+</script>

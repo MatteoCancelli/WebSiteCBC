@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Clarinetto 1",
+    "abbreviations": ["CL1", "C1"],
+    "link": "",
+    "pic": "img\\section\\Clarinet.jpg",
+    "startAngle": -90,
+    "endAngle": -25,
+    "rowNumber": 1
+  },
+  {
+    "name": "Oboe",
+    "abbreviations": ["OB", "Oboe"],
+    "pic": "img\\section\\Oboe.jpg",
+    "startAngle": -25,
+    "endAngle": 0,
+    "rowNumber": 1
+  },
+  {
+    "name": "Flauto Traverso 1",
+    "abbreviations": ["FL1", "Flute1"],
+    "pic": "img\\section\\Flute.jpg",
+    "startAngle": 0,
+    "endAngle": 65,
+    "rowNumber": 1
+  },
+  {
+    "name": "Ottavino",
+    "abbreviations": ["OTT", "Piccolo"],
+    "pic": "img\\section\\Piccolo.jpg",
+    "startAngle": 65,
+    "endAngle": 90,
+    "rowNumber": 1
+  },
+  {
+    "name": "Clarinetto 2", 
+    "abbreviations": ["CL2", "C2"],
+    "pic": "img\\section\\Clarinet.jpg",
+    "startAngle": -90,
+    "endAngle": -50,
+    "rowNumber": 2
+  },
+  {
+    "name": "Clarinetto Basso",
+    "abbreviations": ["CLB", "CB"],
+    "pic": "img\\section\\Bass_Clarinet.jpg",
+    "startAngle": -50,
+    "endAngle": -25,
+    "rowNumber": 2
+  },
+  {
+    "name": "Fagotto",  
+    "abbreviations": ["BSN", "Fagotto"],
+    "pic": "img\\section\\Bassoon.jpg",
+    "startAngle": -25,
+    "endAngle": 0,
+    "rowNumber": 2
+  },
+  {
+    "name": "Corno Francese",
+    "abbreviations": ["HF", "Horn"],
+    "pic": "img\\section\\French_Horn.jpg",
+    "startAngle": 0,
+    "endAngle": 50,
+    "rowNumber": 2
+  },
+  {
+    "name": "Flauto Traverso 2",
+    "abbreviations": ["FL2", "Flute2"],
+    "pic": "img\\section\\Flute.jpg",
+    "startAngle": 50,
+    "endAngle": 90,
+    "rowNumber": 2
+  },
+  {
+    "name": "Clarinetto 3", 
+    "abbreviations": ["CL3", "C3"],
+    "pic": "img\\section\\Clarinet.jpg",
+    "startAngle": -90,
+    "endAngle": -50,
+    "rowNumber": 3
+  },
+  {
+    "name": "Tromba",  
+    "abbreviations": ["TP", "Trumpet"],
+    "pic": "img\\section\\Trumpet.jpg",
+    "startAngle": -50,
+    "endAngle": 0,
+    "rowNumber": 3
+  },
+  {
+    "name": "Sax Baritono",
+    "abbreviations": ["SAXB", "BaritoneSAX"],
+    "pic": "img\\section\\Baritone_Sax.jpg",
+    "startAngle": 0,
+    "endAngle": 15,
+    "rowNumber": 3
+  },
+  {
+    "name": "Sax Tenore",
+    "abbreviations": ["SAXT", "TenorSAX"],
+    "pic": "img\\section\\Tenor_Sax.jpg",
+    "startAngle": 15,
+    "endAngle": 40,
+    "rowNumber": 3
+  },
+  {
+    "name": "Sax Contralto",
+    "abbreviations": ["SAXA", "AltoSAX"],
+    "pic": "img\\section\\Alto_Sax.jpg",
+    "startAngle": 40,
+    "endAngle": 90,
+    "rowNumber": 3
+  },
+  {
+    "name": "Percussioni",
+    "abbreviations": ["PERC", "Percussion"],
+    "pic": "img\\section\\Percussion.png",
+    "startAngle": -90,
+    "endAngle": 0,
+    "rowNumber": 4
+  },
+  {
+    "name": "Tuba", 
+    "abbreviations": ["TUB", "Tuba"],
+    "pic": "img\\section\\Tuba.jpg",
+    "startAngle": 0,
+    "endAngle": 15,
+    "rowNumber": 4
+  },
+  {
+    "name": "Euphonium",
+    "abbreviations": ["EUPH", "Euphonium"],
+    "pic": "img\\section\\Euphonium.jpg",
+    "startAngle": 15,
+    "endAngle": 40,
+    "rowNumber": 4
+  },
+  {
+    "name": "Trombone",
+    "abbreviations": ["TB", "Trombone"],
+    "pic": "img\\section\\Trombone.png",
+    "startAngle": 40,
+    "endAngle": 90,
+    "rowNumber": 4
+  }
+]
