@@ -181,7 +181,7 @@ function showInstrumentModal(instrument, imageMap) {
   }
   
   modalButton.onclick = function() {
-    window.location.href = `/instrument.html?id=${instrument.abbreviations[0]}`;
+    window.location.href = `/instrument.html?id=${instrument.link}`;
   };
   
   modal.style.display = "block";
