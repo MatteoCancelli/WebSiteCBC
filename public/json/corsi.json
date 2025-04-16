@@ -1,0 +1,39 @@
+{
+    "flauto_traverso": {
+      "titolo": "Corso di Flauto Traverso",
+      "strumentoDescrizione": "Il flauto traverso è uno strumento a fiato elegante e versatile...",
+      "obiettivi": "Avviare lo studente alla conoscenza dello strumento...",
+      "livelli": [
+        {
+          "nome": "Base",
+          "descrizione": "Impostazione, respirazione, primi brani facili."
+        },
+        {
+          "nome": "Intermedio",
+          "descrizione": "Scale, arpeggi, interpretazione musicale..."
+        },
+        {
+          "nome": "Avanzato",
+          "descrizione": "Tecnica avanzata, espressione artistica..."
+        }
+      ],
+      "docente": {
+        "nome": "Marta Rossi",
+        "bio": "Diplomata al Conservatorio di Milano..."
+      }
+    },
+  
+    "canto_moderno": {
+      "titolo": "Corso di Canto Moderno",
+      "strumentoDescrizione": "Scopri le potenzialità della tua voce...",
+      "obiettivi": "Migliorare intonazione, respirazione, interpretazione...",
+      "livelli": [...],
+      "docente": {
+        "nome": "Luca Bianchi",
+        "bio": "Cantante professionista, insegnante e vocal coach..."
+      }
+    }
+  
+    // altri corsi...
+  }
+  

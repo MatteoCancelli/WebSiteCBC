@@ -1,0 +1,24 @@
+<div class="container my-5">
+    <h1 class="display-5 mb-3"><%= corso.titolo %></h1>
+    <p class="lead text-muted"><%= corso.strumentoDescrizione %></p>
+  
+    <hr class="my-4" />
+  
+    <h4>Obiettivi del corso</h4>
+    <p><%= corso.obiettivi %></p>
+  
+    <h4 class="mt-4">Livelli e programma</h4>
+    <ul>
+      <% corso.livelli.forEach(livello => { %>
+        <li><strong><%= livello.nome %></strong>: <%= livello.descrizione %></li>
+      <% }) %>
+    </ul>
+  
+    <h4 class="mt-4">Docente</h4>
+    <p><strong><%= corso.docente.nome %></strong> – <%= corso.docente.bio %></p>
+  
+    <div class="mt-4">
+      <a href="/iscrizione" class="btn btn-primary btn-lg">Iscriviti al corso</a>
+    </div>
+  </div>
+  

@@ -7,6 +7,7 @@ import ejsMate from "ejs-mate";
 // Importa le routes
 import bandaRoutes from "./routes/banda.js";
 import accademiaRoutes from "./routes/accademia.js";
+//import corsiRoutes from "./routes/corsi.js";
 
 const app = express();
 const port = 3000;
@@ -22,6 +23,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // Usa le routes organizzate per sezione
 app.use("/", bandaRoutes);
 app.use("/accademia", accademiaRoutes);
+//app.use("/corsi", corsiRoutes);
 
 app.listen(port, () => {
   console.log(`\uD83C\uDFB6 Server avviato su http://localhost:${port}`);
