@@ -4,6 +4,7 @@
     "abbreviations": ["CL1", "C1"],
     "link": "CL",
     "pic": "img\\section\\Clarinet.jpg",
+    "audio": "audio\\audio_sample.mp3",
     "startAngle": -90,
     "endAngle": -25,
     "rowNumber": 1
@@ -13,6 +14,7 @@
     "abbreviations": ["OB", "Oboe"],
     "link": "OB",
     "pic": "img\\section\\Oboe.jpg",
+    "audio": "audio\\oboe_sample.mp3",
     "startAngle": -25,
     "endAngle": 0,
     "rowNumber": 1
@@ -22,6 +24,7 @@
     "abbreviations": ["FL1", "Flute1"],
     "link": "FL",
     "pic": "img\\section\\Flute.jpg",
+    "audio": "audio\\flute_sample.mp3",
     "startAngle": 0,
     "endAngle": 65,
     "rowNumber": 1
@@ -31,6 +34,7 @@
     "abbreviations": ["OTT", "Piccolo"],
     "link": "OTT",
     "pic": "img\\section\\Piccolo.jpg",
+    "audio": "audio\\piccolo_sample.mp3",
     "startAngle": 65,
     "endAngle": 90,
     "rowNumber": 1
@@ -40,6 +44,7 @@
     "abbreviations": ["CL2", "C2"],
     "link": "CL",
     "pic": "img\\section\\Clarinet.jpg",
+    "audio": "audio\\clarinet_sample.mp3",
     "startAngle": -90,
     "endAngle": -50,
     "rowNumber": 2
@@ -49,6 +54,7 @@
     "abbreviations": ["CLB", "CB"],
     "link": "CLB",
     "pic": "img\\section\\Bass_Clarinet.jpg",
+    "audio": "audio\\bass_clarinet_sample.mp3",
     "startAngle": -50,
     "endAngle": -25,
     "rowNumber": 2
@@ -58,6 +64,7 @@
     "abbreviations": ["BSN", "Fagotto"],
     "link": "BSN",
     "pic": "img\\section\\Bassoon.jpg",
+    "audio": "audio\\bassoon_sample.mp3",
     "startAngle": -25,
     "endAngle": 0,
     "rowNumber": 2
@@ -67,6 +74,7 @@
     "abbreviations": ["HF", "Horn"],
     "link": "HF",
     "pic": "img\\section\\French_Horn.jpg",
+    "audio": "audio\\horn_sample.mp3",
     "startAngle": 0,
     "endAngle": 50,
     "rowNumber": 2
@@ -76,6 +84,7 @@
     "abbreviations": ["FL2", "Flute2"],
     "link": "FL",
     "pic": "img\\section\\Flute.jpg",
+    "audio": "audio\\flute_sample.mp3",
     "startAngle": 50,
     "endAngle": 90,
     "rowNumber": 2
@@ -85,6 +94,7 @@
     "abbreviations": ["CL3", "C3"],
     "link": "CL",
     "pic": "img\\section\\Clarinet.jpg",
+    "audio": "audio\\clarinet_sample.mp3",
     "startAngle": -90,
     "endAngle": -50,
     "rowNumber": 3
@@ -94,6 +104,7 @@
     "abbreviations": ["TP", "Trumpet"],
     "link": "TP",
     "pic": "img\\section\\Trumpet.jpg",
+    "audio": "audio\\trumpet_sample.mp3",
     "startAngle": -50,
     "endAngle": 0,
     "rowNumber": 3
@@ -103,6 +114,7 @@
     "abbreviations": ["SAXB", "BaritoneSAX"],
     "link": "SAXB",
     "pic": "img\\section\\Baritone_Sax.jpg",
+    "audio": "audio\\baritone_sax_sample.mp3",
     "startAngle": 0,
     "endAngle": 15,
     "rowNumber": 3
@@ -112,6 +124,7 @@
     "abbreviations": ["SAXT", "TenorSAX"],
     "link": "SAXT",
     "pic": "img\\section\\Tenor_Sax.jpg",
+    "audio": "audio\\tenor_sax_sample.mp3",
     "startAngle": 15,
     "endAngle": 40,
     "rowNumber": 3
@@ -121,6 +134,7 @@
     "abbreviations": ["SAXA", "AltoSAX"],
     "link": "SAXA",
     "pic": "img\\section\\Alto_Sax.jpg",
+    "audio": "audio\\alto_sax_sample.mp3",
     "startAngle": 40,
     "endAngle": 90,
     "rowNumber": 3
@@ -130,6 +144,7 @@
     "abbreviations": ["PERC", "Percussion"],
     "link": "PERC",
     "pic": "img\\section\\Percussion.png",
+    "audio": "audio\\percussion_sample.mp3",
     "startAngle": -90,
     "endAngle": 0,
     "rowNumber": 4
@@ -139,6 +154,7 @@
     "abbreviations": ["TUB", "Tuba"],
     "link": "TUB",
     "pic": "img\\section\\Tuba.jpg",
+    "audio": "audio\\tuba_sample.mp3",
     "startAngle": 0,
     "endAngle": 15,
     "rowNumber": 4
@@ -148,6 +164,7 @@
     "abbreviations": ["EUPH", "Euphonium"],
     "link": "EUPH",
     "pic": "img\\section\\Euphonium.jpg",
+    "audio": "audio\\euphonium_sample.mp3",
     "startAngle": 15,
     "endAngle": 40,
     "rowNumber": 4
@@ -157,6 +174,7 @@
     "abbreviations": ["TB", "Trombone"],
     "link": "TB",
     "pic": "img\\section\\Trombone.png",
+    "audio": "audio\\trombone_sample.mp3",
     "startAngle": 40,
     "endAngle": 90,
     "rowNumber": 4
