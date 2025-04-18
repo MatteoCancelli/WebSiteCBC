@@ -128,6 +128,61 @@ function preloadInstrumentAudios(instruments) {
   return audioMap;
 }
 
+function createModalCloseButton(modal) {
+  const closeButtonRow = document.createElement("div");
+
+  const closeButton = document.createElement("span");
+  closeButton.className = "close-button";
+  closeButton.innerHTML = "&times;";
+  closeButton.onclick = function () {
+    modal.style.display = "none";
+    const modalAudio = document.getElementById("modal-instrument-audio");
+    if (modalAudio && !modalAudio.paused) {
+      modalAudio.pause();
+      modalAudio.currentTime = 0;
+    }
+  };
+
+  closeButtonRow.appendChild(closeButton);
+  return closeButtonRow;
+}
+
+function createModalimage() {
+  const modalImage = document.createElement("img");
+  modalImage.id = "modal-instrument-image";
+  modalImage.style.cursor = "pointer";
+  modalImage.alt = "Instrument Image";
+  modalImage.addEventListener("click", () => {
+    const audio = document.getElementById("modal-instrument-audio");
+    if (audio?.src) {
+      audio.currentTime = 0;
+      audio.play();
+    }
+  });
+  return modalImage;
+}
+
+function createModalTitle() {
+  const modalTitle = document.createElement("h2");
+  modalTitle.id = "modal-instrument-title";
+  return modalTitle;
+}
+
+function createModalButton() {
+  const modalButton = document.createElement("button");
+  modalButton.id = "modal-instrument-button";
+  modalButton.textContent = "Scopri il corso!";
+  return modalButton;
+}
+
+function createModalAudio() {
+  const modalAudio = document.createElement("audio");
+  modalAudio.id = "modal-instrument-audio";
+  modalAudio.controls = true;
+  modalAudio.style.display = "none";
+  return modalAudio;
+}
+
 function setupModal() {
   let modal = document.getElementById("instrument-modal");
 
@@ -138,52 +193,11 @@ function setupModal() {
     const modalContent = document.createElement("div");
     modalContent.className = "modal-content";
 
-    const closeButtonRow = document.createElement("div");
-
-    const closeButton = document.createElement("span");
-    closeButton.className = "close-button";
-    closeButton.innerHTML = "&times;";
-    closeButton.onclick = function () {
-      modal.style.display = "none";
-      const modalAudio = document.getElementById("modal-instrument-audio");
-      if (modalAudio && !modalAudio.paused) {
-        modalAudio.pause();
-        modalAudio.currentTime = 0;
-      }
-    };
-
-    closeButtonRow.appendChild(closeButton);
-    modalContent.appendChild(closeButtonRow); // Add the close button row to the modal content
-
-    const modalImage = document.createElement("img");
-    modalImage.id = "modal-instrument-image";
-    modalImage.style.cursor = "pointer";
-    modalImage.alt = "Instrument Image";
-
-    const modalTitle = document.createElement("h2");
-    modalTitle.id = "modal-instrument-title";
-
-    const modalButton = document.createElement("button");
-    modalButton.id = "modal-instrument-button";
-    modalButton.textContent = "Vai alla pagina dello strumento";
-
-    const modalAudio = document.createElement("audio");
-    modalAudio.id = "modal-instrument-audio";
-    modalAudio.controls = true;
-    modalAudio.style.display = "none";
-
-    modalImage.addEventListener("click", () => {
-      const audio = document.getElementById("modal-instrument-audio");
-      if (audio?.src) {
-        audio.currentTime = 0;
-        audio.play();
-      }
-    });
-
-    modalContent.appendChild(modalImage);
-    modalContent.appendChild(modalTitle);
-    modalContent.appendChild(modalButton);
-    modalContent.appendChild(modalAudio);
+    modalContent.appendChild(createModalCloseButton(modal));
+    modalContent.appendChild(createModalimage());
+    modalContent.appendChild(createModalTitle());
+    modalContent.appendChild(createModalButton());
+    modalContent.appendChild(createModalAudio());
     modal.appendChild(modalContent);
 
     document.body.appendChild(modal);
