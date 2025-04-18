@@ -274,44 +274,68 @@ function showInstrumentModal(instrument, imageMap, audioMap) {
 
   modalTitle.textContent = instrument.name;
 
-  if (
-    instrument.pic &&
-    instrument.pic.trim() !== "" &&
-    imageMap[instrument.abbreviations[0]]
-  ) {
-    const originalImg = document.getElementById(
-      imageMap[instrument.abbreviations[0]]
-    );
+  const abbreviation = instrument.abbreviations[0];
+
+  // Imposta immagine se presente
+  if (instrument.pic?.trim() && imageMap[abbreviation]) {
+    const originalImg = document.getElementById(imageMap[abbreviation]);
     modalImage.src = originalImg.src;
     modalImage.style.display = "block";
   } else {
     modalImage.style.display = "none";
   }
 
-  if (
-    modalAudio &&
-    instrument.audio &&
-    instrument.audio.trim() !== "" &&
-    audioMap[instrument.abbreviations[0]]
-  ) {
-    const audioEl = document.getElementById(
-      audioMap[instrument.abbreviations[0]]
-    );
-    modalAudio.src = audioEl.src;
-  } else if (modalAudio) {
-    modalAudio.removeAttribute("src");
-  }
+  // Rimuove eventuali GIF precedenti
+  document.querySelectorAll(".tap-gif-overlay").forEach((el) => el.remove());
 
-  modalImage.addEventListener("click", () => {
-    modalImage.style.opacity = 0.7;
-    setTimeout(() => (modalImage.style.opacity = 1), 150);
+  const imageWrapper = modalImage.parentElement;
+  imageWrapper.style.position = "relative";
+  modalImage.style.position = "relative";
+
+  // Clona l’immagine per rimuovere vecchi listener
+  const newModalImage = modalImage.cloneNode(true);
+  newModalImage.id = "modal-instrument-image"; // mantieni l’id per i riferimenti
+  modalImage.replaceWith(newModalImage);
+
+  // Aggiungi listener che fa ripartire l’audio
+  newModalImage.addEventListener("click", () => {
+    document.querySelectorAll(".tap-gif-overlay").forEach((el) => el.remove());
+    newModalImage.style.opacity = 0.7;
+    setTimeout(() => (newModalImage.style.opacity = 1), 150);
     if (modalAudio?.src) {
+      modalAudio.pause(); // aggiunta: se è già in esecuzione
       modalAudio.currentTime = 0;
       modalAudio.play();
     }
   });
 
-  modalButton.onclick = function () {
+  // Mostra GIF "tap here"
+  newModalImage.onload = () => {
+    const tapGif = document.createElement("img");
+    tapGif.src = "gif/tap-here.png";
+    tapGif.classList.add("tap-gif-overlay");
+
+    const imageHeight = newModalImage.offsetHeight;
+    tapGif.style.width = `${imageHeight}px`;
+
+    imageWrapper.appendChild(tapGif);
+  };
+
+  // Forza onload se immagine è già caricata
+  if (newModalImage.complete) {
+    newModalImage.onload();
+  }
+
+  // Imposta audio
+  if (instrument.audio?.trim() && audioMap[abbreviation]) {
+    const audioEl = document.getElementById(audioMap[abbreviation]);
+    modalAudio.src = audioEl.src;
+  } else {
+    modalAudio.removeAttribute("src");
+  }
+
+  // Pulsante "Vai allo strumento"
+  modalButton.onclick = () => {
     window.location.href = `/instrument.html?id=${instrument.link}`;
   };
 
