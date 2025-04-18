@@ -4,7 +4,7 @@
     "abbreviations": ["CL1", "C1"],
     "link": "CL",
     "pic": "img\\section\\Clarinet.jpg",
-    "audio": "audio\\audio_sample.mp3",
+    "audio": "audio\\clarinet_sample.mp3",
     "startAngle": -90,
     "endAngle": -25,
     "rowNumber": 1
