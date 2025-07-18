@@ -9,7 +9,7 @@ import bandaRoutes from "./routes/banda.js";
 import accademiaRoutes from "./routes/accademia.js";
 
 const app = express();
-const port = 3000;
+const port = 3005;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
