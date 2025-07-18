@@ -143,7 +143,7 @@
     "name": "Percussioni",
     "abbreviations": ["PERC", "Percussion"],
     "link": "PERC",
-    "pic": "img\\section\\Percussion.png",
+    "pic": "img\\section\\Percussion.jpg",
     "audio": "audio\\percussion_sample.mp3",
     "startAngle": -90,
     "endAngle": 0,
