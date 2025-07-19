@@ -1,0 +1,10 @@
+<% layout('layout') -%>
+
+<div class="container my-5">
+  <h1><%= corso.titolo %> (<%= corso.eta %>)</h1>
+  <img src="/<%= corso.foto %>" alt="Immagine corso" class="img-fluid mb-4">
+  <p><%= corso.descrizione %></p>
+  <p><strong>Insegnante:</strong> <%= corso.insegnante %></p>
+</div>
+
+

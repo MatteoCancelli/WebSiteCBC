@@ -4,7 +4,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon --ext js,ejs,json app.js"
   },
   "dependencies": {
     "ejs": "^3.1.9",
