@@ -336,7 +336,7 @@ function showInstrumentModal(instrument, imageMap, audioMap) {
 
   // Pulsante "Vai allo strumento"
   modalButton.onclick = () => {
-    window.location.href = `/instrument.html?id=${instrument.link}`;
+    window.location.href = `accademia/corso?id=${instrument.link}`;
   };
 
   modal.style.display = "block";
