@@ -1,10 +1,43 @@
 [
   {
-    "tag": "propedeutico",
-    "titolo": "Propedeutica Musicale in gruppo",
-    "eta": "7-9 anni",
-    "descrizione": "Corso collettivo per avvicinare i bambini alla musica attraverso il gioco, ritmo e canto.",
-    "insegnante": "Maestra Carla Rossi",
-    "foto": "img/corsi/propedeutica.jpg"
+    "tag": "CL",
+    "titolo": "Corso di Clarinetto",
+    "hero": "img/hero/CL.jpg",
+    "descrizione": "Un corso completo per scoprire il clarinetto, sviluppando padronanza tecnica e musicalità, sia per principianti che per livelli avanzati.",
+    "descrizioneStrumento": "Il clarinetto è uno strumento a fiato della famiglia dei legni, caratterizzato da un suono caldo e versatile, usato in orchestre, bande e musica da camera.",
+    "obiettivi": [
+      "Sviluppare una corretta emissione del suono",
+      "Approfondire lettura musicale e ritmo",
+      "Partecipare a gruppi di musica d’insieme",
+      "Avvicinarsi al repertorio bandistico e orchestrale"
+    ],
+    "insegnanti": [
+      {
+        "nome": "Maestro Luca Verdi",
+        "foto": "img/insegnanti/luca_verdi.jpg",
+        "bio": "bio/clarinetto_verdi.html"
+      },
+      {
+        "nome": "Maestra Giulia Neri",
+        "foto": "img/insegnanti/giulia_neri.jpg",
+        "bio": "bio/clarinetto_neri.html"
+      }
+    ],
+    "fotoStrumento": "img/section/Clarinet.jpg",
+    "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
+    "modalita": "Individuale, con possibilità di musica d’insieme",
+    "frequenzaTipica": "Una lezione a settimana con possibilità di raddoppio per avanzati",
+    "noteAggiuntive": "Possibilità di esibirsi nei saggi e nei concerti dell'accademia",
+    "linkIscrizione": "iscrizioni.html?corso=clarinetto",
+    "videoYoutube": [
+      {
+        "titolo": "Introduzione al Clarinetto",
+        "link": "https://www.youtube.com/embed/xxxxxxxx"
+      },
+      {
+        "titolo": "Saggio finale clarinetto 2024",
+        "link": "https://www.youtube.com/embed/yyyyyyyy"
+      }
+    ]
   }
 ]
