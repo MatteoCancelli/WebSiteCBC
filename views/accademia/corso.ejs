@@ -1,8 +1,8 @@
 <% layout('layout') -%>
 
-<div class="container my-5">
+<div class="container-fluid">
   <!-- HERO con immagine -->
-  <div class="hero p-5 rounded-3" style="background-image: url('/<%= corso.hero %>'); background-size: cover; background-position: center; height: 400px;">
+  <div class="hero p-5 rounded-3" style="background-image: url('/<%= corso.hero %>'); background-size: cover; background-position: center; height: 500px;">
     <div class="d-flex align-items-center justify-content-center h-100 bg-dark bg-opacity-50">
       <div class="text-center text-white">
         <h1 class="display-4 fw-bold"><%= corso.titolo %></h1>
@@ -13,23 +13,26 @@
   </div>
 
   <!-- Descrizione strumento -->
-  <div class="row align-items-center mb-5">
-    <div class="col-md-6">
-      <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow" alt="Strumento" style="max-height: 400px; object-fit: cover;">
-    </div>
-    <div class="col-md-6">
-      <h2 class="mb-3">Lo strumento</h2>
+  <div class="row align-items-center mb-5"></div>
+    <div >
+      <h2 class="mb-3 ">Lo strumento</h2>
       <p class="lead"><%= corso.descrizioneStrumento %></p>
     </div>
   </div>
 
   <!-- Obiettivi -->
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow" alt="Strumento" style="max-height: 400px; object-fit: cover;">
+    </div>
+    <div class="col-md-8">
   <h2 class="mb-3">Obiettivi del corso</h2>
   <ul class="list-group list-group-numbered mb-5">
     <% corso.obiettivi.forEach(obj => { %>
       <li class="list-group-item fs-5"><%= obj %></li>
     <% }) %>
   </ul>
+  </div>
 
   <!-- Insegnanti con card -->
   <h2 class="mb-4">I nostri insegnanti</h2>
