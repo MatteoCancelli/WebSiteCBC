@@ -2,30 +2,31 @@
 
 <div class="container-fluid">
   <!-- HERO con immagine -->
-  <div class="hero p-5 rounded-3" style="background-image: url('/<%= corso.hero %>'); background-size: cover; background-position: center; height: 500px;">
-    <div class="d-flex align-items-center justify-content-center h-100 bg-dark bg-opacity-50">
-      <div class="text-center text-white">
-        <h1 class="display-4 fw-bold"><%= corso.titolo %></h1>
-        <p class="fs-5 mb-4"><%= corso.descrizione %></p>
-        <a href="/<%= corso.linkIscrizione %>" class="btn btn-light btn-lg">Iscriviti subito</a>
-      </div>
-    </div>
+<div class="hero p-5 rounded-4 overflow-hidden" style="background-image: url('/<%= corso.hero %>'); background-size: cover; background-position: center; height: 500px;">
+  <div class="d-flex flex-column justify-content-center align-items-center h-100 w-100 bg-dark bg-opacity-50 text-white text-center px-3 rounded-3">
+    <h1 class="display-4 fw-bold mb-3"><%= corso.titolo %></h1>
+    <p class="fs-5 mb-4"><%= corso.descrizione %></p>
+    <a href="/<%= corso.linkIscrizione %>" class="btn btn-light btn-lg">Iscriviti subito</a>
   </div>
+</div>
 
   <!-- Descrizione strumento -->
-  <div class="row align-items-center mb-5"></div>
+   <div class="container-fluid rounded-4 bg-light border my-2">
+  <div class="row align-items-center my-1">
     <div >
-      <h2 class="mb-3 ">Lo strumento</h2>
+      <h2 class="mb-3 my-3">Lo strumento</h2>
       <p class="lead"><%= corso.descrizioneStrumento %></p>
     </div>
+  </div>
+  <div class="row align-items-center mb-3">
+    <div class="d-flex justify-content-center">
+      <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow" alt="Strumento" style="max-height: 400px; object-fit: cover;">
+    </div>
+  </div>
   </div>
 
   <!-- Obiettivi -->
   <div class="row mb-5">
-    <div class="col-md-4">
-      <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow" alt="Strumento" style="max-height: 400px; object-fit: cover;">
-    </div>
-    <div class="col-md-8">
   <h2 class="mb-3">Obiettivi del corso</h2>
   <ul class="list-group list-group-numbered mb-5">
     <% corso.obiettivi.forEach(obj => { %>
