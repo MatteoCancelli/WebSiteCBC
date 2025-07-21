@@ -25,3 +25,17 @@ export const mostraCorso = (req, res) => {
   title: corso.titolo,
   navbar: "partials/navbar-accademia" });
 };
+
+// export const mostraInsegnante = (req, res) => {
+//   const id = req.query.id;
+//   const dataPath = path.join(__dirname, "../data/insegnante.json");
+//   const corsi = JSON.parse(readFileSync(dataPath));
+
+//   const corso = corsi.find(c => c.tag === id);
+
+//   if (!corso) return res.status(404).render("404");
+
+//   res.render("accademia/insegnante", { insegnante,
+//   title: insegnante.nome,
+//   navbar: "partials/navbar-accademia" });
+// };
