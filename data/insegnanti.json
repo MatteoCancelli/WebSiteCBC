@@ -1,0 +1,23 @@
+[
+  {
+    "tag": "luca_verdi",
+    "nome": "Maestro Luca Verdi",
+    "foto": "img/insegnanti/Mozart.jpg",
+    "bio": "bio/clarinetto_verdi.html",
+    "descrizione": "Primo clarinetto della Banda, docente con esperienza decennale..."
+  },
+  {
+    "tag": "maria_rossi",
+    "nome": "Prof.ssa Maria Rossi",
+    "foto": "img/insegnanti/Beethoven.jpg",
+    "bio": "bio/violino_rossi.html",
+    "descrizione": "Specializzata in violino, con un approccio innovativo all'insegnamento..."
+  },
+  {
+    "tag": "giovanni_bianchi",
+    "nome": "Dott. Giovanni Bianchi",
+    "foto": "img/insegnanti/Bach.jpg",
+    "bio": "bio/pianoforte_bianchi.html",
+    "descrizione": "Esperto pianista e compositore, con un focus sulla musica classica..."
+  }
+]

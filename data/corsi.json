@@ -11,18 +11,7 @@
       "Partecipare a gruppi di musica d’insieme",
       "Avvicinarsi al repertorio bandistico e orchestrale"
     ],
-    "insegnanti": [
-      {
-        "nome": "Maestro Luca Verdi",
-        "foto": "img/insegnanti/Mozart.jpg",
-        "bio": "bio/clarinetto_verdi.html"
-      },
-      {
-        "nome": "Maestra Giulia Neri",
-        "foto": "img/insegnanti/Mozart.jpg",
-        "bio": "bio/clarinetto_neri.html"
-      }
-    ],
+    "insegnanti": ["luca_verdi", "maria_rossi"],
     "fotoStrumento": "img/section/Clarinet.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
