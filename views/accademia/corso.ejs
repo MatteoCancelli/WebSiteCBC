@@ -1,85 +1,107 @@
 <% layout('layout') -%>
 
-<div class="container-fluid">
-  <!-- HERO con immagine -->
-<div class="hero p-5 rounded-4 overflow-hidden" style="background-image: url('/<%= corso.hero %>'); background-size: cover; background-position: center; height: 500px;">
-  <div class="d-flex flex-column justify-content-center align-items-center h-100 w-100 bg-dark bg-opacity-50 text-white text-center px-3 rounded-3">
-    <h1 class="display-4 fw-bold mb-3"><%= corso.titolo %></h1>
-    <p class="fs-5 mb-4"><%= corso.descrizione %></p>
-    <a href="/<%= corso.linkIscrizione %>" class="btn btn-light btn-lg">Iscriviti subito</a>
-  </div>
-</div>
-
-  <!-- Descrizione strumento -->
-   <div class="container-fluid rounded-4 bg-light border my-2">
-  <div class="row align-items-center my-1">
-    <div >
-      <h2 class="mb-3 my-3">La classe</h2>
-      <p class="lead"><%= corso.descrizioneStrumento %></p>
+  <div class="container-fluid">
+    <!-- HERO con immagine -->
+    <div class="hero p-5 rounded-4 overflow-hidden"
+      style="background-image: url('/<%= corso.hero %>'); background-size: cover; background-position: center; height: 500px;">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center h-100 w-100 bg-dark bg-opacity-50 text-white text-center px-3 rounded-3">
+        <h1 class="display-4 fw-bold mb-3">
+          <%= corso.titolo %>
+        </h1>
+        <p class="fs-5 mb-4">
+          <%= corso.descrizione %>
+        </p>
+        <a href="/<%= corso.linkIscrizione %>" class="btn btn-light btn-lg">Iscriviti subito</a>
+      </div>
     </div>
-  </div>
-  <div class="row align-items-center mb-3">
-    <div class="d-flex justify-content-center">
-      <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow" alt="Strumento" style="max-height: 400px; object-fit: cover;">
+
+    <!-- Descrizione strumento -->
+
+    <div class="row align-items-center my-1">
+      <div>
+        <h2 class="mb-3 my-3">La classe</h2>
+        <p class="lead">
+          <%= corso.descrizioneStrumento %>
+        </p>
+      </div>
     </div>
-  </div>
-  </div>
+    <div class="row align-items-center mb-3">
+      <div class="d-flex justify-content-center">
+        <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow" alt="Strumento"
+          style="max-height: 400px; object-fit: cover;">
+      </div>
+    </div>
 
-  <!-- Obiettivi -->
-  <div class="row mb-5">
-  <h2 class="mb-3">Obiettivi del corso</h2>
-  <ul class="list-group list-group-numbered mb-5">
-    <% corso.obiettivi.forEach(obj => { %>
-      <li class="list-group-item fs-5"><%= obj %></li>
-    <% }) %>
-  </ul>
-  </div>
 
-  <!-- Insegnanti con card -->
-  <h2 class="mb-4">I nostri insegnanti</h2>
-  <div class="row g-4 mb-5">
-    <% corso.insegnanti.forEach(insegnante => { %>
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100 border-0">
-          <img src="/<%= insegnante.foto %>" class="card-img-top rounded-top" alt="<%= insegnante.nome %>" style="height: 300px; object-fit: cover;">
-          <div class="card-body">
-            <h5 class="card-title"><%= insegnante.nome %></h5>
-            <a href="/<%= insegnante.bio %>" class="btn btn-outline-primary w-100">Scopri il profilo</a>
+    <!-- Obiettivi -->
+    <div class="row">
+      <h2 class="mb-3">Obiettivi del corso</h2>
+      <ul class="list-group-light list-group-numbered mb-5">
+        <% corso.obiettivi.forEach(obj=> { %>
+          <li class="list-group-item fs-5">
+            <%= obj %>
+          </li>
+          <% }) %>
+      </ul>
+    </div>
+
+
+    <!-- Insegnanti con card -->
+    <h2 class="mb-4">I nostri insegnanti</h2>
+    <div class="row g-4 mb-5">
+      <% corso.insegnanti.forEach(insegnante=> { %>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100 border-0">
+            <img src="/<%= insegnante.foto %>" class="card-img-top rounded-top" alt="<%= insegnante.nome %>"
+              style="height: 300px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">
+                <%= insegnante.nome %>
+              </h5>
+              <a href="/<%= insegnante.bio %>" class="btn btn-outline-primary w-100">Scopri il profilo</a>
+            </div>
           </div>
         </div>
-      </div>
-    <% }) %>
-  </div>
+        <% }) %>
+    </div>
 
-  <!-- Info pratiche -->
-  <h2 class="mb-3">Modalità e frequenza</h2>
-  <div class="p-4 mb-5 rounded-4 bg-light border">
-    <p><strong>Modalità:</strong> <%= corso.modalita %></p>
-    <p><strong>Durate disponibili:</strong> <%= corso.lezioniDisponibili.join(", ") %></p>
+    <!-- Info pratiche -->
+    <h2 class="mb-3">Modalità e frequenza</h2>
+    <div class="p-4 mb-5 rounded-4 bg-light border">
+      <p><strong>Modalità:</strong>
+        <%= corso.modalita %>
+      </p>
+      <p><strong>Durate disponibili:</strong>
+        <%= corso.lezioniDisponibili.join(", ") %></p>
     <p><strong>Frequenza tipica:</strong> <%= corso.frequenzaTipica %></p>
     <% if (corso.noteAggiuntive) { %>
-      <div class="alert alert-info mt-3"><%= corso.noteAggiuntive %></div>
+      <div class=" alert alert-info mt-3">
+          <%= corso.noteAggiuntive %>
+    </div>
     <% } %>
   </div>
 
   <!-- Video -->
   <h2 class="mb-4">Video dimostrativi</h2>
   <div class="row g-4 mb-5">
-    <% corso.videoYoutube.forEach(video => { %>
+    <% corso.videoYoutube.forEach(video=> { %>
       <div class="col-md-6">
         <div class="card h-100 border-0 shadow-sm">
           <div class="ratio ratio-16x9">
             <iframe src="<%= video.link %>" title="<%= video.titolo %>" allowfullscreen class="rounded-top"></iframe>
           </div>
           <div class="card-body">
-            <h5 class="card-title"><%= video.titolo %></h5>
+            <h5 class="card-title">
+              <%= video.titolo %>
+            </h5>
           </div>
         </div>
       </div>
-    <% }) %>
+      <% }) %>
   </div>
 
   <div class="text-center">
     <a href="/<%= corso.linkIscrizione %>" class="btn btn-success btn-lg px-5 py-3">Iscriviti subito al corso</a>
   </div>
-</div>
+  </div>
