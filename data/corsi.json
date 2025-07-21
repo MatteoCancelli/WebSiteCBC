@@ -14,20 +14,20 @@
     "insegnanti": [
       {
         "nome": "Maestro Luca Verdi",
-        "foto": "img/insegnanti/luca_verdi.jpg",
+        "foto": "img/insegnanti/Mozart.jpg",
         "bio": "bio/clarinetto_verdi.html"
       },
       {
         "nome": "Maestra Giulia Neri",
-        "foto": "img/insegnanti/giulia_neri.jpg",
+        "foto": "img/insegnanti/Mozart.jpg",
         "bio": "bio/clarinetto_neri.html"
       }
     ],
     "fotoStrumento": "img/section/Clarinet.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Individuale, con possibilità di musica d’insieme",
-    "frequenzaTipica": "Una lezione a settimana con possibilità di raddoppio per avanzati",
-    "noteAggiuntive": "Possibilità di esibirsi nei saggi e nei concerti dell'accademia",
+    "modalita": "Individuale",
+    "frequenzaTipica": "Una lezione a settimana il Venerdì pomeriggio",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=clarinetto",
     "videoYoutube": [
       {
@@ -68,7 +68,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d’insieme",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=oboe",
     "videoYoutube": [
       {
@@ -98,7 +98,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=flauto",
     "videoYoutube": []
   },
@@ -119,7 +119,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d’insieme",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=ottavino",
     "videoYoutube": []
   },
@@ -140,7 +140,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d’insieme",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=clarinetto_basso",
     "videoYoutube": []
   },
@@ -161,7 +161,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d’insieme",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=fagotto",
     "videoYoutube": []
   },
@@ -182,7 +182,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d’insieme",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=corno_francese",
     "videoYoutube": []
   },
@@ -198,7 +198,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d'insieme",
     "frequenzaTipica": "Una lezione settimanale",
-    "noteAggiuntive": "Opportunità di partecipare a saggi e concerti della banda",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=tromba",
     "videoYoutube": []
   },
@@ -214,7 +214,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale con possibilità di musica d’insieme",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Inclusa preparazione a concerti di fine anno",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=trombone",
     "videoYoutube": []
   },
@@ -230,7 +230,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "frequenzaTipica": "Una volta a settimana",
-    "noteAggiuntive": "Possibilità di esibirsi con la Junior Band",
+   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=euphonium",
     "videoYoutube": []
   },
@@ -246,7 +246,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "frequenzaTipica": "Settimanale",
-    "noteAggiuntive": "Partecipazione alle manifestazioni pubbliche della banda",
+   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=tuba",
     "videoYoutube": []
   },
@@ -262,7 +262,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=sassofono",
     "videoYoutube": []
   },
@@ -278,7 +278,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=sassofono_tenore",
     "videoYoutube": []
   },
@@ -294,7 +294,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=sassofono_baritono",
     "videoYoutube": []
   },
@@ -310,7 +310,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Propedeutico per ogni altro corso musicale",
+   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=teoriaesolfeggio",
     "videoYoutube": []
   },
@@ -326,7 +326,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=percussioni",
     "videoYoutube": []
   },
@@ -358,7 +358,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=pianoforte",
     "videoYoutube": []
   },
@@ -374,7 +374,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=canto",
     "videoYoutube": []
   },
@@ -390,7 +390,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "linkIscrizione": "iscrizioni.html?corso=chitarra",
     "videoYoutube": []
   },
@@ -406,7 +406,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Propedeutico per ogni altro corso musicale",
+    "noteAggiuntive": "Incluso con ogni altro corso musicale",
     "linkIscrizione": "iscrizioni.html?corso=teoriaesolfeggio",
     "videoYoutube": []
   },
@@ -422,7 +422,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni in gruppo",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi nei saggi e concerti dell'accademia",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
     "linkIscrizione": "iscrizioni.html?corso=musicainsieme",
     "videoYoutube": []
   },
@@ -438,7 +438,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni in gruppo",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi in concerti e manifestazioni",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
     "linkIscrizione": "iscrizioni.html?corso=coropop",
     "videoYoutube": []
   },
@@ -454,7 +454,7 @@
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni in gruppo",
     "frequenzaTipica": "Una lezione a settimana",
-    "noteAggiuntive": "Opportunità di esibirsi in saggi e concerti",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
     "linkIscrizione": "iscrizioni.html?corso=laboratoriopercussioni",
     "videoYoutube": []
   }
