@@ -8,16 +8,14 @@
     "obiettivi": [
       "Sviluppare una corretta emissione del suono",
       "Approfondire lettura musicale e ritmo",
-      "Partecipare a gruppi di musica d’insieme",
+      "Partecipare a gruppi di musica d'insieme",
       "Avvicinarsi al repertorio bandistico e orchestrale"
     ],
     "insegnanti": ["luca_verdi", "maria_rossi"],
     "fotoStrumento": "img/section/Clarinet.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
-    "frequenzaTipica": "Una lezione a settimana il Venerdì pomeriggio",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=clarinetto",
     "videoYoutube": [
       {
         "titolo": "Introduzione al Clarinetto",
@@ -38,16 +36,14 @@
     "obiettivi": [
       "Sviluppare una corretta emissione del suono",
       "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d’insieme",
+      "Partecipare a gruppi di musica d'insieme",
       "Avvicinarsi al repertorio orchestrale e cameristico"
     ],
     "insegnanti": ["luca_verdi"],
     "fotoStrumento": "img/section/Oboe.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d’insieme",
-    "frequenzaTipica": "Una lezione a settimana",
+    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=oboe",
     "videoYoutube": [
       {
         "titolo": "Introduzione all'Oboe",
@@ -68,16 +64,14 @@
     "obiettivi": [
       "Tecnica di respirazione e emissione del suono",
       "Lettura musicale e ritmo",
-      "Partecipazione a gruppi di musica d’insieme",
+      "Partecipazione a gruppi di musica d'insieme",
       "Avvicinamento al repertorio classico e moderno"
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Flute.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=flauto",
     "videoYoutube": []
   },
   {
@@ -89,16 +83,14 @@
     "obiettivi": [
       "Sviluppare una corretta emissione del suono",
       "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d’insieme",
+      "Partecipare a gruppi di musica d'insieme",
       "Avvicinarsi al repertorio orchestrale e cameristico"
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Piccolo.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d’insieme",
-    "frequenzaTipica": "Una lezione a settimana",
+    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=ottavino",
     "videoYoutube": []
   },
   {
@@ -110,16 +102,14 @@
     "obiettivi": [
       "Sviluppare una corretta emissione del suono",
       "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d’insieme",
+      "Partecipare a gruppi di musica d'insieme",
       "Avvicinarsi al repertorio orchestrale e cameristico"
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Bass_Clarinet.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d’insieme",
-    "frequenzaTipica": "Una lezione a settimana",
+    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=clarinetto_basso",
     "videoYoutube": []
   },
   {
@@ -131,16 +121,14 @@
     "obiettivi": [
       "Sviluppare una corretta emissione del suono",
       "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d’insieme",
+      "Partecipare a gruppi di musica d'insieme",
       "Avvicinarsi al repertorio orchestrale e cameristico"
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Bassoon.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d’insieme",
-    "frequenzaTipica": "Una lezione a settimana",
+    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=fagotto",
     "videoYoutube": []
   },
   {
@@ -152,16 +140,14 @@
     "obiettivi": [
       "Sviluppare una corretta emissione del suono",
       "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d’insieme",
+      "Partecipare a gruppi di musica d'insieme",
       "Avvicinarsi al repertorio orchestrale e cameristico"
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/French_Horn.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d’insieme",
-    "frequenzaTipica": "Una lezione a settimana",
+    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=corno_francese",
     "videoYoutube": []
   },
   {
@@ -175,9 +161,7 @@
     "fotoStrumento": "img/section/Trumpet.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d'insieme",
-    "frequenzaTipica": "Una lezione settimanale",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=tromba",
     "videoYoutube": []
   },
   {
@@ -190,42 +174,36 @@
     "insegnanti": [],
     "fotoStrumento": "img/section/Trombone.png",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Individuale con possibilità di musica d’insieme",
-    "frequenzaTipica": "Una lezione a settimana",
+    "modalita": "Individuale con possibilità di musica d'insieme",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=trombone",
     "videoYoutube": []
   },
   {
     "tag": "EUPH",
     "titolo": "Corso di Euphonium",
     "hero": "img/hero/EUPH.jpg",
-    "descrizione": "Scopri il timbro caldo dell’euphonium con lezioni su misura per ogni livello.",
+    "descrizione": "Scopri il timbro caldo dell'euphonium con lezioni su misura per ogni livello.",
     "descrizioneStrumento": "L'euphonium è uno strumento a fiato della famiglia degli ottoni, apprezzato per la sua sonorità morbida e cantabile.",
     "obiettivi": ["Emissione del suono pulito", "Approccio graduale alla tecnica", "Repertorio classico e bandistico"],
     "insegnanti": [],
     "fotoStrumento": "img/section/Euphonium.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
-    "frequenzaTipica": "Una volta a settimana",
    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=euphonium",
     "videoYoutube": []
   },
   {
     "tag": "TUB",
     "titolo": "Corso di Tuba",
     "hero": "img/hero/TUB.jpg",
-    "descrizione": "Un corso per scoprire il ruolo fondamentale della tuba all’interno di bande e orchestre.",
+    "descrizione": "Un corso per scoprire il ruolo fondamentale della tuba all'interno di bande e orchestre.",
     "descrizioneStrumento": "La tuba è il più grande degli ottoni, con un suono ricco e profondo.",
     "obiettivi": ["Tecnica di respirazione e emissione", "Sviluppo della lettura musicale", "Tecniche ritmiche avanzate"],
     "insegnanti": [],
     "fotoStrumento": "img/section/Tuba.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
-    "frequenzaTipica": "Settimanale",
    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=tuba",
     "videoYoutube": []
   },
   {
@@ -239,9 +217,7 @@
     "fotoStrumento": "img/section/Alto_Sax.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=sassofono",
     "videoYoutube": []
   },
   {
@@ -255,9 +231,7 @@
     "fotoStrumento": "img/section/Tenor_Sax.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=sassofono_tenore",
     "videoYoutube": []
   },
   {
@@ -271,9 +245,7 @@
     "fotoStrumento": "img/section/Baritone_Sax.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=sassofono_baritono",
     "videoYoutube": []
   },
   {
@@ -287,9 +259,7 @@
     "fotoStrumento": "img/section/Solfeggio.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=teoriaesolfeggio",
     "videoYoutube": []
   },
   {
@@ -303,9 +273,7 @@
     "fotoStrumento": "img/section/Percussion.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=percussioni",
     "videoYoutube": []
   },
   {
@@ -319,9 +287,7 @@
     "fotoStrumento": "img/corsiExtraBanda/Propedeutico.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti"],
     "modalita": "Lezioni in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Attività ludiche e creative per stimolare l'interesse musicale",
-    "linkIscrizione": "iscrizioni.html?corso=propedeutico",
     "videoYoutube": []
   },
   {
@@ -335,9 +301,7 @@
     "fotoStrumento": "img/corsiExtraBanda/Piano.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=pianoforte",
     "videoYoutube": []
   },
   {
@@ -351,9 +315,7 @@
     "fotoStrumento": "img/corsiExtraBanda/Canto.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=canto",
     "videoYoutube": []
   },
   {
@@ -367,9 +329,7 @@
     "fotoStrumento": "img/corsiExtraBanda/Chit.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "linkIscrizione": "iscrizioni.html?corso=chitarra",
     "videoYoutube": []
   },
   {
@@ -383,9 +343,7 @@
     "fotoStrumento": "img/corsiExtraBanda/Teo.png",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Incluso con ogni altro corso musicale",
-    "linkIscrizione": "iscrizioni.html?corso=teoriaesolfeggio",
     "videoYoutube": []
   },
   {
@@ -399,9 +357,7 @@
     "fotoStrumento": "img/corsiExtraBanda/Mus.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni in gruppo",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
-    "linkIscrizione": "iscrizioni.html?corso=musicainsieme",
     "videoYoutube": []
   },
   {
@@ -415,9 +371,7 @@
     "fotoStrumento": "img/corsiExtraBanda/Coro.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni in gruppo",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
-    "linkIscrizione": "iscrizioni.html?corso=coropop",
     "videoYoutube": []
   },
   {
@@ -431,9 +385,7 @@
     "fotoStrumento": "img/corsiExtraBanda/Perc-Lab.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni in gruppo",
-    "frequenzaTipica": "Una lezione a settimana",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
-    "linkIscrizione": "iscrizioni.html?corso=laboratoriopercussioni",
     "videoYoutube": []
   }
 ]
