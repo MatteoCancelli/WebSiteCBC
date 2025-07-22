@@ -1,0 +1,125 @@
+<% layout('layout') -%>
+
+<div class="container my-5">
+  <h1 class="mb-4 text-center">Contatti e Iscrizione</h1>
+
+  <div class="row">
+      <h3>📞 Informazioni di Contatto</h3>
+      <p>
+        <i class="bi bi-envelope"> </i>
+        <a href="mailto:corpobandistico.castelcovati@gmail.com"
+          >corpobandistico.castelcovati@gmail.com</a
+        >
+      </p>
+      <p>
+        <i class="bi bi-telephone"> </i>
+        <a href="tel:+393717711684">+39 371 771 1684</a>
+      </p>
+      <p>
+        <i class="bi bi-whatsapp"> </i>
+        <a href="https://wa.me/393717711684" target="_blank"
+          >+39 371 771 1684</a
+        >
+      </p>
+      <p>
+        <i class="bi bi-geo-alt"> </i>
+        <a
+          href="https://www.google.com/maps?q=Via+Aldo+Moro+79+-+Castelcovati+(BS)+-+presso+il+campo+sportivo"
+          target="_blank"
+          >Via Aldo Moro 79 - Castelcovati (BS) - presso il campo sportivo</a
+        >
+      </p>
+      <p>
+        <i class="bi bi-instagram"> </i
+        ><a href="https://www.instagram.com/banda.castelcovati" target="_blank">
+          banda.castelcovati</a
+        >
+      </p>
+      <p>
+        <i class="bi bi-facebook"> </i>
+        <a href="https://www.facebook.com/banda.castelcovati" target="_blank">
+          Corpo Bandistico di Castelcovati</a
+        >
+      </p>
+      <p>
+        <i class="bi bi-envelope"> </i>
+        <a href="mailto:corpobandistico.castelcovati@pec.it">
+          corpobandistico.castelcovati@pec.it</a
+        >
+      </p>
+    </div>
+
+    <% if (typeof success !== 'undefined') { %> <% if (success) { %>
+    <div class="alert alert-success">Richiesta inviata con successo!</div>
+    <% } else { %>
+    <div class="alert alert-danger">
+      Errore nell'invio della richiesta. Riprova.
+    </div>
+    <% } %> <% } %>
+
+    <div class="row my-3">
+      <h3>📝 Modulo Iscrizione</h3>
+      <form action="/accademia/invia-iscrizione" method="POST" action="#">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome e Cognome*</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nome"
+            name="nome"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email*</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Telefono*</label>
+            <input type="tel" class="form-control" id="telefono" name="telefono" required pattern="[0-9]{8,15}" title="Inserisci un numero valido senza spazi o simboli">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label mb-2">Seleziona uno o più corsi*</label>
+          <div class="d-flex flex-wrap gap-2">
+            <% corsi.forEach(corso => { %>
+            <input
+              type="checkbox"
+              class="btn-check"
+              id="btn-<%= corso.tag %>"
+              autocomplete="off"
+              name="corsi"
+              value="<%= corso.titolo %>"
+            />
+            <label class="btn btn-outline-primary" for="btn-<%= corso.tag %>"
+              ><%= corso.titolo %></label
+            >
+            <% }) %>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="note" class="form-label w-80">Note aggiuntive</label>
+          <textarea
+            class="form-control"
+            id="note"
+            name="note"
+            rows="4"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-10">
+          Invia richiesta
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
