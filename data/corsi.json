@@ -41,18 +41,7 @@
       "Partecipare a gruppi di musica d’insieme",
       "Avvicinarsi al repertorio orchestrale e cameristico"
     ],
-    "insegnanti": [ 
-      {
-        "nome": "Maestro Marco Rossi",
-        "foto": "img/insegnanti/marco_rossi.jpg",
-        "bio": "bio/oboe_rossi.html"
-      },
-      {
-        "nome": "Maestra Elena Bianchi",
-        "foto": "img/insegnanti/elena_bianchi.jpg",
-        "bio": "bio/oboe_bianchi.html"
-      }
-    ],
+    "insegnanti": ["luca_verdi"],
     "fotoStrumento": "img/section/Oboe.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d’insieme",
