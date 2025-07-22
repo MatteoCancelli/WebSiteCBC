@@ -1,19 +1,34 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <a class="navbar-brand" href="/accademia">Accademia</a>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/accademia">Corsi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pdf/regolamento-accademia.pdf" target="_blank">Regolamento</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/accademia/contatti">Contatti</a>
-        </li>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarAccademia" aria-controls="navbarAccademia" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarAccademia">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="/accademia">Corsi</a></li>
+        <li class="nav-item"><a class="nav-link" href="/accademia/insegnanti">Insegnanti</a></li>
+        <li class="nav-item"><a class="nav-link" href="/pdf/regolamento-accademia.pdf" target="_blank">Regolamento</a></li>
+        <li class="nav-item"><a class="nav-link" href="/accademia/contatti">Contatti</a></li>
       </ul>
       <a class="btn btn-outline-primary" href="/">Torna alla Banda</a>
     </div>
   </div>
 </nav>
+
+<!-- Bootstrap bundle sempre caricato -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // CHIUSURA AUTOMATICA NAVBAR DOPO CLICK
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      const navbar = document.getElementById('navbarAccademia');
+      if (navbar.classList.contains('show')) {
+        const collapse = bootstrap.Collapse.getOrCreateInstance(navbar);
+        collapse.hide();
+      }
+    });
+  });
+</script>

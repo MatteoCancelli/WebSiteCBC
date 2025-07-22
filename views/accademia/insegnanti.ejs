@@ -1,0 +1,20 @@
+<% layout('layout') -%>
+
+<div class="container my-5">
+  <h1 class="mb-4 text-center">I nostri insegnanti</h1>
+  <div class="row g-4">
+    <% insegnanti.forEach(ins => { %>
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm border-0 d-flex flex-column">
+          <img src="/<%= ins.foto %>" class="card-img-top" style="height: 300px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title"><%= ins.nome %></h5>
+            <p class="card-text"><%= ins.descrizione %></p>
+            <a href="/accademia/insegnante?id=<%= ins.tag %>" class="btn btn-outline-primary mt-auto w-100">Scopri il profilo</a>
+          </div>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+</div>
+

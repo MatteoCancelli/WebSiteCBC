@@ -1,23 +1,72 @@
 [
   {
-    "tag": "luca_verdi",
-    "nome": "Maestro Luca Verdi",
-    "foto": "img/insegnanti/Mozart.jpg",
-    "bio": "bio/clarinetto_verdi.html",
-    "descrizione": "Primo clarinetto della Banda, docente con esperienza decennale..."
+    "tag": "scalvini",
+    "nome": "Prof. Gianfranco Scalvini",
+    "foto": "img/insegnanti/scalvini.jpg",
+    "descrizione": "Teoria e solfeggio, Propedeutico",
+    "bio": "Gianfranco Scalvini è un esperto di teoria musicale e solfeggio, con anni di esperienza nell'insegnamento.",
+    "titoli": "Laurea in Musicologia, Diploma in Composizione",
+    "esperienza": [
+        "Docente presso Accademia Musicale dal 2005",
+        "Direttore di Coro Giovanile Regionale",
+        "Collaborazioni con Orchestre e Festival musicali"
+    ],
+    "corsi": ["TEO", "PROPE"]
+},
+  {
+    "tag": "corvaglia",
+    "nome": "Maestro Luigi Corvaglia",
+    "foto": "img/insegnanti/corvaglia.jpg",
+    "descrizione": "Clarinetto, Clarinetto basso, Sassofono contralto, Sassofono tenore, Sassofono baritono",
+    "bio": "Luigi Corvaglia è un ",
+    "corsi": ["CL","CLB","SAXA", "SAXB", "SAXT"]
   },
   {
-    "tag": "maria_rossi",
-    "nome": "Prof.ssa Maria Rossi",
-    "foto": "img/insegnanti/Beethoven.jpg",
-    "bio": "bio/violino_rossi.html",
-    "descrizione": "Specializzata in violino, con un approccio innovativo all'insegnamento..."
+    "tag": "moraschi",
+    "nome": "Maestro Gabriele Moraschi",
+    "foto": "img/insegnanti/moraschi.jpg",
+    "descrizione": "Pianoforte",
+    "bio": "Gabriele Moraschi è un ",
+    "corsi": ["PIANO"]
   },
   {
-    "tag": "giovanni_bianchi",
-    "nome": "Dott. Giovanni Bianchi",
-    "foto": "img/insegnanti/Bach.jpg",
-    "bio": "bio/pianoforte_bianchi.html",
-    "descrizione": "Esperto pianista e compositore, con un focus sulla musica classica..."
+    "tag": "mambretti",
+    "nome": "Maestro Federico Mambretti",
+    "foto": "img/insegnanti/mambretti.jpg",
+    "descrizione": "Percussioni, Laboratorio di percussioni, Musica d'insieme",
+    "bio": "Federico Mambretti è un ",
+    "corsi": ["PERC", "PERC-LAB", "MUS"]
+  },
+  {
+    "tag": "belleri",
+    "nome": "Maestro Michele Belleri",
+    "foto": "img/insegnanti/belleri.jpg",
+    "descrizione": "Chitarra classica, Chitarra elettrica, Basso elettrico",
+    "bio": "Michele Belleri è un ",
+    "corsi": ["CHIT"]
+  },
+  {
+    "tag": "castaneda",
+    "nome": "Maestra Elena Castaneda",
+    "foto": "img/insegnanti/castaneda.jpg",
+    "descrizione": "Corno Francese",
+    "bio": "Elena Castaneda è un ",
+    "corsi": ["HF"]
+  },
+  {
+    "tag": "regenzi",
+    "nome": "Maestra Chiara Regenzi",
+    "foto": "img/insegnanti/regenzi.jpg",
+    "descrizione": "Canto, Coro POP",
+    "bio": "Chiara Regenzi è un ",
+    "corsi": ["CANTO", "CORO"]
+  },
+  {
+    "tag": "antonini",
+    "nome": "Maestro Matteo Antonini",
+    "foto": "img/insegnanti/antonini.jpg",
+    "descrizione": "Trombone",
+    "bio": "Matteo Antonini è un ",
+    "corsi": ["TB"]
   }
 ]

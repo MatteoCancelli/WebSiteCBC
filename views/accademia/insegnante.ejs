@@ -1,0 +1,40 @@
+<% layout('layout') -%>
+
+<div class="container my-5">
+  <div class="row mb-4">
+    <div class="col-md-4 text-center">
+      <img
+        src="/<%= insegnante.foto %>"
+        class="img-fluid rounded shadow-sm"
+        alt="<%= insegnante.nome %>"
+      />
+    </div>
+    <div class="col-md-8">
+      <h1><%= insegnante.nome %></h1>
+      <p><%= insegnante.bio %></p>
+
+      <h4 class="mt-4">Titoli di studio</h4>
+      <p><%= insegnante.titoli %></p>
+
+      <h4 class="mt-4">Esperienza</h4>
+      <ul>
+        <% insegnante.esperienza.forEach(exp => { %>
+        <li><%= exp %></li>
+        <% }) %>
+      </ul>
+      <h4 class="mt-4">Corsi tenuti</h4>
+      <ul>
+        <% corsiInsegnante.forEach(corso => { %>
+        <li>
+          <a
+            href="/accademia/corso?id=<%= corso.tag %>"
+            class="text-decoration-none"
+          >
+            <%= corso.titolo %>
+          </a>
+        </li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -42,19 +42,25 @@ export const mostraCorso = (req, res) => {
 
 export const mostraInsegnante = (req, res) => {
   const id = req.query.id;
-  const dataPath = path.join(__dirname, "../data/insegnanti.json");
-  const insegnanti = JSON.parse(readFileSync(dataPath));
+  const insegnantiPath = path.join(__dirname, "../data/insegnanti.json");
+  const corsiPath = path.join(__dirname, "../data/corsi.json");
 
-  const insegnante = insegnanti.find((i) => i.tag === id);
+  const insegnanti = JSON.parse(readFileSync(insegnantiPath));
+  const corsi = JSON.parse(readFileSync(corsiPath));
 
+  const insegnante = insegnanti.find(i => i.tag === id);
   if (!insegnante) return res.status(404).render("404");
+
+  const corsiInsegnante = corsi.filter(c => insegnante.corsi.includes(c.tag));
 
   res.render("accademia/insegnante", {
     insegnante,
+    corsiInsegnante,
     title: insegnante.nome,
-    navbar: "partials/navbar-accademia",
+    navbar: "partials/navbar-accademia"
   });
 };
+
 
 export const mostraContatti = (req, res) => {
   const corsiPath = path.join(__dirname, "../data/corsi.json");
@@ -117,4 +123,14 @@ export const inviaIscrizione = async (req, res) => {
       ),
     });
   }
+};
+
+export const mostraInsegnanti = (req, res) => {
+  const dataPath = path.join(__dirname, "../data/insegnanti.json");
+  const insegnanti = JSON.parse(readFileSync(dataPath));
+  res.render("accademia/insegnanti", {
+    insegnanti,
+    title: "I nostri insegnanti",
+    navbar: "partials/navbar-accademia"
+  });
 };
