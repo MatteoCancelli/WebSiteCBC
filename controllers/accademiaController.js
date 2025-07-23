@@ -12,6 +12,7 @@ const __dirname = path.dirname(__filename);
 export const mostraHome = (req, res) => {
   res.render("accademia/index", {
     title: "Accademia Musicale",
+    head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",
   });
 };
@@ -36,6 +37,7 @@ export const mostraCorso = (req, res) => {
     corso,
     insegnanti: insegnantiCorso,
     title: corso.titolo,
+    head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",
   });
 };
@@ -57,6 +59,7 @@ export const mostraInsegnante = (req, res) => {
     insegnante,
     corsiInsegnante,
     title: insegnante.nome,
+    head: "partials/head-accademia",
     navbar: "partials/navbar-accademia"
   });
 };
@@ -68,6 +71,7 @@ export const mostraContatti = (req, res) => {
 
   res.render("accademia/contatti", {
     title: "Contatti e Iscrizioni",
+    head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",
     corsi,
   });
@@ -106,6 +110,7 @@ export const inviaIscrizione = async (req, res) => {
     await transporter.sendMail(mailOptions);
     res.render("accademia/contatti", {
       title: "Contatti e Iscrizioni",
+      head: "partials/head-accademia",
       navbar: "partials/navbar-accademia",
       success: true,
       corsi: JSON.parse(
@@ -116,6 +121,7 @@ export const inviaIscrizione = async (req, res) => {
     console.error("Errore invio email:", error);
     res.render("accademia/contatti", {
       title: "Contatti e Iscrizioni",
+      head: "partials/head-accademia",
       navbar: "partials/navbar-accademia",
       success: false,
       corsi: JSON.parse(
@@ -131,6 +137,7 @@ export const mostraInsegnanti = (req, res) => {
   res.render("accademia/insegnanti", {
     insegnanti,
     title: "I nostri insegnanti",
+    head: "partials/head-accademia",
     navbar: "partials/navbar-accademia"
   });
 };
