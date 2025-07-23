@@ -1,0 +1,50 @@
+[
+    {
+        "img": "img/partner/logoBanda.png",
+        "tier": "Istituzioni",
+        "nome": "Comune di Castelcovati",
+        "link": "https://www.partner1.com"
+    },
+    {
+        "img": "img/hero/PERC-LAB.jpg",
+        "tier": "Istituzioni",
+        "nome": "Comune di Castelcovati",
+        "link": "https://www.partner1.com"
+    },
+    {
+        "img": "/assets/img/partner1.png",
+        "tier": "Istituzioni",
+        "nome": "Comune di Castelcovati",
+        "link": "https://www.partner1.com"
+    },
+    {
+        "img": "img/partner/logoBanda.png",
+        "tier": "Main Partner",
+        "nome": "Comune di Castelcovati",
+        "link": "https://www.partner2.com"
+    },
+    {
+        "img": "img/partner/logoBanda.png",
+        "tier": "Platinum Partner",
+        "nome": "Comune di Castelcovati",
+        "link": "https://www.partner3.com"
+    },
+    {
+        "img": "img/partner/logoBanda.png",
+        "tier": "Gold Partner",
+        "nome": "Comune di Castelcovati",
+        "link": "https://www.partner4.com"
+    },
+    {
+        "img": "img/partner/logoBanda.png",
+        "tier": "Silver Partner",
+        "nome": "Comune di Castelcovati",
+        "link": "https://www.partner5.com"
+    },
+    {
+        "img": "img/partner/logoBanda.png",
+        "tier": "Bronze Partner",
+        "nome": "Comune di Castelcovati",
+        "link": "https://www.partner6.com"
+    }
+]

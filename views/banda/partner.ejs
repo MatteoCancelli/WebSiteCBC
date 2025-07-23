@@ -1,0 +1,50 @@
+<% layout('layout') -%>
+
+<%
+  const tierSizes = {
+    "Istituzioni":       "col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2",
+    "Main Partner":      "col-12 col-sm-6 col-md-4 col-lg-3",
+    "Platinum Partner":  "col-12 col-sm-6 col-md-4 col-lg-3",
+    "Gold Partner":      "col-6 col-sm-4 col-md-3",
+    "Silver Partner":    "col-6 col-sm-4 col-md-3",
+    "Bronze Partner":    "col-6 col-sm-4 col-md-2"
+  };
+
+  const tierImageHeights = {
+    "Istituzioni":       "300px",
+    "Main Partner":      "300px",
+    "Platinum Partner":  "250px",
+    "Gold Partner":      "180px",
+    "Silver Partner":    "160px",
+    "Bronze Partner":    "140px"
+  };
+%>
+
+<div class="container my-5">
+  <h1 class="text-center mb-5">I Nostri Partner</h1>
+
+  <% Object.entries(partnerByTier).forEach(([tier, partners]) => { %>
+    <% if (partners.length > 0) { %>
+      <section class="mb-5">
+        <h2 class="text-uppercase border-bottom pb-2 mb-4"><%= tier %></h2>
+        <div class="row justify-content-center g-4">
+          <% partners.forEach(partner => { 
+              const colClass = tierSizes[tier] || "col-6 col-sm-4 col-md-3";
+              const imgHeight = tierImageHeights[tier] || "150px";
+          %>
+            <div class="<%= colClass %>">
+              <div class="card border-0 shadow-sm h-100 text-center">
+                <a href="<%= partner.link %>" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+                  <img src="<%= partner.img %>" class="card-img-top p-2" alt="<%= partner.nome %>" style="height: <%= imgHeight %>; object-fit: contain;">
+                  <div class="card-body p-2">
+                    <p class="card-text small mb-0"><%= partner.nome %></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      </section>
+    <% } %>
+  <% }) %>
+</div>

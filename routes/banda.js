@@ -1,9 +1,10 @@
 import express from "express";
-import { mostraHome, mostraEventi } from "../controllers/bandaController.js";
+import { mostraHome, mostraContatti, mostraPartner } from "../controllers/bandaController.js";
 
 const router = express.Router();
 
 router.get("/", mostraHome);
-router.get("/eventi", mostraEventi);
+router.get("/contatti", mostraContatti);
+router.get("/partner", mostraPartner);
 
 export default router;
