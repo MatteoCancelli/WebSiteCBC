@@ -55,8 +55,11 @@
     <% insegnanti.forEach(insegnante => { %>
       <div class="col-md-3">
         <div class="card shadow-sm h-100 border-0">
-          <img src="/<%= insegnante.foto %>" class="card-img-top rounded-top" alt="<%= insegnante.nome %>"
-            style="height: 300px; object-fit: cover;">
+        <img
+          src="/<%= insegnante.foto && insegnante.foto.trim() !== '' ? insegnante.foto : 'img/insegnanti/default.jpg' %>"
+          class="img-fluid rounded shadow-sm"
+          alt="<%= insegnante.nome %>"
+          />
           <div class="card-body">
             <h5 class="card-title"><%= insegnante.nome %></h5>
             <a href="/accademia/insegnante?id=<%= insegnante.tag %>" class="btn btn-outline-primary w-100">Scopri il profilo</a>
