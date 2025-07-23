@@ -195,4 +195,18 @@ svg {
   background-color: #2D3142 !important;
 }
 
+/* Stile per l'hero dei corsi */
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+/* Stile per l'hero section dell'accademia */
+.hero-section {
+  background-color: #2D3142;
+  padding: 50px 0;
+  margin-bottom: 40px;
+}
+
 
