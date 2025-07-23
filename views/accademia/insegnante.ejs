@@ -3,11 +3,11 @@
 <div class="container my-5">
   <div class="row mb-4">
     <div class="col-md-4 text-center">
-      <img
-        src="/<%= insegnante.foto %>"
-        class="img-fluid rounded shadow-sm"
-        alt="<%= insegnante.nome %>"
-      />
+    <img
+    src="/<%= insegnante.foto && insegnante.foto.trim() !== '' ? insegnante.foto : 'img/insegnanti/default.jpg' %>"
+    class="img-fluid rounded shadow-sm"
+    alt="<%= insegnante.nome %>"
+    />
     </div>
     <div class="col-md-8">
       <h1><%= insegnante.nome %></h1>

@@ -32,9 +32,15 @@
   {
     "tag": "mambretti",
     "nome": "Maestro Federico Mambretti",
-    "foto": "img/insegnanti/mambretti.jpg",
+    "foto": "",
     "descrizione": "Percussioni, Laboratorio di percussioni, Musica d'insieme",
     "bio": "Federico Mambretti è un ",
+    "titoli": "Laurea in Musicologia, Diploma in Composizione",
+    "esperienza": [
+        "Docente presso Accademia Musicale dal 2005",
+        "Direttore di Coro Giovanile Regionale",
+        "Collaborazioni con Orchestre e Festival musicali"
+    ],
     "corsi": ["PERC", "PERC-LAB", "MUS"]
   },
   {
