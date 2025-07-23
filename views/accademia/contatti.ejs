@@ -1,18 +1,13 @@
 <% layout('layout') -%>
 
 <div class="container my-5">
-  <h1 class="mb-4 text-center">Contatti e Iscrizione</h1>
+  <h1 class="mb-4">Contatti</h1>
 
   <div class="row">
+    <div class="col-md-6">
       <h3>📞 Informazioni di Contatto</h3>
-      <p>
-        <i class="bi bi-envelope"> </i>
-        <a href="mailto:corpobandistico.castelcovati@gmail.com"
-          >corpobandistico.castelcovati@gmail.com</a
-        >
-      </p>
-      <p>
-        <i class="bi bi-telephone"> </i>
+      <p class="mt-3"></p>
+        <i class="bi bi-telephone"></i>
         <a href="tel:+393717711684">+39 371 771 1684</a>
       </p>
       <p>
@@ -22,14 +17,21 @@
         >
       </p>
       <p>
-        <i class="bi bi-geo-alt"> </i>
-        <a
-          href="https://www.google.com/maps?q=Via+Aldo+Moro+79+-+Castelcovati+(BS)+-+presso+il+campo+sportivo"
-          target="_blank"
-          >Via Aldo Moro 79 - Castelcovati (BS) - presso il campo sportivo</a
+        <i class="bi bi-envelope"> </i>
+        <a href="mailto:corpobandistico.castelcovati@gmail.com"
+          >corpobandistico.castelcovati@gmail.com</a
         >
       </p>
       <p>
+        <i class="bi bi-envelope"> </i>
+        <a href="mailto:corpobandistico.castelcovati@pec.it">
+          corpobandistico.castelcovati@pec.it</a
+        >
+      </p>
+      </div>
+      <div class="col-md-6">
+      <h3>🌐 Social</h3>
+      <p class="mt-3">
         <i class="bi bi-instagram"> </i
         ><a href="https://www.instagram.com/banda.castelcovati" target="_blank">
           banda.castelcovati</a
@@ -41,12 +43,15 @@
           Corpo Bandistico di Castelcovati</a
         >
       </p>
-      <p>
-        <i class="bi bi-envelope"> </i>
-        <a href="mailto:corpobandistico.castelcovati@pec.it">
-          corpobandistico.castelcovati@pec.it</a
-        >
-      </p>
+      <h3>📍 Dove ci troviamo</h3>
+      <p class="mt-3"><i class="bi bi-geo-alt"></i> Via Aldo Moro 79, Castelcovati (BS)</p>
+      <div class="mt-3 ">
+        <a href="https://www.google.com/maps?q=Via+Aldo+Moro+79+-+Castelcovati+(BS)+-+presso+il+campo+sportivo" 
+           target="_blank" 
+           class="btn btn-primary">
+          <i class="bi bi-geo-alt"></i> Apri in Google Maps
+        </a>
+      </div>
     </div>
 
     <% if (typeof success !== 'undefined') { %> <% if (success) { %>
