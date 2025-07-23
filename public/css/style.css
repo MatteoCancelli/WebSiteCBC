@@ -83,7 +83,7 @@ svg {
 }
 
 #modal-instrument-button {
-  background-color: #4CAF50;
+  background-color: #2D3142;
   color: white;
   padding: 10px 15px;
   margin: 10px 0;
@@ -95,7 +95,7 @@ svg {
 }
 
 #modal-instrument-button:hover {
-  background-color: #45a049;
+  background-color: #2D3142;
 }
 
 .tap-gif-overlay {
@@ -112,6 +112,87 @@ svg {
 @keyframes pulse-gif {
   0%, 100% { transform: translate(-50%, -50%) scale(1); }
   50% { transform: translate(-50%, -50%) scale(1.1); }
+}
+
+/* Stili per la navbar dell'accademia */
+.navbar-light .navbar-brand {
+  color: #2D3142 !important;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #2D3142 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #1a1d26 !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #2D3142;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232D3142' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Override Bootstrap primary color per l'accademia */
+.btn-primary {
+  background-color: #2D3142;
+  border-color: #2D3142;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #1a1d26;
+  border-color: #1a1d26;
+}
+
+.btn-outline-primary {
+  color: #2D3142;
+  border-color: #2D3142;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #2D3142;
+  border-color: #2D3142;
+  color: white;
+}
+
+/* Stile per i bottoni checkbox quando sono selezionati */
+.btn-check:checked + .btn-outline-primary {
+  background-color: #2D3142 !important;
+  border-color: #2D3142 !important;
+  color: white !important;
+}
+
+.btn-check:focus + .btn-outline-primary {
+  box-shadow: 0 0 0 0.25rem rgba(45, 49, 66, 0.25) !important;
+}
+
+/* Stile per il hover sui bottoni outline-primary */
+.btn-outline-primary:hover {
+  background-color: #2D3142 !important;
+  border-color: #2D3142 !important;
+  color: white !important;
+}
+
+/* Stile per lo stato attivo */
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+  background-color: #2D3142 !important;
+  border-color: #2D3142 !important;
+  color: white !important;
+}
+
+.text-primary {
+  color: #2D3142 !important;
+}
+
+.bg-primary {
+  background-color: #2D3142 !important;
 }
 
 
