@@ -2,8 +2,10 @@
 
   <div class="container-fluid">
     <!-- HERO con immagine -->
-    <div class="hero p-5 rounded-4 overflow-hidden" style="background-image: url('/<%= corso.hero %>');">
-      <div class="d-flex flex-column justify-content-center align-items-center h-100 w-100 bg-dark bg-opacity-50 text-white text-center px-3 rounded-3">
+    <div class="hero p-5 rounded-4 overflow-hidden"
+      style="background-image: url('/<%= corso.hero %>'); background-size: cover; background-position: center; height: 500px;">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center h-100 w-100 bg-dark bg-opacity-50 text-white text-center px-3 rounded-3">
         <h1 class="display-4 fw-bold mb-3">
           <%= corso.titolo %>
         </h1>
@@ -47,20 +49,25 @@
 
     <!-- Insegnanti con card -->
 <h2 class="mb-4">I nostri insegnanti</h2>
-<div class="row g-4 mb-5">
-  <% insegnanti.forEach(insegnante => { %>
-    <div class="col-md-3">
-      <div class="card shadow-sm h-100 border-0">
-        <img src="/<%= insegnante.foto %>" class="card-img-top rounded-top" alt="<%= insegnante.nome %>"
-          style="height: 300px; object-fit: cover;">
-        <div class="card-body">
-          <h5 class="card-title"><%= insegnante.nome %></h5>
-          <a href="/accademia/insegnante?id=<%= insegnante.tag %>" class="btn btn-outline-primary w-100">Scopri il profilo</a>
+
+<% if (insegnanti.length > 0) { %>
+  <div class="row g-4 mb-5">
+    <% insegnanti.forEach(insegnante => { %>
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 border-0">
+          <img src="/<%= insegnante.foto %>" class="card-img-top rounded-top" alt="<%= insegnante.nome %>"
+            style="height: 300px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title"><%= insegnante.nome %></h5>
+            <a href="/accademia/insegnante?id=<%= insegnante.tag %>" class="btn btn-outline-primary w-100">Scopri il profilo</a>
+          </div>
         </div>
       </div>
-    </div>
-  <% }) %>
-</div>
+    <% }) %>
+  </div>
+<% } else { %>
+  <p class="text-muted">Al momento non ci sono insegnanti assegnati a questo corso.</p>
+<% } %>
 
 
     <!-- Info pratiche -->
@@ -81,6 +88,7 @@
 
   <!-- Video -->
   <h2 class="mb-4">Video dimostrativi</h2>
+  <% if (corso.videoYoutube.length > 0) { %>
   <div class="row g-4 mb-5">
     <% corso.videoYoutube.forEach(video=> { %>
       <div class="col-md-6">
@@ -97,6 +105,9 @@
       </div>
       <% }) %>
   </div>
+  <% } else { %>
+  <p class="text-muted">Al momento non ci sono link attivi.</p>
+<% } %>
 
   <div class="text-center">
     <a href="/accademia/contatti" class="btn btn-primary btn-lg px-5 py-3">Iscriviti subito al corso</a>
