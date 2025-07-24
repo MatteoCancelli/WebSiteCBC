@@ -56,3 +56,11 @@ export const mostraContatti = (req, res) => {
     navbar: "partials/navbar-banda",
   });
 };
+
+export const mostraDona = (req, res) => {
+  res.render("banda/dona", {
+    title: "Fai una Donazione",
+    head: "partials/head-banda",
+    navbar: "partials/navbar-banda",
+  });
+};

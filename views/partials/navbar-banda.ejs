@@ -1,17 +1,60 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="/">Banda</a>
-    <div class="collapse navbar-collapse">
+    <button
+      class="navbar-toggler "
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarBanda"
+      aria-controls="navbarBanda"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarBanda">
       <ul class="navbar-nav me-auto">
         <li class="nav-item"><a class="nav-link" href="/eventi">Eventi</a></li>
         <li class="nav-item">
           <a class="nav-link" href="/contatti">Contatti</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/partner">Partner</a>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="sostenitoriDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Sostienici
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="sostenitoriDropdown">
+            <li>
+              <a class="dropdown-item" href="/dona">Fai una Donazione</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/partner">I nostri Partner</a>
+            </li>
+          </ul>
         </li>
       </ul>
       <a class="btn btn-outline-light" href="/accademia">Vai all'Accademia</a>
     </div>
   </div>
 </nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // CHIUSURA AUTOMATICA NAVBAR DOPO CLICK
+  document.querySelectorAll(".nav-link").forEach((link) => {
+    link.addEventListener("click", () => {
+      const navbar = document.getElementById("navbarAccademia");
+      if (navbar.classList.contains("show")) {
+        const collapse = bootstrap.Collapse.getOrCreateInstance(navbar);
+        collapse.hide();
+      }
+    });
+  });
+</script>

@@ -82,15 +82,20 @@
 
 /* Dropdown menu */
 .dropdown-menu {
-  background-color: #C8553D;
+  background-color: #FEC601 !important;
 }
 
 .dropdown-item {
-  color: white !important;
+  color: #000 !important;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-  background-color: #a64530;
-  color: white !important;
+  background-color: #e5b201 !important;
+  color: #000 !important;
+}
+
+.dropdown-item:active {
+  background-color: #cc9f01 !important;
+  color: #000 !important;
 }

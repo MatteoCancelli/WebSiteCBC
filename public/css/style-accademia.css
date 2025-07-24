@@ -209,4 +209,24 @@ svg {
   margin-bottom: 40px;
 }
 
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: #2D3142 !important;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #1a1d26 !important;
+  color: white !important;
+}
+
+.dropdown-item:active {
+  background-color: #0f1114 !important;
+  color: white !important;
+}
+
 
