@@ -64,3 +64,32 @@ export const mostraDona = (req, res) => {
     navbar: "partials/navbar-banda",
   });
 };
+
+export const mostraChiSiamo = (req, res) => {
+  res.render("banda/chiSiamo", {
+    title: "Chi Siamo",
+    head: "partials/head-banda",
+    navbar: "partials/navbar-banda",
+  });
+};
+export const mostraStoria = (req, res) => {
+  res.render("banda/storia", {
+    title: "La nostra Storia",
+    head: "partials/head-banda",
+    navbar: "partials/navbar-banda",
+  });
+};
+export const mostraDirettore = (req, res) => {
+  res.render("banda/direttore", {
+    title: "Il Direttore Artistico",
+    head: "partials/head-banda",
+    navbar: "partials/navbar-banda",
+  });
+};
+export const mostraConsiglio = (req, res) => {
+  res.render("banda/consiglio", {
+    title: "Consiglio Direttivo",
+    head: "partials/head-banda",
+    navbar: "partials/navbar-banda",
+  });
+};
