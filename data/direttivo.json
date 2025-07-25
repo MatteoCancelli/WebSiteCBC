@@ -1,0 +1,72 @@
+{
+  "elezione": "5 Aprile 2025",
+  "scadenza": "Aprile 2028",
+  "consiglio": [
+    {
+      "nome": "Francesco Agosti",
+      "ruolo": "Presidente"
+    },
+    {
+      "nome": "Matteo Bertocchi",
+      "ruolo": "Vicepresidente"
+    },
+    {
+      "nome": "Claudio Farina",
+      "ruolo": "Segretario Tesoriere"
+    },
+    {
+      "nome": "Emanuele Gritti",
+      "ruolo": "Consigliere"
+    },
+    {
+      "nome": "Veronica Rossi",
+      "ruolo": "Consigliere"
+    },
+    {
+      "nome": "Gianfranco Scalvini",
+      "ruolo": "Consigliere"
+    },
+    {
+      "nome": "Matteo Scalvini",
+      "ruolo": "Consigliere"
+    }
+  ],
+  "revisori": [
+    {
+      "nome": "Franco Lizza"
+    },
+    {
+      "nome": "Roberta Festa"
+    }
+  ],
+  "altriRuoli": [
+    {
+      "nome": "Gianfranco Scalvini",
+      "ruolo": "Responsabile Accademia Musicale"
+    },
+    {
+      "nome": "Mario Rossi",
+      "ruolo": "Responsabile manutenzione e logistica"
+    },
+    {
+      "nome": "Lucia Bianchi",
+      "ruolo": "Responsabile archivio"
+    },
+    {
+      "nome": "Sara Verdi",
+      "ruolo": "Responsabile comunicazioni e relazioni esterne"
+    },
+    {
+      "nome": "Luigi Neri",
+      "ruolo": "Responsabile inventario e magazzino"
+    },
+    {
+      "nome": "Elena Gialli",
+      "ruolo": "Responsabile segreteria e amministrazione"
+    },
+    {
+      "nome": "Giulia Blu",
+      "ruolo": "Responsabile social media e pubblicità"
+    }
+  ]
+}

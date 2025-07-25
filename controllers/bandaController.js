@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const { readFileSync } = fs;
 
 export const mostraHome = (req, res) => {
   res.render("banda/index", {
@@ -86,10 +87,15 @@ export const mostraDirettore = (req, res) => {
     navbar: "partials/navbar-banda",
   });
 };
+
 export const mostraConsiglio = (req, res) => {
+  const direttivoPath = path.join(__dirname, "../data/direttivo.json");
+  const direttivo = JSON.parse(readFileSync(direttivoPath));
+
   res.render("banda/consiglio", {
     title: "Consiglio Direttivo",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    direttivo,
   });
 };
