@@ -44,13 +44,24 @@
     "corsi": ["PERC", "PERC-LAB", "MUS"]
   },
   {
-    "tag": "belleri",
-    "nome": "Maestro Michele Belleri",
-    "foto": "img/insegnanti/",
-    "descrizione": "Chitarra classica, Chitarra elettrica, Basso elettrico",
-    "bio": "Michele Belleri è un ",
-    "corsi": ["CHIT"]
-  },
+  "tag": "belleri",
+  "nome": "Maestro Michele Belleri",
+  "foto": "img/insegnanti/belleri.JPEG",
+  "descrizione": "Chitarra classica, Chitarra elettrica, Basso elettrico",
+  "bio": "Michele Belleri è un chitarrista attivo nella scena musicale italiana come turnista, compositore e docente. Dal 2017 insegna in diverse accademie musicali, collaborando con numerosi artisti e realtà didattiche. Nel suo corso insegna chitarra classica ed elettrica, oltre al basso elettrico.",
+  "titoli": [
+    "Ha studiato chitarra moderna dal 1994 con insegnanti come Bruno Bonetti, Alberto Gipponi, Michele Quaini (CPM).",
+    "Ha partecipato a masterclass con artisti internazionali come Guthrie Govan, Frank Gambale, Andy Timmons, Paul Gilbert, Steve Smith."
+  ],
+  "esperienza": [
+    "Docente presso Ensound Prodige, A.M. Castelcovati, ODV Officina della Voce dal 2017.",
+    "Chitarrista, arrangiatore, compositore, turnista e corista in progetti live e studio dal 2007.",
+    "Collaborazioni con: Charlie Cinelli, Jury Magliolo (X-Factor), Piergiorgio Cinelli, Matteo Faustini (Sanremo Giovani), The Crowsroads (X-Factor), Massimo Guerini, Alan Farrington (The Voice Senior), Carolina Faroni (X-Factor), Oregon Trees, Matteo Mantovani, Jade Canali (X-Factor), Missin’ Gospel Choir, Dellino Farmer, Luca Ploia, Lost Boys.",
+    "Partecipazioni a musical: Legends Never Die, The Greatest Show.",
+    "Dimostratore per: Reboli Custom Guitars, Burn FX, Jad & Freer Audio, Nassini Audio, Evo Picks."
+  ],
+  "corsi": ["CHIT"]
+},
   {
     "tag": "castaneda",
     "nome": "Maestra Elena Castaneda",
