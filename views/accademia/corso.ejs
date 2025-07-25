@@ -91,26 +91,23 @@ src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.t
 
   <!-- Video -->
   <h2 class="mb-4">Video dimostrativi</h2>
-  <% if (corso.videoYoutube.length > 0) { %>
+<% if (corso.videoYoutube && corso.videoYoutube.length > 0) { %>
   <div class="row g-4 mb-5">
-    <% corso.videoYoutube.forEach(video=> { %>
+    <% corso.videoYoutube.forEach(link => { %>
       <div class="col-md-6">
         <div class="card h-100 border-0 shadow-sm">
           <div class="ratio ratio-16x9">
-            <iframe src="<%= video.link %>" title="<%= video.titolo %>" allowfullscreen class="rounded-top"></iframe>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">
-              <%= video.titolo %>
-            </h5>
+            <iframe src="https://www.youtube.com/embed/<%= new URL(link).searchParams.get('v') %>" 
+                    title="Video YouTube" allowfullscreen class="rounded-top"></iframe>
           </div>
         </div>
       </div>
-      <% }) %>
+    <% }) %>
   </div>
-  <% } else { %>
+<% } else { %>
   <p class="text-muted">Al momento non ci sono link attivi.</p>
 <% } %>
+
 
   <div class="text-center">
     <a href="/accademia/contatti" class="btn btn-primary btn-lg px-5 py-3">Iscriviti subito al corso</a>

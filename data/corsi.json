@@ -128,7 +128,7 @@
     "fotoStrumento": "img/section/Bassoon.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali con possibilità di musica d'insieme",
-   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -156,7 +156,12 @@
     "hero": "img/hero/TP.jpg",
     "descrizione": "Un corso pensato per scoprire la potenza e la brillantezza della tromba, ideale per bambini, giovani e adulti.",
     "descrizioneStrumento": "La tromba è uno strumento a fiato della famiglia degli ottoni, celebre per il suo suono squillante e versatile, impiegato nella musica classica, bandistica e jazz.",
-    "obiettivi": ["Apprendimento della corretta emissione del suono", "Sviluppo della tecnica con esercizi progressivi", "Studio di brani solistici e di gruppo", "Partecipazione ad ensemble e gruppi bandistici"],
+    "obiettivi": [
+      "Apprendimento della corretta emissione del suono",
+      "Sviluppo della tecnica con esercizi progressivi",
+      "Studio di brani solistici e di gruppo",
+      "Partecipazione ad ensemble e gruppi bandistici"
+    ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Trumpet.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -170,7 +175,12 @@
     "hero": "img/hero/TB.jpg",
     "descrizione": "Scopri la profondità sonora del trombone con un percorso didattico coinvolgente.",
     "descrizioneStrumento": "Il trombone si distingue per la sua coulisse, offrendo un suono caldo e potente, fondamentale nelle bande e nelle orchestre.",
-    "obiettivi": ["Controllo della respirazione", "Tecnica dello slide", "Sviluppo della musicalità", "Suonare in gruppo"],
+    "obiettivi": [
+      "Controllo della respirazione",
+      "Tecnica dello slide",
+      "Sviluppo della musicalità",
+      "Suonare in gruppo"
+    ],
     "insegnanti": ["antonini"],
     "fotoStrumento": "img/section/Trombone.png",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -184,12 +194,16 @@
     "hero": "img/hero/EUPH.jpg",
     "descrizione": "Scopri il timbro caldo dell'euphonium con lezioni su misura per ogni livello.",
     "descrizioneStrumento": "L'euphonium è uno strumento a fiato della famiglia degli ottoni, apprezzato per la sua sonorità morbida e cantabile.",
-    "obiettivi": ["Emissione del suono pulito", "Approccio graduale alla tecnica", "Repertorio classico e bandistico"],
+    "obiettivi": [
+      "Emissione del suono pulito",
+      "Approccio graduale alla tecnica",
+      "Repertorio classico e bandistico"
+    ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Euphonium.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
-   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -198,12 +212,16 @@
     "hero": "img/hero/TUB.jpg",
     "descrizione": "Un corso per scoprire il ruolo fondamentale della tuba all'interno di bande e orchestre.",
     "descrizioneStrumento": "La tuba è il più grande degli ottoni, con un suono ricco e profondo.",
-    "obiettivi": ["Tecnica di respirazione e emissione", "Sviluppo della lettura musicale", "Tecniche ritmiche avanzate"],
+    "obiettivi": [
+      "Tecnica di respirazione e emissione",
+      "Sviluppo della lettura musicale",
+      "Tecniche ritmiche avanzate"
+    ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Tuba.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
-   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -212,7 +230,11 @@
     "hero": "img/hero/SAXA.jpg",
     "descrizione": "Un corso per scoprire il sassofono contralto, adatto a tutti i livelli, dai principianti agli avanzati.",
     "descrizioneStrumento": "Il sassofono contralto è uno strumento a fiato della famiglia dei legni, noto per il suo suono caldo e versatile, utilizzato in jazz, pop e musica classica.",
-    "obiettivi": ["Tecnica di base e avanzata", "Lettura musicale e interpretazione", "Improvvisazione e composizione"],
+    "obiettivi": [
+      "Tecnica di base e avanzata",
+      "Lettura musicale e interpretazione",
+      "Improvvisazione e composizione"
+    ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Alto_Sax.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -225,8 +247,12 @@
     "titolo": "Corso di Sassofono Tenore",
     "hero": "img/hero/SAXT.jpeg",
     "descrizione": "Un corso per scoprire il sassofono tenore, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "Il sassofono tenore è uno strumento a fiato della famiglia dei legni, noto per il suo suono ricco e potente, utilizzato in jazz, pop e musica classica.",  
-    "obiettivi": ["Tecnica di base e avanzata", "Lettura musicale e interpretazione", "Improvvisazione e composizione"],
+    "descrizioneStrumento": "Il sassofono tenore è uno strumento a fiato della famiglia dei legni, noto per il suo suono ricco e potente, utilizzato in jazz, pop e musica classica.",
+    "obiettivi": [
+      "Tecnica di base e avanzata",
+      "Lettura musicale e interpretazione",
+      "Improvvisazione e composizione"
+    ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Tenor_Sax.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -240,7 +266,11 @@
     "hero": "img/hero/SAXB.jpg",
     "descrizione": "Un corso per scoprire il sassofono baritono, adatto a tutti i livelli, dai principianti agli avanzati.",
     "descrizioneStrumento": "Il sassofono baritono è uno strumento a fiato della famiglia dei legni, noto per il suo suono profondo e ricco, utilizzato in jazz, pop e musica classica.",
-    "obiettivi": ["Tecnica di base e avanzata", "Lettura musicale e interpretazione", "Improvvisazione e composizione"],
+    "obiettivi": [
+      "Tecnica di base e avanzata",
+      "Lettura musicale e interpretazione",
+      "Improvvisazione e composizione"
+    ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Baritone_Sax.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -254,12 +284,16 @@
     "hero": "img/hero/TS.jpg",
     "descrizione": "Un percorso completo per padroneggiare la teoria musicale, la lettura e il solfeggio ritmico e melodico.",
     "descrizioneStrumento": "Un corso fondamentale per ogni musicista: migliora la lettura musicale, il riconoscimento ritmico e sviluppa orecchio e autonomia musicale.",
-    "obiettivi": ["Lettura fluente in chiave di violino e basso", "Solfeggio ritmico e melodico", "Conoscenza della teoria musicale di base e avanzata"],
+    "obiettivi": [
+      "Lettura fluente in chiave di violino e basso",
+      "Solfeggio ritmico e melodico",
+      "Conoscenza della teoria musicale di base e avanzata"
+    ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/section/Solfeggio.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o piccoli gruppi",
-   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -268,12 +302,16 @@
     "hero": "img/hero/PERC.webp",
     "descrizione": "Un corso per scoprire le percussioni, adatto a tutti i livelli, dai principianti agli avanzati.",
     "descrizioneStrumento": "Le percussioni comprendono una vasta gamma di strumenti che producono suoni attraverso percussione, fondamentali in ogni genere musicale.",
-    "obiettivi": ["Tecnica di base e avanzata", "Lettura ritmica e coordinazione", "Improvvisazione e composizione"],
+    "obiettivi": [
+      "Tecnica di base e avanzata",
+      "Lettura ritmica e coordinazione",
+      "Improvvisazione e composizione"
+    ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/section/Percussion.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -282,7 +320,11 @@
     "hero": "img/hero/PROPEDEUTICO.jpg",
     "descrizione": "Un corso introduttivo per bambini e ragazzi, per avvicinarsi alla musica in modo divertente e stimolante.",
     "descrizioneStrumento": "Un corso pensato per i più piccoli, per sviluppare l'amore per la musica attraverso il gioco e l'esplorazione sonora.",
-    "obiettivi": ["Sviluppo dell'orecchio musicale", "Introduzione ai ritmi e alle melodie", "Gioco musicale e attività creative"],
+    "obiettivi": [
+      "Sviluppo dell'orecchio musicale",
+      "Introduzione ai ritmi e alle melodie",
+      "Gioco musicale e attività creative"
+    ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/corsiExtraBanda/Propedeutico.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti"],
@@ -296,7 +338,11 @@
     "hero": "img/hero/PIANO.jpg",
     "descrizione": "Un corso per scoprire il pianoforte, adatto a tutti i livelli, dai principianti agli avanzati.",
     "descrizioneStrumento": "Il pianoforte è uno strumento a tastiera versatile, utilizzato in ogni genere musicale, dalla musica classica al jazz.",
-    "obiettivi": ["Tecnica di base e avanzata", "Lettura musicale e interpretazione", "Improvvisazione e composizione"],
+    "obiettivi": [
+      "Tecnica di base e avanzata",
+      "Lettura musicale e interpretazione",
+      "Improvvisazione e composizione"
+    ],
     "insegnanti": ["moraschi"],
     "fotoStrumento": "img/corsiExtraBanda/Piano.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -310,12 +356,16 @@
     "hero": "img/hero/CANTO.jpg",
     "descrizione": "Un corso per scoprire la propria voce, adatto a tutti i livelli, dai principianti agli avanzati.",
     "descrizioneStrumento": "Il canto è l'arte di produrre suoni melodici con la voce, fondamentale in ogni genere musicale.",
-    "obiettivi": ["Tecnica vocale e respiratoria", "Interpretazione e stile", "Improvvisazione e composizione"],
+    "obiettivi": [
+      "Tecnica vocale e respiratoria",
+      "Interpretazione e stile",
+      "Improvvisazione e composizione"
+    ],
     "insegnanti": ["regenzi"],
     "fotoStrumento": "img/corsiExtraBanda/Canto.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
-   "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Coro Pop",
+    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Coro Pop",
     "videoYoutube": []
   },
   {
@@ -324,13 +374,20 @@
     "hero": "img/hero/CHIT.jpg",
     "descrizione": "Un corso per scoprire la chitarra, adatto a tutti i livelli, dai principianti agli avanzati.",
     "descrizioneStrumento": "La chitarra è uno strumento a corda versatile, utilizzato in ogni genere musicale, dal rock al jazz.",
-    "obiettivi": ["Tecnica di base e avanzata", "Lettura musicale e tablature", "Improvvisazione e composizione"],
+    "obiettivi": [
+      "Tecnica di base e avanzata",
+      "Lettura musicale e tablature",
+      "Improvvisazione e composizione"
+    ],
     "insegnanti": ["belleri"],
     "fotoStrumento": "img/corsiExtraBanda/Chit.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Lezioni individuali o in piccoli gruppi",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "videoYoutube": []
+    "videoYoutube": [
+      "https://www.youtube.com/watch?v=WFtBXuCaG8w",
+      "https://www.youtube.com/watch?v=lfmDA72Vgh4"
+    ]
   },
   {
     "tag": "TEO",
@@ -338,7 +395,11 @@
     "hero": "img/hero/TEO.jpg",
     "descrizione": "Un corso fondamentale per ogni musicista, per migliorare la lettura musicale, il riconoscimento ritmico e sviluppare orecchio e autonomia musicale.",
     "descrizioneStrumento": "Un corso che insegna le basi della teoria musicale, la lettura delle note e il solfeggio ritmico e melodico, essenziale per ogni musicista.",
-    "obiettivi": ["Lettura fluente in chiave di violino e basso", "Solfeggio ritmico e melodico", "Conoscenza della teoria musicale di base e avanzata"],
+    "obiettivi": [
+      "Lettura fluente in chiave di violino e basso",
+      "Solfeggio ritmico e melodico",
+      "Conoscenza della teoria musicale di base e avanzata"
+    ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/corsiExtraBanda/Teo.png",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -352,7 +413,11 @@
     "hero": "img/hero/MUS.jpg",
     "descrizione": "Un corso per imparare a suonare in gruppo, adatto a tutti i livelli.",
     "descrizioneStrumento": "La musica d'insieme è l'arte di suonare insieme ad altri musicisti, fondamentale per ogni musicista.",
-    "obiettivi": ["Sviluppo dell'orecchio musicale", "Coordinazione e intonazione", "Repertorio di brani d'insieme"],
+    "obiettivi": [
+      "Sviluppo dell'orecchio musicale",
+      "Coordinazione e intonazione",
+      "Repertorio di brani d'insieme"
+    ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/corsiExtraBanda/Mus.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -366,7 +431,11 @@
     "hero": "img/hero/CORO.jpg",
     "descrizione": "Un corso per cantare in coro, adatto a tutti i livelli, dai principianti agli avanzati.",
     "descrizioneStrumento": "Il coro pop è un gruppo vocale che interpreta brani della musica pop, rock e soul, creando armonie e melodie coinvolgenti.",
-    "obiettivi": ["Tecnica vocale e armonizzazione", "Interpretazione di brani pop", "Sviluppo dell'orecchio musicale"],
+    "obiettivi": [
+      "Tecnica vocale e armonizzazione",
+      "Interpretazione di brani pop",
+      "Sviluppo dell'orecchio musicale"
+    ],
     "insegnanti": ["regenzi"],
     "fotoStrumento": "img/corsiExtraBanda/Coro.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -380,7 +449,11 @@
     "hero": "img/hero/PERC-LAB.jpg",
     "descrizione": "Un laboratorio pratico per esplorare il mondo delle percussioni, adatto a tutti i livelli.",
     "descrizioneStrumento": "Un laboratorio che offre un'introduzione pratica alle percussioni, utilizzando strumenti come tamburi, congas e cajon.",
-    "obiettivi": ["Sviluppo del ritmo e della coordinazione", "Improvvisazione e creatività", "Conoscenza dei principali strumenti a percussione"],
+    "obiettivi": [
+      "Sviluppo del ritmo e della coordinazione",
+      "Improvvisazione e creatività",
+      "Conoscenza dei principali strumenti a percussione"
+    ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/corsiExtraBanda/Perc-Lab.jpg",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
