@@ -2,7 +2,7 @@
   {
     "tag": "scalvini",
     "nome": "Prof. Gianfranco Scalvini",
-    "foto": "img/insegnanti/scalvini.jpg",
+    "foto": "img/insegnanti/",
     "descrizione": "Teoria e solfeggio, Propedeutico",
     "bio": "Gianfranco Scalvini è un esperto di teoria musicale e solfeggio, con anni di esperienza nell'insegnamento.",
     "titoli": "Laurea in Musicologia, Diploma in Composizione",
@@ -16,7 +16,7 @@
   {
     "tag": "corvaglia",
     "nome": "Maestro Luigi Corvaglia",
-    "foto": "img/insegnanti/corvaglia.jpg",
+    "foto": "img/insegnanti/",
     "descrizione": "Clarinetto, Clarinetto basso, Sassofono contralto, Sassofono tenore, Sassofono baritono",
     "bio": "Luigi Corvaglia è un ",
     "corsi": ["CL","CLB","SAXA", "SAXB", "SAXT"]
@@ -24,7 +24,7 @@
   {
     "tag": "moraschi",
     "nome": "Maestro Gabriele Moraschi",
-    "foto": "img/insegnanti/moraschi.jpg",
+    "foto": "img/insegnanti/",
     "descrizione": "Pianoforte",
     "bio": "Gabriele Moraschi è un ",
     "corsi": ["PIANO"]
@@ -32,7 +32,7 @@
   {
     "tag": "mambretti",
     "nome": "Maestro Federico Mambretti",
-    "foto": "",
+    "foto": "img/insegnanti/",
     "descrizione": "Percussioni, Laboratorio di percussioni, Musica d'insieme",
     "bio": "Federico Mambretti è un ",
     "titoli": "Laurea in Musicologia, Diploma in Composizione",
@@ -46,7 +46,7 @@
   {
     "tag": "belleri",
     "nome": "Maestro Michele Belleri",
-    "foto": "img/insegnanti/belleri.jpg",
+    "foto": "img/insegnanti/",
     "descrizione": "Chitarra classica, Chitarra elettrica, Basso elettrico",
     "bio": "Michele Belleri è un ",
     "corsi": ["CHIT"]
@@ -54,7 +54,7 @@
   {
     "tag": "castaneda",
     "nome": "Maestra Elena Castaneda",
-    "foto": "img/insegnanti/castaneda.jpg",
+    "foto": "img/insegnanti/",
     "descrizione": "Corno Francese",
     "bio": "Elena Castaneda è un ",
     "corsi": ["HF"]
@@ -62,7 +62,7 @@
   {
     "tag": "regenzi",
     "nome": "Maestra Chiara Regenzi",
-    "foto": "img/insegnanti/regenzi.jpg",
+    "foto": "img/insegnanti/",
     "descrizione": "Canto, Coro POP",
     "bio": "Chiara Regenzi è un ",
     "corsi": ["CANTO", "CORO"]
@@ -70,7 +70,7 @@
   {
     "tag": "antonini",
     "nome": "Maestro Matteo Antonini",
-    "foto": "img/insegnanti/antonini.jpg",
+    "foto": "img/insegnanti/",
     "descrizione": "Trombone",
     "bio": "Matteo Antonini è un ",
     "corsi": ["TB"]
