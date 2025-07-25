@@ -14,14 +14,27 @@
       <p><%= insegnante.bio %></p>
 
       <h4 class="mt-4">Titoli di studio</h4>
-      <p><%= insegnante.titoli %></p>
+      <% if (insegnante.titoli && insegnante.titoli.length > 0) { %>
+  <ul>
+    <% insegnante.titoli.forEach(titolo => { %>
+      <li><%= titolo %></li>
+    <% }) %>
+  </ul>
+<% } else { %>
+  <p class="text-muted">Al momento le informazioni non sono disponibili</p>
+<% } %>
+
 
       <h4 class="mt-4">Esperienza</h4>
-      <ul>
-        <% insegnante.esperienza.forEach(exp => { %>
-        <li><%= exp %></li>
-        <% }) %>
-      </ul>
+      <% if (insegnante.esperienza && insegnante.esperienza.length > 0) { %>
+        <ul>
+          <% insegnante.esperienza.forEach(exp => { %>
+          <li><%= exp %></li>
+          <% }) %>
+        </ul>
+      <% } else { %>
+        <p class="text-muted">Al momento le informazioni non sono disponibili</p>
+      <% } %>
       <h4 class="mt-4">Corsi tenuti</h4>
       <ul>
         <% corsiInsegnante.forEach(corso => { %>

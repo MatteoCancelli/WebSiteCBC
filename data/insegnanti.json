@@ -5,11 +5,9 @@
     "foto": "img/insegnanti/",
     "descrizione": "Teoria e solfeggio, Propedeutico",
     "bio": "Gianfranco Scalvini è un esperto di teoria musicale e solfeggio, con anni di esperienza nell'insegnamento.",
-    "titoli": "Laurea in Musicologia, Diploma in Composizione",
+    "titoli": [],
     "esperienza": [
-        "Docente presso Accademia Musicale dal 2005",
-        "Direttore di Coro Giovanile Regionale",
-        "Collaborazioni con Orchestre e Festival musicali"
+
     ],
     "corsi": ["TEO", "PROPE"]
 },
@@ -19,6 +17,10 @@
     "foto": "img/insegnanti/",
     "descrizione": "Clarinetto, Clarinetto basso, Sassofono contralto, Sassofono tenore, Sassofono baritono",
     "bio": "Luigi Corvaglia è un ",
+    "titoli": [],
+    "esperienza": [
+
+    ],
     "corsi": ["CL","CLB","SAXA", "SAXB", "SAXT"]
   },
   {
@@ -27,6 +29,10 @@
     "foto": "img/insegnanti/",
     "descrizione": "Pianoforte",
     "bio": "Gabriele Moraschi è un ",
+    "titoli": [],
+    "esperienza": [
+
+    ],
     "corsi": ["PIANO"]
   },
   {
@@ -35,11 +41,9 @@
     "foto": "img/insegnanti/",
     "descrizione": "Percussioni, Laboratorio di percussioni, Musica d'insieme",
     "bio": "Federico Mambretti è un ",
-    "titoli": "Laurea in Musicologia, Diploma in Composizione",
+    "titoli": [],
     "esperienza": [
-        "Docente presso Accademia Musicale dal 2005",
-        "Direttore di Coro Giovanile Regionale",
-        "Collaborazioni con Orchestre e Festival musicali"
+
     ],
     "corsi": ["PERC", "PERC-LAB", "MUS"]
   },
@@ -68,6 +72,10 @@
     "foto": "img/insegnanti/",
     "descrizione": "Corno Francese",
     "bio": "Elena Castaneda è un ",
+    "titoli": [],
+    "esperienza": [
+
+    ],
     "corsi": ["HF"]
   },
   {
@@ -76,6 +84,10 @@
     "foto": "img/insegnanti/",
     "descrizione": "Canto, Coro POP",
     "bio": "Chiara Regenzi è un ",
+    "titoli": [],
+    "esperienza": [
+
+    ],
     "corsi": ["CANTO", "CORO"]
   },
   {
@@ -84,6 +96,10 @@
     "foto": "img/insegnanti/",
     "descrizione": "Trombone",
     "bio": "Matteo Antonini è un ",
+    "titoli": [],
+    "esperienza": [
+
+    ],
     "corsi": ["TB"]
   }
 ]
