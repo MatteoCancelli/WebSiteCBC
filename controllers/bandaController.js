@@ -81,10 +81,14 @@ export const mostraStoria = (req, res) => {
   });
 };
 export const mostraDirettore = (req, res) => {
+  const direttorePath = path.join(__dirname, "../data/direttoreArtistico.json");
+  const direttore = JSON.parse(readFileSync(direttorePath));
+
   res.render("banda/direttore", {
     title: "Il Direttore Artistico",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    direttore,
   });
 };
 

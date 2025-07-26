@@ -1,16 +1,82 @@
 <%- layout('layout') -%>
-<div class="container my-5">
-  <h1 class="mb-4">Il Direttore Artistico</h1>
 
-  <div class="row">
-    <div class="col-md-6">
-      <h3>Chi è il Direttore Artistico</h3>
-      <p class="mt-3">Il Direttore Artistico del Corpo Bandistico di Castelcovati è il Maestro [Nome Direttore], un musicista di grande esperienza e talento, che guida la banda con passione e dedizione.</p>
+<section class="container py-5">
+
+  <!-- Intestazione -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-4 text-center">
+      <img src="<%= direttore.foto %>" alt="<%= direttore.nome %>" class="img-fluid rounded shadow-sm">
     </div>
-
-    <div class="col-md-6">
-      <h3>Il suo ruolo</h3>
-      <p class="mt-3">Il Direttore Artistico è responsabile della direzione musicale della banda, della scelta del repertorio e della preparazione dei musicisti per i concerti e gli eventi.</p>
+    <div class="col-md-8">
+      <h1 class="display-5 fw-bold mt-3"><%= direttore.nome %></h1>
+      <h4 class="text-muted mb-3"><%= direttore.titolo %></h4>
+      <p class="fs-5"><%= direttore.descrizione %></p>
     </div>
   </div>
-</div>
+
+  <!-- Bio -->
+  <div class="row mb-5">
+    <div class="col">
+      <h2>Chi è il Direttore Artistico</h2>
+      <p class="fs-5"><%= direttore.bio %></p>
+    </div>
+  </div>
+
+  <!-- Titoli -->
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <h3>Titoli</h3>
+      <ul class="list-group list-group-flush">
+        <% direttore.titoli.forEach(t => { %>
+          <li class="list-group-item"><i class="bi bi-mortarboard-fill me-2 text-primary"></i> <%= t %></li>
+        <% }) %>
+      </ul>
+    </div>
+
+    <!-- Esperienza -->
+    <div class="col-md-6">
+      <h3>Esperienza</h3>
+      <ul class="list-group list-group-flush">
+        <% direttore.esperienza.forEach(e => { %>
+          <li class="list-group-item"><i class="bi bi-music-note-beamed me-2 text-success"></i> <%= e %></li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Video -->
+  <% if (direttore.videoYoutube && direttore.videoYoutube.length > 0) { %>
+  <div class="mb-5">
+    <h3 class="mb-4">Video</h3>
+    <div class="row g-4">
+      <% direttore.videoYoutube.forEach(video => { %>
+        <div class="col-md-6">
+          <div class="card border-0 shadow-sm">
+            <div class="ratio ratio-16x9">
+              <iframe src="<%= video.link %>" title="<%= video.titolo %>" allowfullscreen class="rounded-top"></iframe>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"><%= video.titolo %></h5>
+            </div>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  </div>
+  <% } %>
+
+  <!-- Galleria immagini -->
+  <% if (direttore.galleria && direttore.galleria.length > 0) { %>
+  <div class="mb-5">
+    <h3 class="mb-4">Galleria fotografica</h3>
+    <div class="row g-3">
+      <% direttore.galleria.forEach(img => { %>
+        <div class="col-6 col-md-4">
+          <img src="<%= img %>" class="img-fluid rounded shadow-sm" alt="Foto evento">
+        </div>
+      <% }) %>
+    </div>
+  </div>
+  <% } %>
+
+</section>
