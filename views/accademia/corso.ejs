@@ -22,7 +22,7 @@
       <div>
         <h2 class="mb-3 my-3">La classe</h2>
         <p class="lead">
-          <%= corso.descrizioneStrumento %>
+          <%= corso.laClasse %>
         </p>
       </div>
     </div>
@@ -76,12 +76,12 @@ src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.t
     <!-- Info pratiche -->
     <h2 class="mb-3">Modalità e frequenza</h2>
     <div class="p-4 mb-5 rounded-4 bg-light border">
-      <p><strong>Modalità:</strong>
+      <p><strong>Modalità lezione:</strong>
         <%= corso.modalita %>
       </p>
       <p><strong>Durate disponibili:</strong>
         <%= corso.lezioniDisponibili.join(", ") %></p>
-    <p><strong>Frequenza tipica:</strong> <%= corso.frequenzaTipica %></p>
+    <p><strong>Giorno della lezione:</strong> <%= corso.giornoLezione %></p>
     <% if (corso.noteAggiuntive) { %>
       <div class=" alert alert-info mt-3">
           <%= corso.noteAggiuntive %>

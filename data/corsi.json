@@ -4,74 +4,50 @@
     "titolo": "Corso di Clarinetto",
     "hero": "img/hero/CL.jpg",
     "descrizione": "Un corso completo per scoprire il clarinetto, sviluppando padronanza tecnica e musicalità, sia per principianti che per livelli avanzati.",
-    "descrizioneStrumento": "Il clarinetto è uno strumento a fiato della famiglia dei legni, caratterizzato da un suono caldo e versatile, usato in orchestre, bande e musica da camera.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppare una corretta emissione del suono",
-      "Approfondire lettura musicale e ritmo",
-      "Partecipare a gruppi di musica d'insieme",
-      "Avvicinarsi al repertorio bandistico e orchestrale"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Clarinet.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "videoYoutube": [
-      {
-        "titolo": "Introduzione al Clarinetto",
-        "link": "https://www.youtube.com/embed/xxxxxxxx"
-      },
-      {
-        "titolo": "Saggio finale clarinetto 2024",
-        "link": "https://www.youtube.com/embed/yyyyyyyy"
-      }
-    ]
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "videoYoutube": []
   },
   {
     "tag": "OB",
     "titolo": "Corso di Oboe",
     "hero": "img/hero/OB.jpg",
     "descrizione": "Un corso per scoprire l'oboe, uno strumento a fiato unico, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "L'oboe è uno strumento a fiato della famiglia dei legni, noto per il suo suono penetrante e melodioso, utilizzato in orchestre e musica da camera.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppare una corretta emissione del suono",
-      "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d'insieme",
-      "Avvicinarsi al repertorio orchestrale e cameristico"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Oboe.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "videoYoutube": [
-      {
-        "titolo": "Introduzione all'Oboe",
-        "link": "https://www.youtube.com/embed/zzzzzzzz"
-      },
-      {
-        "titolo": "Saggio finale oboe 2024",
-        "link": "https://www.youtube.com/embed/wwwwwwww"
-      }
-    ]
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "videoYoutube": []
   },
   {
     "tag": "FL",
     "titolo": "Corso di Flauto Traverso",
     "hero": "img/hero/FL.jpg",
     "descrizione": "Un corso per scoprire la dolcezza e la versatilità del flauto traverso, adatto a tutti i livelli.",
-    "descrizioneStrumento": "Il flauto traverso è uno strumento a fiato della famiglia dei legni, noto per il suo suono chiaro e melodioso, utilizzato in orchestre, bande e musica da camera.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica di respirazione e emissione del suono",
-      "Lettura musicale e ritmo",
-      "Partecipazione a gruppi di musica d'insieme",
-      "Avvicinamento al repertorio classico e moderno"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Flute.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -79,18 +55,16 @@
     "titolo": "Corso di Ottavino",
     "hero": "img/hero/OTT.jpg",
     "descrizione": "Un corso per scoprire il piccolo flauto, noto come ottavino, adatto a tutti i livelli.",
-    "descrizioneStrumento": "L'ottavino è uno strumento a fiato della famiglia dei legni, simile al flauto traverso ma con un registro più acuto, utilizzato in orchestre e musica da camera.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppare una corretta emissione del suono",
-      "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d'insieme",
-      "Avvicinarsi al repertorio orchestrale e cameristico"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Piccolo.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -98,18 +72,16 @@
     "titolo": "Corso di Clarinetto Basso",
     "hero": "img/hero/CL.jpg",
     "descrizione": "Un corso per scoprire il clarinetto basso, uno strumento a fiato unico, adatto a tutti i livelli.",
-    "descrizioneStrumento": "Il clarinetto basso è uno strumento a fiato della famiglia dei legni, noto per il suo suono profondo e ricco, utilizzato in orchestre e musica da camera.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppare una corretta emissione del suono",
-      "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d'insieme",
-      "Avvicinarsi al repertorio orchestrale e cameristico"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Bass_Clarinet.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -117,18 +89,16 @@
     "titolo": "Corso di Fagotto",
     "hero": "img/hero/BSN.jpg",
     "descrizione": "Un corso per scoprire il fagotto, uno strumento a fiato della famiglia dei legni, adatto a tutti i livelli.",
-    "descrizioneStrumento": "Il fagotto è uno strumento a fiato della famiglia dei legni, noto per il suo suono ricco e profondo, utilizzato in orchestre e musica da camera.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppare una corretta emissione del suono",
-      "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d'insieme",
-      "Avvicinarsi al repertorio orchestrale e cameristico"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Bassoon.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -136,18 +106,16 @@
     "titolo": "Corso di Corno Francese",
     "hero": "img/hero/HF.jpg",
     "descrizione": "Un corso per scoprire il corno francese, uno strumento a fiato della famiglia degli ottoni, adatto a tutti i livelli.",
-    "descrizioneStrumento": "Il corno francese è uno strumento a fiato della famiglia degli ottoni, noto per il suo suono ricco e melodioso, utilizzato in orchestre e musica da camera.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppare una corretta emissione del suono",
-      "Approfondire la lettura musicale e il ritmo",
-      "Partecipare a gruppi di musica d'insieme",
-      "Avvicinarsi al repertorio orchestrale e cameristico"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["castaneda"],
     "fotoStrumento": "img/section/French_Horn.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -155,18 +123,16 @@
     "titolo": "Corso di Tromba",
     "hero": "img/hero/TP.jpg",
     "descrizione": "Un corso pensato per scoprire la potenza e la brillantezza della tromba, ideale per bambini, giovani e adulti.",
-    "descrizioneStrumento": "La tromba è uno strumento a fiato della famiglia degli ottoni, celebre per il suo suono squillante e versatile, impiegato nella musica classica, bandistica e jazz.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Apprendimento della corretta emissione del suono",
-      "Sviluppo della tecnica con esercizi progressivi",
-      "Studio di brani solistici e di gruppo",
-      "Partecipazione ad ensemble e gruppi bandistici"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Trumpet.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali con possibilità di musica d'insieme",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -174,18 +140,19 @@
     "titolo": "Corso di Trombone",
     "hero": "img/hero/TB.jpg",
     "descrizione": "Scopri la profondità sonora del trombone con un percorso didattico coinvolgente.",
-    "descrizioneStrumento": "Il trombone si distingue per la sua coulisse, offrendo un suono caldo e potente, fondamentale nelle bande e nelle orchestre.",
+    "laClasse": "L’insegnamento del trombone guida l’allievo nello sviluppo tecnico, musicale ed espressivo, fornendo gli strumenti per affrontare il repertorio solistico, orchestrale e cameristico. Attraverso lo studio della tecnica, dell’interpretazione e della lettura, l’allievo acquisisce padronanza dello strumento e consapevolezza artistica, partecipando attivamente a contesti musicali collettivi.",
     "obiettivi": [
-      "Controllo della respirazione",
-      "Tecnica dello slide",
-      "Sviluppo della musicalità",
-      "Suonare in gruppo"
+      "Controllo di respirazione, imboccatura e coulisse. Padronanza di scale, arpeggi e flessibilità. Miglioramento dell’intonazione e dell’articolazione.",
+      "Lettura a prima vista e comprensione dei segni espressivi. Studio progressivo di brani e studi.",
+      "Approccio a brani solistici, cameristici e orchestrali in preparazione per concerti e saggi.",
+      "Ascolto attivo e intonazione relativa. Autonomia nello studio."
     ],
     "insegnanti": ["antonini"],
     "fotoStrumento": "img/section/Trombone.png",
+    "giornoLezione": "Martedì",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Individuale con possibilità di musica d'insieme",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -193,17 +160,16 @@
     "titolo": "Corso di Euphonium",
     "hero": "img/hero/EUPH.jpg",
     "descrizione": "Scopri il timbro caldo dell'euphonium con lezioni su misura per ogni livello.",
-    "descrizioneStrumento": "L'euphonium è uno strumento a fiato della famiglia degli ottoni, apprezzato per la sua sonorità morbida e cantabile.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Emissione del suono pulito",
-      "Approccio graduale alla tecnica",
-      "Repertorio classico e bandistico"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Euphonium.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -211,17 +177,16 @@
     "titolo": "Corso di Tuba",
     "hero": "img/hero/TUB.jpg",
     "descrizione": "Un corso per scoprire il ruolo fondamentale della tuba all'interno di bande e orchestre.",
-    "descrizioneStrumento": "La tuba è il più grande degli ottoni, con un suono ricco e profondo.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica di respirazione e emissione",
-      "Sviluppo della lettura musicale",
-      "Tecniche ritmiche avanzate"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Tuba.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -229,17 +194,16 @@
     "titolo": "Corso di Sassofono Contralto",
     "hero": "img/hero/SAXA.jpg",
     "descrizione": "Un corso per scoprire il sassofono contralto, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "Il sassofono contralto è uno strumento a fiato della famiglia dei legni, noto per il suo suono caldo e versatile, utilizzato in jazz, pop e musica classica.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica di base e avanzata",
-      "Lettura musicale e interpretazione",
-      "Improvvisazione e composizione"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Alto_Sax.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -247,17 +211,16 @@
     "titolo": "Corso di Sassofono Tenore",
     "hero": "img/hero/SAXT.jpeg",
     "descrizione": "Un corso per scoprire il sassofono tenore, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "Il sassofono tenore è uno strumento a fiato della famiglia dei legni, noto per il suo suono ricco e potente, utilizzato in jazz, pop e musica classica.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica di base e avanzata",
-      "Lettura musicale e interpretazione",
-      "Improvvisazione e composizione"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Tenor_Sax.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -265,17 +228,16 @@
     "titolo": "Corso di Sassofono Baritono",
     "hero": "img/hero/SAXB.jpg",
     "descrizione": "Un corso per scoprire il sassofono baritono, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "Il sassofono baritono è uno strumento a fiato della famiglia dei legni, noto per il suo suono profondo e ricco, utilizzato in jazz, pop e musica classica.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica di base e avanzata",
-      "Lettura musicale e interpretazione",
-      "Improvvisazione e composizione"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Baritone_Sax.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -283,17 +245,16 @@
     "titolo": "Corso di Teoria e Solfeggio",
     "hero": "img/hero/TS.jpg",
     "descrizione": "Un percorso completo per padroneggiare la teoria musicale, la lettura e il solfeggio ritmico e melodico.",
-    "descrizioneStrumento": "Un corso fondamentale per ogni musicista: migliora la lettura musicale, il riconoscimento ritmico e sviluppa orecchio e autonomia musicale.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Lettura fluente in chiave di violino e basso",
-      "Solfeggio ritmico e melodico",
-      "Conoscenza della teoria musicale di base e avanzata"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/section/Solfeggio.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o piccoli gruppi",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -301,17 +262,16 @@
     "titolo": "Corso di Percussioni",
     "hero": "img/hero/PERC.webp",
     "descrizione": "Un corso per scoprire le percussioni, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "Le percussioni comprendono una vasta gamma di strumenti che producono suoni attraverso percussione, fondamentali in ogni genere musicale.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica di base e avanzata",
-      "Lettura ritmica e coordinazione",
-      "Improvvisazione e composizione"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/section/Percussion.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -319,16 +279,15 @@
     "titolo": "Corso Propedeutico Musicale",
     "hero": "img/hero/PROPEDEUTICO.jpg",
     "descrizione": "Un corso introduttivo per bambini e ragazzi, per avvicinarsi alla musica in modo divertente e stimolante.",
-    "descrizioneStrumento": "Un corso pensato per i più piccoli, per sviluppare l'amore per la musica attraverso il gioco e l'esplorazione sonora.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppo dell'orecchio musicale",
-      "Introduzione ai ritmi e alle melodie",
-      "Gioco musicale e attività creative"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/corsiExtraBanda/Propedeutico.jpg",
-    "lezioniDisponibili": ["30 minuti", "45 minuti"],
-    "modalita": "Lezioni in piccoli gruppi",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "lezioniDisponibili": ["60 minuti"],
+    "modalita": "Collettiva",
     "noteAggiuntive": "Attività ludiche e creative per stimolare l'interesse musicale",
     "videoYoutube": []
   },
@@ -337,17 +296,16 @@
     "titolo": "Corso di Pianoforte",
     "hero": "img/hero/PIANO.jpg",
     "descrizione": "Un corso per scoprire il pianoforte, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "Il pianoforte è uno strumento a tastiera versatile, utilizzato in ogni genere musicale, dalla musica classica al jazz.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica di base e avanzata",
-      "Lettura musicale e interpretazione",
-      "Improvvisazione e composizione"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["moraschi"],
     "fotoStrumento": "img/corsiExtraBanda/Piano.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": []
   },
   {
@@ -355,16 +313,15 @@
     "titolo": "Corso di Canto",
     "hero": "img/hero/CANTO.jpg",
     "descrizione": "Un corso per scoprire la propria voce, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "Il canto è l'arte di produrre suoni melodici con la voce, fondamentale in ogni genere musicale.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica vocale e respiratoria",
-      "Interpretazione e stile",
-      "Improvvisazione e composizione"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["regenzi"],
     "fotoStrumento": "img/corsiExtraBanda/Canto.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
+    "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Coro Pop",
     "videoYoutube": []
   },
@@ -373,17 +330,16 @@
     "titolo": "Corso di Chitarra",
     "hero": "img/hero/CHIT.jpg",
     "descrizione": "Un corso per scoprire la chitarra, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "La chitarra è uno strumento a corda versatile, utilizzato in ogni genere musicale, dal rock al jazz.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica di base e avanzata",
-      "Lettura musicale e tablature",
-      "Improvvisazione e composizione"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["belleri"],
     "fotoStrumento": "img/corsiExtraBanda/Chit.jpg",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
-    "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Musica d'insieme o Coro Pop",
+    "modalita": "Individuale",
+    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
     "videoYoutube": [
       "https://www.youtube.com/watch?v=WFtBXuCaG8w",
       "https://www.youtube.com/watch?v=lfmDA72Vgh4"
@@ -394,17 +350,16 @@
     "titolo": "Corso di Teoria e Solfeggio",
     "hero": "img/hero/TEO.jpg",
     "descrizione": "Un corso fondamentale per ogni musicista, per migliorare la lettura musicale, il riconoscimento ritmico e sviluppare orecchio e autonomia musicale.",
-    "descrizioneStrumento": "Un corso che insegna le basi della teoria musicale, la lettura delle note e il solfeggio ritmico e melodico, essenziale per ogni musicista.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Lettura fluente in chiave di violino e basso",
-      "Solfeggio ritmico e melodico",
-      "Conoscenza della teoria musicale di base e avanzata"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/corsiExtraBanda/Teo.png",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni individuali o in piccoli gruppi",
-    "noteAggiuntive": "Incluso con ogni altro corso musicale",
+    "modalita": "Individuale o Collettiva",
+    "noteAggiuntive": "Incluso con ogni altro corso musicale individuale",
     "videoYoutube": []
   },
   {
@@ -412,16 +367,15 @@
     "titolo": "Corso di Musica d'Insieme",
     "hero": "img/hero/MUS.jpg",
     "descrizione": "Un corso per imparare a suonare in gruppo, adatto a tutti i livelli.",
-    "descrizioneStrumento": "La musica d'insieme è l'arte di suonare insieme ad altri musicisti, fondamentale per ogni musicista.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppo dell'orecchio musicale",
-      "Coordinazione e intonazione",
-      "Repertorio di brani d'insieme"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/corsiExtraBanda/Mus.jpg",
-    "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni in gruppo",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "lezioniDisponibili": ["60 minuti"],
+    "modalita": "Collettiva",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
     "videoYoutube": []
   },
@@ -430,16 +384,15 @@
     "titolo": "Corso di Coro Pop",
     "hero": "img/hero/CORO.jpg",
     "descrizione": "Un corso per cantare in coro, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "descrizioneStrumento": "Il coro pop è un gruppo vocale che interpreta brani della musica pop, rock e soul, creando armonie e melodie coinvolgenti.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Tecnica vocale e armonizzazione",
-      "Interpretazione di brani pop",
-      "Sviluppo dell'orecchio musicale"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["regenzi"],
     "fotoStrumento": "img/corsiExtraBanda/Coro.jpg",
-    "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni in gruppo",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "lezioniDisponibili": ["60 minuti"],
+    "modalita": "Collettiva",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
     "videoYoutube": []
   },
@@ -448,16 +401,15 @@
     "titolo": "Laboratorio di Percussioni",
     "hero": "img/hero/PERC-LAB.jpg",
     "descrizione": "Un laboratorio pratico per esplorare il mondo delle percussioni, adatto a tutti i livelli.",
-    "descrizioneStrumento": "Un laboratorio che offre un'introduzione pratica alle percussioni, utilizzando strumenti come tamburi, congas e cajon.",
+    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Sviluppo del ritmo e della coordinazione",
-      "Improvvisazione e creatività",
-      "Conoscenza dei principali strumenti a percussione"
+      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/corsiExtraBanda/Perc-Lab.jpg",
-    "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Lezioni in gruppo",
+    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "lezioniDisponibili": ["60 minuti"],
+    "modalita": "Collettiva",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
     "videoYoutube": []
   }
