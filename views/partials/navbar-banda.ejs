@@ -2,7 +2,7 @@
   <div class="container">
     <a class="navbar-brand" href="/">Banda</a>
     <button
-      class="navbar-toggler "
+      class="navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#navbarBanda"
@@ -57,7 +57,9 @@
               <a class="dropdown-item" href="/storia">Storia</a>
             </li>
             <li>
-              <a class="dropdown-item" href="/direttore">Il Direttore Artistico</a>
+              <a class="dropdown-item" href="/direttore"
+                >Il Direttore Artistico</a
+              >
             </li>
             <li>
               <a class="dropdown-item" href="/consiglio">Consiglio Direttivo</a>
@@ -76,7 +78,7 @@
   // CHIUSURA AUTOMATICA NAVBAR DOPO CLICK
   document.querySelectorAll(".nav-link").forEach((link) => {
     link.addEventListener("click", () => {
-      const navbar = document.getElementById("navbarAccademia");
+      const navbar = document.getElementById("navbarBanda");
       if (navbar.classList.contains("show")) {
         const collapse = bootstrap.Collapse.getOrCreateInstance(navbar);
         collapse.hide();
