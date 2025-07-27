@@ -10,7 +10,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export const mostraHome = (req, res) => {
+  const dataPath = path.join(__dirname, "../data/feedbackAccademia.json");
+  const feedback = JSON.parse(readFileSync(dataPath));
   res.render("accademia/index", {
+    title: "Accademia Musicale",
+    head: "partials/head-accademia",
+    navbar: "partials/navbar-accademia",
+    feedback,
+  });
+};
+
+export const mostraSceltaCorsi = (req, res) => {
+  res.render("accademia/sceltaCorsi", {
     title: "Accademia Musicale",
     head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",

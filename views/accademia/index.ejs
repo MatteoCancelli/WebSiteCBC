@@ -1,119 +1,116 @@
 <% layout('layout') -%>
 
-<div class="hero-section rounded-5">
-  <div class="container text-center text-white">
-    <h1 class="display-3 fw-bold mb-3">Accademia Musicale</h1>
-    <h2 class="display-6 mb-4">del Corpo Bandistico di Castelcovati</h2>
-    <p class="lead fs-4 mb-4">Un percorso formativo completo per musicisti di ogni età e livello</p>
+<div class="container py-5">
+  <!-- Hero -->
+  <div class="row align-items-center mb-5 hero-section">
+    <div class="col-md-6 text-center text-md-start">
+      <h1 class="display-4 fw-bold text-primary">
+        Benvenuti nell'Accademia Musicale
+      </h1>
+      <p class="lead text-muted">
+        Cresciamo insieme, tra musica, passione e competenza.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <img
+        src="/img/hero/accademia-hero.jpg"
+        alt="Allievi accademia"
+        class="img-fluid rounded-4 shadow-sm"
+      />
+    </div>
+  </div>
+
+  <!-- Mission & Vision -->
+  <div class="row align-items-stretch mb-5">
+    <div class="col-md-6 mb-4 mb-md-0">
+      <div class="p-4 border-custom h-100">
+        <h3 class="text-primary text-center">Mission</h3>
+        <p class="fs-5">
+          Offrire percorsi musicali per ogni età e livello, coniugando qualità,
+          umanità e innovazione educativa.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="p-4 border-custom h-100">
+        <h3 class="text-primary text-center">Vision</h3>
+        <p class="fs-5">
+          Essere un punto di riferimento culturale che trasforma la passione per
+          la musica in crescita personale e comunitaria.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Valori -->
+  <h3 class="text-center text-primary mb-4">I nostri valori</h3>
+  <div class="row text-center g-4 mb-5">
+    <div class="col-md-3">
+      <div class="card border-custom h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Crescita</h5>
+          <p class="card-text">
+            Accompagnamo ogni allievo in un percorso personale e condiviso di
+            miglioramento.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-custom h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Espressività</h5>
+          <p class="card-text">
+            Favoriamo l’espressione di sé attraverso la musica, in tutte le sue
+            forme.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-custom h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Competenza</h5>
+          <p class="card-text">
+            Insegnanti qualificati, metodi aggiornati, obiettivi chiari.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-custom h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title text-primary">Relazione</h5>
+          <p class="card-text">
+            Crediamo nella forza del gruppo e nella comunità musicale che si
+            crea.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonianze -->
+  <h3 class="text-center text-primary mb-4">Cosa dicono i nostri allievi</h3>
+  <div class="testimonianze-section text-white py-5 mb-5">
+  <div class="testimonianze-container">
+    <% feedback.forEach((item, index) => { %>
+      <div class="testimonianza <%= index === 0 ? 'visibile' : '' %>">
+        <div class="feedback-box mx-auto text-center">
+          <p class="fs-5 fst-italic mb-3">"<%= item.testimonianza %>"</p>
+          <h6 class="mb-0"><%= item.nome %></h6>
+          <small><%= item.strumento %></small>
+        </div>
+      </div>
+    <% }) %>
   </div>
 </div>
 
-<div class="container ">
-    
-        <!-- Sezione Banda -->
-        <div class="mt-5 text-center">
-          <h2 class="mb-3">Scopri la Banda Musicale</h2>
-          <h4 class="mb-3">È disposta come da concerto!</h4>
-          <p class="text-muted">Clicca sulle sezioni per scoprire gli strumenti</p>
-    
-          <div class="text-center mb-4">
-            <svg id="chart" viewBox="0 0 1000 500" width="100%" style="max-width: 1272px;">
-              Your browser does not support SVG. Please update your browser or use a modern one to view this content.
-            </svg>
-          </div>
-    
-          <div class="text-center">
-            <a href="#altri-corsi" class="btn btn-outline-primary">Scopri gli altri corsi, anche per i più piccoli!</a>
-          </div>
-        </div>
-    
-        <!-- Sezione altri corsi -->
-        <div class="mt-5 pt-5" id="altri-corsi">
-          <h3 class="mb-3">🎵 Corsi individuali e complementari</h3>
-          <p>Oltre agli strumenti bandistici, la nostra Accademia offre un'ampia gamma di corsi per soddisfare ogni passione musicale.</p>
-          <p class="text-muted">Scopri la pagine dedicate!</p>
-          <ul class="list-group list-group-flush mb-4">
-            <li class="list-group-item">
-              <a href="/accademia/corso?id=PROPE" class="text-decoration-none text-dark">
-              <div class="row">
-                <div class="col-1 text-center">🥁</div>
-                <div class="col">Propedeutica Musicale in gruppo (7-9 anni)</div>
-              </div>
-              </a>
-            </li>
-            <li class="list-group-item">
-              <a href="/accademia/corso?id=PIANO" class="text-decoration-none text-dark">
-              <div class="row">
-                <div class="col-1 text-center">🎹</div>
-                <div class="col">Pianoforte classico e moderno</div>
-              </div>
-              </a>
-            </li>
-            <li class="list-group-item">
-              <a href="/accademia/corso?id=CANTO" class="text-decoration-none text-dark">
-              <div class="row">
-                <div class="col-1 text-center">🎤</div>
-                <div class="col">Canto moderno</div>
-              </div>
-              </a>
-            </li>
-            <li class="list-group-item">
-              <a href="/accademia/corso?id=CHIT" class="text-decoration-none text-dark">
-              <div class="row">
-                <div class="col-1 text-center">🎸</div>
-                <div class="col">Chitarra classica, elettrica e basso elettrico</div>
-              </div>
-              </a>
-            </li>
-            <li class="list-group-item">
-              <a href="/accademia/corso?id=TEO" class="text-decoration-none text-dark">
-              <div class="row">
-                <div class="col-1 text-center">📘</div>
-                <div class="col">Teoria, solfeggio e armonia</div>
-              </div>
-              </a>
-            </li>
-            <li class="list-group-item">
-              <a href="/accademia/corso?id=MUS" class="text-decoration-none text-dark">
-              <div class="row">
-                <div class="col-1 text-center">🎼</div>
-                <div class="col">Musica d'insieme</div>
-              </div>
-              </a>
-            </li>
-            <li class="list-group-item">
-              <a href="/accademia/corso?id=CORO" class="text-decoration-none text-dark">
-              <div class="row">
-                <div class="col-1 text-center">🎶</div>
-                <div class="col">Coro Pop</div>
-              </div>
-              </a>
-            </li>
-            <li class="list-group-item">
-              <a href="/accademia/corso?id=PERC-LAB" class="text-decoration-none text-dark">
-              <div class="row">
-                <div class="col-1 text-center">🪘</div>
-                <div class="col">Laboratorio di Percussioni</div>
-              </div>
-              </a>
-            </li>
-          </ul>
-          <!-- <a href="/accademia/iscrizione" class="btn btn-success">Scopri come iscriverti</a> -->
-        </div>
-      </div>
 
-
+  <!-- Call to action -->
   <div class="text-center mt-5">
-    <h3>Vuoi iniziare a suonare?</h3>
-    <a href="/accademia/contatti" class="btn btn-primary btn-lg mt-3"
-      >Contattaci ora</a
+    <a href="/accademia/sceltaCorsi" class="btn btn-lg btn-accent px-5"
+      >Scopri i nostri corsi</a
     >
   </div>
 </div>
-
-<script src="/js/sections.js"></script>
-<script>
-  window.onload = function () {
-    drawSections();
-  };
-</script>

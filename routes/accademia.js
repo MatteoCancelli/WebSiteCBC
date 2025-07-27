@@ -1,9 +1,10 @@
 import express from "express";
-import { mostraHome, mostraCorso, mostraInsegnante, mostraContatti, inviaIscrizione, mostraInsegnanti } from "../controllers/accademiaController.js";
+import { mostraHome, mostraSceltaCorsi, mostraCorso, mostraInsegnante, mostraContatti, inviaIscrizione, mostraInsegnanti } from "../controllers/accademiaController.js";
 
 const router = express.Router();
 
 router.get("/", mostraHome);
+router.get("/sceltaCorsi", mostraSceltaCorsi);
 router.get("/corso", mostraCorso);
 router.get("/insegnante", mostraInsegnante);
 router.get("/contatti", mostraContatti);

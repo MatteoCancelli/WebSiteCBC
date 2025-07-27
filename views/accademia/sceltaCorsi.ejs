@@ -1,0 +1,119 @@
+<% layout('layout') -%>
+
+<div class="hero-section rounded-5">
+  <div class="container text-center text-white">
+    <h1 class="display-3 fw-bold mb-3">Accademia Musicale</h1>
+    <h2 class="display-6 mb-4">del Corpo Bandistico di Castelcovati</h2>
+    <p class="lead fs-4 mb-4">Un percorso formativo completo per musicisti di ogni età e livello</p>
+  </div>
+</div>
+
+<div class="container ">
+    
+        <!-- Sezione Banda -->
+        <div class="mt-5 text-center">
+          <h2 class="mb-3">Scopri la Banda Musicale</h2>
+          <h4 class="mb-3">È disposta come da concerto!</h4>
+          <p class="text-muted">Clicca sulle sezioni per scoprire gli strumenti</p>
+    
+          <div class="text-center mb-4">
+            <svg id="chart" viewBox="0 0 1000 500" width="100%" style="max-width: 1272px;">
+              Your browser does not support SVG. Please update your browser or use a modern one to view this content.
+            </svg>
+          </div>
+    
+          <div class="text-center">
+            <a href="#altri-corsi" class="btn btn-outline-primary">Scopri gli altri corsi, anche per i più piccoli!</a>
+          </div>
+        </div>
+    
+        <!-- Sezione altri corsi -->
+        <div class="mt-5 pt-5" id="altri-corsi">
+          <h3 class="mb-3">🎵 Corsi individuali e complementari</h3>
+          <p>Oltre agli strumenti bandistici, la nostra Accademia offre un'ampia gamma di corsi per soddisfare ogni passione musicale.</p>
+          <p class="text-muted">Scopri la pagine dedicate!</p>
+          <ul class="list-group list-group-flush mb-4">
+            <li class="list-group-item">
+              <a href="/accademia/corso?id=PROPE" class="text-decoration-none text-dark">
+              <div class="row">
+                <div class="col-1 text-center">🥁</div>
+                <div class="col">Propedeutica Musicale in gruppo (7-9 anni)</div>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="/accademia/corso?id=PIANO" class="text-decoration-none text-dark">
+              <div class="row">
+                <div class="col-1 text-center">🎹</div>
+                <div class="col">Pianoforte classico e moderno</div>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="/accademia/corso?id=CANTO" class="text-decoration-none text-dark">
+              <div class="row">
+                <div class="col-1 text-center">🎤</div>
+                <div class="col">Canto moderno</div>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="/accademia/corso?id=CHIT" class="text-decoration-none text-dark">
+              <div class="row">
+                <div class="col-1 text-center">🎸</div>
+                <div class="col">Chitarra classica, elettrica e basso elettrico</div>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="/accademia/corso?id=TEO" class="text-decoration-none text-dark">
+              <div class="row">
+                <div class="col-1 text-center">📘</div>
+                <div class="col">Teoria, solfeggio e armonia</div>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="/accademia/corso?id=MUS" class="text-decoration-none text-dark">
+              <div class="row">
+                <div class="col-1 text-center">🎼</div>
+                <div class="col">Musica d'insieme</div>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="/accademia/corso?id=CORO" class="text-decoration-none text-dark">
+              <div class="row">
+                <div class="col-1 text-center">🎶</div>
+                <div class="col">Coro Pop</div>
+              </div>
+              </a>
+            </li>
+            <li class="list-group-item">
+              <a href="/accademia/corso?id=PERC-LAB" class="text-decoration-none text-dark">
+              <div class="row">
+                <div class="col-1 text-center">🪘</div>
+                <div class="col">Laboratorio di Percussioni</div>
+              </div>
+              </a>
+            </li>
+          </ul>
+          <!-- <a href="/accademia/iscrizione" class="btn btn-success">Scopri come iscriverti</a> -->
+        </div>
+      </div>
+
+
+  <div class="text-center mt-5">
+    <h3>Vuoi iniziare a suonare?</h3>
+    <a href="/accademia/contatti" class="btn btn-primary btn-lg mt-3"
+      >Contattaci ora</a
+    >
+  </div>
+</div>
+
+<script src="/js/sections.js"></script>
+<script>
+  window.onload = function () {
+    drawSections();
+  };
+</script>
