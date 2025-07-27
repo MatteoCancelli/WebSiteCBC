@@ -228,5 +228,44 @@ svg {
   background-color: #0f1114 !important;
   color: white !important;
 }
+/* Stile per le citazioni degli insegnanti */
+
+.citazione-cornice {
+  background-color: #f8f9fa;
+  border: 2px solid #7FC8F8;
+  border-left-width: 6px;
+  color: #2D3142;
+}
+
+.citazione-cornice blockquote p {
+  color: #2D3142;
+}
+
+.citazione-cornice .blockquote-footer {
+  color: #495057;
+  font-weight: 500;
+}
+
+.citazione-scura {
+  background-color: #2D3142;
+  border-left: 5px solid #7FC8F8;
+  color: #ffffff;
+}
+
+.citazione-scura blockquote p {
+  color: #ffffff;
+}
+
+.citazione-scura .blockquote-footer {
+  color: #d1ecf1;
+}
+
+.citazione-icona {
+  background: #eaf6ff;
+  border-left: 5px solid #7FC8F8;
+  color: #2D3142;
+}
+
+
 
 

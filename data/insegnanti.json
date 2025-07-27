@@ -9,6 +9,7 @@
     "esperienza": [
 
     ],
+    "citazione": "",
     "corsi": ["TEO", "PROPE"]
 },
   {
@@ -21,6 +22,7 @@
     "esperienza": [
 
     ],
+    "citazione": "",
     "corsi": ["CL","CLB","SAXA", "SAXB", "SAXT"]
   },
   {
@@ -33,18 +35,25 @@
     "esperienza": [
 
     ],
+    "citazione": "",
     "corsi": ["PIANO"]
   },
   {
     "tag": "mambretti",
     "nome": "Maestro Federico Mambretti",
-    "foto": "img/insegnanti/",
+    "foto": "img/insegnanti/mambretti.jpeg",
     "descrizione": "Percussioni, Laboratorio di percussioni, Musica d'insieme",
-    "bio": "Federico Mambretti è un ",
-    "titoli": [],
-    "esperienza": [
-
+    "bio": "Federico Mambretti è un percussionista e batterista diplomato presso il Conservatorio Evaristo Felice Dall’Abaco di Verona. Ha studiato con il M° Alan Beretta e si è perfezionato con importanti maestri del panorama musicale nazionale e internazionale.",
+    "titoli": [
+    "Diploma in percussioni presso il Conservatorio E.F. Dall’Abaco di Verona",
+    "Corsi di perfezionamento con Bruno Frumento, Mike Quinn, Gilson Silveira, Marco Odoni, Carlo Pirola"
     ],
+    "esperienza": [
+    "Collabora con diversi ensemble e orchestre tra cui: Brescia Wind Orchestra, Orchestra di Fiati Valle Camonica, Orchestra del Conservatorio di Verona, Orchestra Incanto Armonico, Bazzini Consort",
+    "Dal 2014 è percussionista stabile dell'Orchestra di Fiati Brixiae Harmonie",
+    "Dal 2008 è docente di batteria e percussioni in diverse realtà musicali del territorio bresciano"
+    ],
+    "citazione": "",
     "corsi": ["PERC", "PERC-LAB", "MUS"]
   },
   {
@@ -64,6 +73,7 @@
     "Partecipazioni a musical: Legends Never Die, The Greatest Show.",
     "Dimostratore per: Reboli Custom Guitars, Burn FX, Jad & Freer Audio, Nassini Audio, Evo Picks."
   ],
+  "citazione": "",
   "corsi": ["CHIT"]
 },
   {
@@ -76,6 +86,7 @@
     "esperienza": [
 
     ],
+    "citazione": "",
     "corsi": ["HF"]
   },
   {
@@ -88,6 +99,7 @@
     "esperienza": [
 
     ],
+    "citazione": "",
     "corsi": ["CANTO", "CORO"]
   },
   {
@@ -100,6 +112,7 @@
     "esperienza": [
 
     ],
+    "citazione": "",
     "corsi": ["TB"]
   }
 ]
