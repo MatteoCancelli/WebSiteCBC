@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg">
   <div class="container">
     <a class="navbar-brand" href="/">Banda</a>
     <button
@@ -67,22 +67,8 @@
           </ul>
         </li>
       </ul>
-      <a class="btn btn-outline-light" href="/accademia">Vai all'Accademia</a>
+      <a class="btn btn-outline-light mt-3" href="/accademia">Vai all'Accademia</a>
     </div>
   </div>
 </nav>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
-  // CHIUSURA AUTOMATICA NAVBAR DOPO CLICK
-  document.querySelectorAll(".nav-link").forEach((link) => {
-    link.addEventListener("click", () => {
-      const navbar = document.getElementById("navbarBanda");
-      if (navbar.classList.contains("show")) {
-        const collapse = bootstrap.Collapse.getOrCreateInstance(navbar);
-        collapse.hide();
-      }
-    });
-  });
-</script>
