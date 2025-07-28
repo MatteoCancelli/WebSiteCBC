@@ -4,6 +4,12 @@ async function fetchData() {
   return data;
 }
 
+function normalizePath(path) {
+  if (!path) return "";
+  if (path.startsWith("http") || path.startsWith("/")) return path;
+  return "/" + path;
+}
+
 function polarToCartesian(cx, cy, r, angle) {
   const rad = ((angle - 90) * Math.PI) / 180.0;
   return {
@@ -109,7 +115,7 @@ function preloadInstrumentAudio(instrument) {
   if (!audio) {
     audio = document.createElement("audio");
     audio.id = audioId;
-    audio.src = instrument.audio;
+    audio.src = normalizePath(instrument.audio);
     audio.preload = "auto";
     document.body.appendChild(audio);
   }
@@ -243,8 +249,9 @@ function preloadInstrumentImage(instrument, preloadDiv) {
     img.alt = instrument.name;
     img.style.maxWidth = "100%";
     img.style.maxHeight = "300px";
-    img.src = instrument.pic;
+    img.src = normalizePath(instrument.pic);
 
+    
     preloadDiv.appendChild(img);
   }
 
@@ -312,7 +319,7 @@ function showInstrumentModal(instrument, imageMap, audioMap) {
   // Mostra GIF "tap here"
   newModalImage.onload = () => {
     const tapGif = document.createElement("img");
-    tapGif.src = "gif/tap-here.png";
+    tapGif.src = normalizePath("gif/tap-here.png");
     tapGif.classList.add("tap-gif-overlay");
 
     const imageHeight = newModalImage.offsetHeight;

@@ -22,7 +22,7 @@ export const mostraHome = (req, res) => {
 
 export const mostraSceltaCorsi = (req, res) => {
   res.render("accademia/sceltaCorsi", {
-    title: "Accademia Musicale",
+    title: "Scelta Corsi",
     head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",
   });
