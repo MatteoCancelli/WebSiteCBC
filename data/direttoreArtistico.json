@@ -1,7 +1,7 @@
 {
   "tag": "direttore",
   "nome": "M° Nome Cognome",
-  "foto": "img/direzione/default.jpg",
+  "foto": "img/direzione/default.webp",
   "titolo": "Direttore Artistico",
   "descrizione": "Direzione artistica, visione culturale, supervisione didattica",
   "bio": "Il Maestro Nome Cognome è il direttore artistico dell’accademia e coordina le attività culturali, artistiche e formative dell’istituto. Con un'esperienza pluriennale nel mondo musicale e una visione pedagogica attenta, guida l’accademia verso l’eccellenza.",
@@ -26,8 +26,8 @@
     }
   ],
   "galleria": [
-    "img/direzione/default.jpg",
-    "img/direzione/default.jpg",
-    "img/direzione/default.jpg"
+    "img/direzione/default.webp",
+    "img/direzione/default.webp",
+    "img/direzione/default.webp"
   ]
 }

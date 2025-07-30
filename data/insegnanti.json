@@ -41,7 +41,7 @@
   {
     "tag": "mambretti",
     "nome": "Maestro Federico Mambretti",
-    "foto": "img/insegnanti/mambretti.jpeg",
+    "foto": "img/insegnanti/mambretti.webp",
     "descrizione": "Percussioni, Laboratorio di percussioni, Musica d'insieme",
     "bio": "Federico Mambretti è un percussionista e batterista diplomato presso il Conservatorio Evaristo Felice Dall’Abaco di Verona. Ha studiato con il M° Alan Beretta e si è perfezionato con importanti maestri del panorama musicale nazionale e internazionale.",
     "titoli": [
@@ -59,7 +59,7 @@
   {
   "tag": "belleri",
   "nome": "Maestro Michele Belleri",
-  "foto": "img/insegnanti/belleri.JPEG",
+  "foto": "img/insegnanti/belleri.webp",
   "descrizione": "Chitarra classica, Chitarra elettrica, Basso elettrico",
   "bio": "Michele Belleri è un chitarrista attivo nella scena musicale italiana come turnista, compositore e docente. Dal 2017 insegna in diverse accademie musicali, collaborando con numerosi artisti e realtà didattiche. Nel suo corso insegna chitarra classica ed elettrica, oltre al basso elettrico.",
   "titoli": [
@@ -105,7 +105,7 @@
   {
     "tag": "antonini",
     "nome": "Maestro Matteo Antonini",
-    "foto": "img/insegnanti/antonini.jpeg",
+    "foto": "img/insegnanti/antonini.webp",
     "descrizione": "Trombone",
     "bio": "Matteo Antonini è un ",
     "titoli": [],

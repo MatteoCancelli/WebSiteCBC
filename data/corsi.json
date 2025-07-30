@@ -2,14 +2,14 @@
   {
     "tag": "CL",
     "titolo": "Corso di Clarinetto",
-    "hero": "img/hero/CL.jpg",
+    "hero": "img/hero/CL.webp",
     "descrizione": "Un corso completo per scoprire il clarinetto, sviluppando padronanza tecnica e musicalità, sia per principianti che per livelli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
-    "fotoStrumento": "img/section/Clarinet.jpg",
+    "fotoStrumento": "img/section/Clarinet.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -19,14 +19,14 @@
   {
     "tag": "OB",
     "titolo": "Corso di Oboe",
-    "hero": "img/hero/OB.jpg",
+    "hero": "img/hero/OB.webp",
     "descrizione": "Un corso per scoprire l'oboe, uno strumento a fiato unico, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
-    "fotoStrumento": "img/section/Oboe.jpg",
+    "fotoStrumento": "img/section/Oboe.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -36,14 +36,14 @@
   {
     "tag": "FL",
     "titolo": "Corso di Flauto Traverso",
-    "hero": "img/hero/FL.jpg",
+    "hero": "img/hero/FL.webp",
     "descrizione": "Un corso per scoprire la dolcezza e la versatilità del flauto traverso, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
-    "fotoStrumento": "img/section/Flute.jpg",
+    "fotoStrumento": "img/section/Flute.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -53,14 +53,14 @@
   {
     "tag": "OTT",
     "titolo": "Corso di Ottavino",
-    "hero": "img/hero/OTT.jpg",
+    "hero": "img/hero/OTT.webp",
     "descrizione": "Un corso per scoprire il piccolo flauto, noto come ottavino, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
-    "fotoStrumento": "img/section/Piccolo.jpg",
+    "fotoStrumento": "img/section/Piccolo.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -70,14 +70,14 @@
   {
     "tag": "CLB",
     "titolo": "Corso di Clarinetto Basso",
-    "hero": "img/hero/CL.jpg",
+    "hero": "img/hero/CL.webp",
     "descrizione": "Un corso per scoprire il clarinetto basso, uno strumento a fiato unico, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
-    "fotoStrumento": "img/section/Bass_Clarinet.jpg",
+    "fotoStrumento": "img/section/Bass_Clarinet.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -87,14 +87,14 @@
   {
     "tag": "BSN",
     "titolo": "Corso di Fagotto",
-    "hero": "img/hero/BSN.jpg",
+    "hero": "img/hero/BSN.webp",
     "descrizione": "Un corso per scoprire il fagotto, uno strumento a fiato della famiglia dei legni, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
-    "fotoStrumento": "img/section/Bassoon.jpg",
+    "fotoStrumento": "img/section/Bassoon.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -104,14 +104,14 @@
   {
     "tag": "HF",
     "titolo": "Corso di Corno Francese",
-    "hero": "img/hero/HF.jpg",
+    "hero": "img/hero/HF.webp",
     "descrizione": "Un corso per scoprire il corno francese, uno strumento a fiato della famiglia degli ottoni, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["castaneda"],
-    "fotoStrumento": "img/section/French_Horn.jpg",
+    "fotoStrumento": "img/section/French_Horn.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -121,14 +121,14 @@
   {
     "tag": "TP",
     "titolo": "Corso di Tromba",
-    "hero": "img/hero/TP.jpg",
+    "hero": "img/hero/TP.webp",
     "descrizione": "Un corso pensato per scoprire la potenza e la brillantezza della tromba, ideale per bambini, giovani e adulti.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
-    "fotoStrumento": "img/section/Trumpet.jpg",
+    "fotoStrumento": "img/section/Trumpet.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -138,7 +138,7 @@
   {
     "tag": "TB",
     "titolo": "Corso di Trombone",
-    "hero": "img/hero/TB.jpg",
+    "hero": "img/hero/TB.webp",
     "descrizione": "Scopri la profondità sonora del trombone con un percorso didattico coinvolgente.",
     "laClasse": "L’insegnamento del trombone guida l’allievo nello sviluppo tecnico, musicale ed espressivo, fornendo gli strumenti per affrontare il repertorio solistico, orchestrale e cameristico. Attraverso lo studio della tecnica, dell’interpretazione e della lettura, l’allievo acquisisce padronanza dello strumento e consapevolezza artistica, partecipando attivamente a contesti musicali collettivi.",
     "obiettivi": [
@@ -148,7 +148,7 @@
       "Ascolto attivo e intonazione relativa. Autonomia nello studio."
     ],
     "insegnanti": ["antonini"],
-    "fotoStrumento": "img/section/Trombone.png",
+    "fotoStrumento": "img/section/Trombone.webp",
     "giornoLezione": "Martedì",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -158,14 +158,14 @@
   {
     "tag": "EUPH",
     "titolo": "Corso di Euphonium",
-    "hero": "img/hero/EUPH.jpg",
+    "hero": "img/hero/EUPH.webp",
     "descrizione": "Scopri il timbro caldo dell'euphonium con lezioni su misura per ogni livello.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
-    "fotoStrumento": "img/section/Euphonium.jpg",
+    "fotoStrumento": "img/section/Euphonium.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -175,14 +175,14 @@
   {
     "tag": "TUB",
     "titolo": "Corso di Tuba",
-    "hero": "img/hero/TUB.jpg",
+    "hero": "img/hero/TUB.webp",
     "descrizione": "Un corso per scoprire il ruolo fondamentale della tuba all'interno di bande e orchestre.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
-    "fotoStrumento": "img/section/Tuba.jpg",
+    "fotoStrumento": "img/section/Tuba.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -192,14 +192,14 @@
   {
     "tag": "SAXA",
     "titolo": "Corso di Sassofono Contralto",
-    "hero": "img/hero/SAXA.jpg",
+    "hero": "img/hero/SAXA.webp",
     "descrizione": "Un corso per scoprire il sassofono contralto, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
-    "fotoStrumento": "img/section/Alto_Sax.jpg",
+    "fotoStrumento": "img/section/Alto_Sax.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -209,14 +209,14 @@
   {
     "tag": "SAXT",
     "titolo": "Corso di Sassofono Tenore",
-    "hero": "img/hero/SAXT.jpeg",
+    "hero": "img/hero/SAXT.webp",
     "descrizione": "Un corso per scoprire il sassofono tenore, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
-    "fotoStrumento": "img/section/Tenor_Sax.jpg",
+    "fotoStrumento": "img/section/Tenor_Sax.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -226,14 +226,14 @@
   {
     "tag": "SAXB",
     "titolo": "Corso di Sassofono Baritono",
-    "hero": "img/hero/SAXB.jpg",
+    "hero": "img/hero/SAXB.webp",
     "descrizione": "Un corso per scoprire il sassofono baritono, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
-    "fotoStrumento": "img/section/Baritone_Sax.jpg",
+    "fotoStrumento": "img/section/Baritone_Sax.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -243,14 +243,14 @@
   {
     "tag": "TS",
     "titolo": "Corso di Teoria e Solfeggio",
-    "hero": "img/hero/TS.jpg",
+    "hero": "img/hero/TS.webp",
     "descrizione": "Un percorso completo per padroneggiare la teoria musicale, la lettura e il solfeggio ritmico e melodico.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
-    "fotoStrumento": "img/section/Solfeggio.jpg",
+    "fotoStrumento": "img/section/Solfeggio.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -267,7 +267,7 @@
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
-    "fotoStrumento": "img/section/Percussion.jpg",
+    "fotoStrumento": "img/section/Percussion.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -277,14 +277,14 @@
   {
     "tag": "PROPE",
     "titolo": "Corso Propedeutico Musicale",
-    "hero": "img/hero/PROPEDEUTICO.jpg",
+    "hero": "img/hero/PROPEDEUTICO.webp",
     "descrizione": "Un corso introduttivo per bambini e ragazzi, per avvicinarsi alla musica in modo divertente e stimolante.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
-    "fotoStrumento": "img/corsiExtraBanda/Propedeutico.jpg",
+    "fotoStrumento": "img/corsiExtraBanda/Propedeutico.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["60 minuti"],
     "modalita": "Collettiva",
@@ -294,14 +294,14 @@
   {
     "tag": "PIANO",
     "titolo": "Corso di Pianoforte",
-    "hero": "img/hero/PIANO.jpg",
+    "hero": "img/hero/PIANO.webp",
     "descrizione": "Un corso per scoprire il pianoforte, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["moraschi"],
-    "fotoStrumento": "img/corsiExtraBanda/Piano.jpg",
+    "fotoStrumento": "img/corsiExtraBanda/Piano.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -311,14 +311,14 @@
   {
     "tag": "CANTO",
     "titolo": "Corso di Canto",
-    "hero": "img/hero/CANTO.jpg",
+    "hero": "img/hero/CANTO.webp",
     "descrizione": "Un corso per scoprire la propria voce, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["regenzi"],
-    "fotoStrumento": "img/corsiExtraBanda/Canto.jpg",
+    "fotoStrumento": "img/corsiExtraBanda/Canto.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -328,14 +328,14 @@
   {
     "tag": "CHIT",
     "titolo": "Corso di Chitarra",
-    "hero": "img/hero/CHIT.jpg",
+    "hero": "img/hero/CHIT.webp",
     "descrizione": "Un corso per scoprire la chitarra, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["belleri"],
-    "fotoStrumento": "img/corsiExtraBanda/Chit.jpg",
+    "fotoStrumento": "img/corsiExtraBanda/Chit.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
@@ -348,14 +348,14 @@
   {
     "tag": "TEO",
     "titolo": "Corso di Teoria e Solfeggio",
-    "hero": "img/hero/TEO.jpg",
+    "hero": "img/hero/TEO.webp",
     "descrizione": "Un corso fondamentale per ogni musicista, per migliorare la lettura musicale, il riconoscimento ritmico e sviluppare orecchio e autonomia musicale.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
-    "fotoStrumento": "img/corsiExtraBanda/Teo.png",
+    "fotoStrumento": "img/corsiExtraBanda/Teo.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale o Collettiva",
@@ -365,14 +365,14 @@
   {
     "tag": "MUS",
     "titolo": "Corso di Musica d'Insieme",
-    "hero": "img/hero/MUS.jpg",
+    "hero": "img/hero/MUS.webp",
     "descrizione": "Un corso per imparare a suonare in gruppo, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
-    "fotoStrumento": "img/corsiExtraBanda/Mus.jpg",
+    "fotoStrumento": "img/corsiExtraBanda/Mus.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["60 minuti"],
     "modalita": "Collettiva",
@@ -382,14 +382,14 @@
   {
     "tag": "CORO",
     "titolo": "Corso di Coro Pop",
-    "hero": "img/hero/CORO.jpg",
+    "hero": "img/hero/CORO.webp",
     "descrizione": "Un corso per cantare in coro, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["regenzi"],
-    "fotoStrumento": "img/corsiExtraBanda/Coro.jpg",
+    "fotoStrumento": "img/corsiExtraBanda/Coro.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["60 minuti"],
     "modalita": "Collettiva",
@@ -399,14 +399,14 @@
   {
     "tag": "PERC-LAB",
     "titolo": "Laboratorio di Percussioni",
-    "hero": "img/hero/PERC-LAB.jpg",
+    "hero": "img/hero/PERC-LAB.webp",
     "descrizione": "Un laboratorio pratico per esplorare il mondo delle percussioni, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
       "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
-    "fotoStrumento": "img/corsiExtraBanda/Perc-Lab.jpg",
+    "fotoStrumento": "img/corsiExtraBanda/Perc-Lab.webp",
     "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
     "lezioniDisponibili": ["60 minuti"],
     "modalita": "Collettiva",
