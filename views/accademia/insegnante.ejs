@@ -11,29 +11,34 @@
     </div>
     <div class="col-md-8">
       <h1><%= insegnante.nome %></h1>
-      <p><%= insegnante.bio %></p>
+      <% if (insegnante.bio && insegnante.bio.trim().length > 0) { %>
+        <p><%= insegnante.bio %></p>
 
-      <h4 class="mt-4">Titoli di studio</h4>
-      <% if (insegnante.titoli && insegnante.titoli.length > 0) { %>
-  <ul>
-    <% insegnante.titoli.forEach(titolo => { %>
-      <li><%= titolo %></li>
-    <% }) %>
-  </ul>
-<% } else { %>
-  <p class="text-muted">Al momento le informazioni non sono disponibili</p>
-<% } %>
+        <h4 class="mt-4">Titoli di studio</h4>
+        <% if (insegnante.titoli && insegnante.titoli.length > 0) { %>
+          <ul>
+            <% insegnante.titoli.forEach(titolo => { %>
+              <li><%= titolo %></li>
+            <% }) %>
+          </ul>
+        <% } else { %>
+          <p class="text-muted">Al momento le informazioni non sono disponibili</p>
+        <% } %>
 
-
-      <h4 class="mt-4">Esperienza</h4>
-      <% if (insegnante.esperienza && insegnante.esperienza.length > 0) { %>
-        <ul>
-          <% insegnante.esperienza.forEach(exp => { %>
-          <li><%= exp %></li>
-          <% }) %>
-        </ul>
+        <h4 class="mt-4">Esperienza</h4>
+        <% if (insegnante.esperienza && insegnante.esperienza.length > 0) { %>
+          <ul>
+            <% insegnante.esperienza.forEach(exp => { %>
+              <li><%= exp %></li>
+            <% }) %>
+          </ul>
+        <% } else { %>
+          <p class="text-muted">Al momento le informazioni non sono disponibili</p>
+        <% } %>
       <% } else { %>
-        <p class="text-muted">Al momento le informazioni non sono disponibili</p>
+        <div class="alert alert-warning" role="alert">
+          L'insegnante non ha ancora condiviso la sua biografia. Dai un'occhiata più avanti!
+        </div>
       <% } %>
       <h4 class="mt-4">Corsi tenuti</h4>
       <ul>
@@ -50,6 +55,7 @@
       </ul>
     </div>
 
+<% if (insegnante.bio && insegnante.bio.trim().length > 0) { %>
 <div class="row justify-content-center">
   <div class="col-md-10">
     <div class="citazione-icona p-4 rounded-4 d-flex align-items-center gap-3 shadow-sm">
@@ -65,6 +71,7 @@
     </div>
   </div>
 </div>
+<% } %>
 
 
 
