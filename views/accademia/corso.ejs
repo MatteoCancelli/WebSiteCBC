@@ -38,16 +38,23 @@
       <div class="row">
         <h2 class="mb-4">Obiettivi del corso</h2>
         <div class="col-12">
-          <ul class="list-group mb-5">
-            <% corso.obiettivi.forEach(obj => { %>
-              <li class="list-group-item d-flex align-items-start bg-light rounded-3 shadow-sm mb-2 border-0 px-4 py-3">
-                <i class="bi bi-check-circle-fill text-success me-3 fs-4 mt-1"></i>
-                <span class="fs-5"><%= obj %></span>
-              </li>
-            <% }) %>
-          </ul>
+          <% if (corso.obiettivi && corso.obiettivi.length > 0) { %>
+        <ul class="list-group mb-5">
+          <% corso.obiettivi.forEach(obj => { %>
+            <li class="list-group-item d-flex align-items-start bg-light rounded-3 shadow-sm mb-2 border-0 px-4 py-3">
+          <i class="bi bi-check-circle-fill text-success me-3 fs-4 mt-1"></i>
+          <span class="fs-5"><%= obj %></span>
+            </li>
+          <% }) %>
+        </ul>
+          <% } else { %>
+        <div class="alert alert-warning d-flex align-items-center mb-5">
+          <i class="bi bi-info-circle-fill text-warning me-3 fs-4"></i>
+          <span class="fs-5">L'insegnante sta completando questa sezione, torna a visitarci presto.</span>
         </div>
-      </div>
+          <% } %>
+        </div>
+      </div></div>
 
       <!-- Insegnanti con card -->
       <h2 class="mb-4">I nostri insegnanti</h2>
@@ -56,7 +63,7 @@
           <div class="col-md-3">
             <div class="card shadow-sm h-100 border-0">
               <img
-                src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.trim() === 'img/insegnanti/' ? 'img/insegnanti/default.jpg' : insegnante.foto %>"
+                src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.trim() === 'img/insegnanti/' ? 'img/insegnanti/default.webp' : insegnante.foto %>"
                 class="img-fluid rounded shadow-sm"
                 alt="<%= insegnante.nome %>"
               />
