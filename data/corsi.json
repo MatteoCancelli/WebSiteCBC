@@ -6,11 +6,10 @@
     "descrizione": "Un corso completo per scoprire il clarinetto, sviluppando padronanza tecnica e musicalità, sia per principianti che per livelli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Clarinet.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -23,11 +22,10 @@
     "descrizione": "Un corso per scoprire l'oboe, uno strumento a fiato unico, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Oboe.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -40,11 +38,10 @@
     "descrizione": "Un corso per scoprire la dolcezza e la versatilità del flauto traverso, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Flute.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -57,11 +54,10 @@
     "descrizione": "Un corso per scoprire il piccolo flauto, noto come ottavino, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Piccolo.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -74,11 +70,10 @@
     "descrizione": "Un corso per scoprire il clarinetto basso, uno strumento a fiato unico, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Bass_Clarinet.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -91,11 +86,10 @@
     "descrizione": "Un corso per scoprire il fagotto, uno strumento a fiato della famiglia dei legni, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Bassoon.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -106,17 +100,23 @@
     "titolo": "Corso di Corno Francese",
     "hero": "img/hero/HF.webp",
     "descrizione": "Un corso per scoprire il corno francese, uno strumento a fiato della famiglia degli ottoni, adatto a tutti i livelli.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "L’insegnamento del corno porta allo sviluppo di abilità tecniche e musicali, competenze tecniche di base e avanzate (emissione, respirazione, impostazione), lettura e interpretazione dello spartito, studio del repertorio solistico e d’insieme, esercizi di ascolto e intonazione, tecniche di esecuzione in gruppo e introduzione all’improvvisazione.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
+      "Favorire lo sviluppo di solide competenze tecniche e musicali.",
+      "Stimolare la sensibilità artistica e la sicurezza nell’esecuzione.",
+      "Promuovere il piacere di suonare in gruppo e l’ascolto reciproco.",
+      "Valorizzare la musica come esperienza di crescita personale ed espressiva."
     ],
     "insegnanti": ["castaneda"],
     "fotoStrumento": "img/section/French_Horn.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "Giovedì",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "videoYoutube": []
+    "videoYoutube": [
+      "https://www.youtube.com/watch?v=u7sTTv_A3IQ",
+      "https://www.youtube.com/watch?v=pZj2qbXMkHs"
+    ]
   },
   {
     "tag": "TP",
@@ -125,11 +125,10 @@
     "descrizione": "Un corso pensato per scoprire la potenza e la brillantezza della tromba, ideale per bambini, giovani e adulti.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Trumpet.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -162,11 +161,10 @@
     "descrizione": "Scopri il timbro caldo dell'euphonium con lezioni su misura per ogni livello.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Euphonium.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -179,11 +177,10 @@
     "descrizione": "Un corso per scoprire il ruolo fondamentale della tuba all'interno di bande e orchestre.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": [],
     "fotoStrumento": "img/section/Tuba.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -196,11 +193,10 @@
     "descrizione": "Un corso per scoprire il sassofono contralto, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Alto_Sax.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -213,11 +209,10 @@
     "descrizione": "Un corso per scoprire il sassofono tenore, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Tenor_Sax.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -230,11 +225,10 @@
     "descrizione": "Un corso per scoprire il sassofono baritono, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Baritone_Sax.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -247,11 +241,10 @@
     "descrizione": "Un percorso completo per padroneggiare la teoria musicale, la lettura e il solfeggio ritmico e melodico.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/section/Solfeggio.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -264,11 +257,10 @@
     "descrizione": "Un corso per scoprire le percussioni, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/section/Percussion.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -281,11 +273,10 @@
     "descrizione": "Un corso introduttivo per bambini e ragazzi, per avvicinarsi alla musica in modo divertente e stimolante.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/corsiExtraBanda/Propedeutico.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["60 minuti"],
     "modalita": "Collettiva",
     "noteAggiuntive": "Attività ludiche e creative per stimolare l'interesse musicale",
@@ -298,11 +289,10 @@
     "descrizione": "Un corso per scoprire il pianoforte, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["moraschi"],
     "fotoStrumento": "img/corsiExtraBanda/Piano.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -315,11 +305,10 @@
     "descrizione": "Un corso per scoprire la propria voce, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["regenzi"],
     "fotoStrumento": "img/corsiExtraBanda/Canto.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio e opportunità di partecipare a Coro Pop",
@@ -332,11 +321,10 @@
     "descrizione": "Un corso per scoprire la chitarra, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["belleri"],
     "fotoStrumento": "img/corsiExtraBanda/Chit.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -352,11 +340,10 @@
     "descrizione": "Un corso fondamentale per ogni musicista, per migliorare la lettura musicale, il riconoscimento ritmico e sviluppare orecchio e autonomia musicale.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/corsiExtraBanda/Teo.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale o Collettiva",
     "noteAggiuntive": "Incluso con ogni altro corso musicale individuale",
@@ -369,11 +356,10 @@
     "descrizione": "Un corso per imparare a suonare in gruppo, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/corsiExtraBanda/Mus.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["60 minuti"],
     "modalita": "Collettiva",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
@@ -386,11 +372,10 @@
     "descrizione": "Un corso per cantare in coro, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["regenzi"],
     "fotoStrumento": "img/corsiExtraBanda/Coro.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["60 minuti"],
     "modalita": "Collettiva",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",
@@ -403,11 +388,10 @@
     "descrizione": "Un laboratorio pratico per esplorare il mondo delle percussioni, adatto a tutti i livelli.",
     "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
     "obiettivi": [
-      "Al momento non sono specificati obiettivi dettagliati per il corso."
     ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/corsiExtraBanda/Perc-Lab.webp",
-    "giornoLezione": "Al momento non è disponibile il giorno della lezione.",
+    "giornoLezione": "",
     "lezioniDisponibili": ["60 minuti"],
     "modalita": "Collettiva",
     "noteAggiuntive": "Saggio Musicale a Maggio ed esibizione in altri eventi",

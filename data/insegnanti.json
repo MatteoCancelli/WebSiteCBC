@@ -77,18 +77,24 @@
   "corsi": ["CHIT"]
 },
   {
-    "tag": "castaneda",
-    "nome": "Maestra Elena Castaneda",
-    "foto": "img/insegnanti/",
-    "descrizione": "Corno Francese",
-    "bio": "Elena Castaneda è un ",
-    "titoli": [],
-    "esperienza": [
-
-    ],
-    "citazione": "",
-    "corsi": ["HF"]
-  },
+  "tag": "castaneda",
+  "nome": "Maestra Elena Castaneda",
+  "foto": "img/insegnanti/",
+  "descrizione": "Corno Francese",
+  "bio": "Elena Castaneda è una cornista diplomata presso il Conservatorio “Luca Marenzio” di Darfo Boario Terme. Attualmente frequenta il biennio in Musicoterapia presso lo stesso istituto. Svolge attività didattica e collabora con diverse realtà musicali e orchestrali.",
+  "titoli": [
+    "Biennio in Teorie e Tecniche della Musicoterapia – in corso presso il Conservatorio “Luca Marenzio” di Brescia",
+    "Diploma Accademico di Primo Livello in Corno – Conservatorio “Luca Marenzio” di Darfo Boario Terme (2023)"
+  ],
+  "esperienza": [
+    "Attività di insegnamento del corno in diverse scuole di musica",
+    "Conduzione di progetti di educazione musicale nella scuola primaria",
+    "Collaborazione con varie realtà bandistiche e orchestrali",
+    "Partecipazione a masterclass con docenti italiani e internazionali"
+  ],
+  "citazione": "",
+  "corsi": ["HF"]
+},
   {
     "tag": "regenzi",
     "nome": "Maestra Chiara Regenzi",
