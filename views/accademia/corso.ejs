@@ -85,7 +85,7 @@ src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.t
       </p>
       <p><strong>Durate disponibili:</strong>
         <%= corso.lezioniDisponibili.join(", ") %></p>
-    <p><strong>Giorno della lezione:</strong> <%= corso.giornoLezione %></p>
+    <p><strong>Giorno della lezione:</strong> <%= corso.giornoLezione.length > 0 ? corso.giornoLezione : "Al momento non è disponibile il giorno della lezione. Contattaci se sei interessato!" %></p>
     <% if (corso.noteAggiuntive) { %>
       <div class=" alert alert-info mt-3">
           <%= corso.noteAggiuntive %>
