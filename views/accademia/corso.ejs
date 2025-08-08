@@ -18,63 +18,68 @@
 
     <!-- Descrizione strumento -->
 
-    <div class="row align-items-center my-1">
-      <div>
-        <h2 class="mb-3 my-3">La classe</h2>
-        <p class="lead">
-          <%= corso.laClasse %>
-        </p>
-      </div>
-    </div>
-    <div class="row align-items-center mb-3">
-      <div class="d-flex justify-content-center">
-        <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow" alt="Strumento"
-          style="max-height: 400px; object-fit: cover;">
-      </div>
-    </div>
-
-
-    <!-- Obiettivi -->
-<div class="row">
-  <h2 class="mb-4">Obiettivi del corso</h2>
-  <div class="col-12">
-    <ul class="list-group mb-5">
-      <% corso.obiettivi.forEach(obj => { %>
-        <li class="list-group-item d-flex align-items-start bg-light rounded-3 shadow-sm mb-2 border-0 px-4 py-3">
-          <i class="bi bi-check-circle-fill text-success me-3 fs-4 mt-1"></i>
-          <span class="fs-5"><%= obj %></span>
-        </li>
-      <% }) %>
-    </ul>
-  </div>
-</div>
-
-
-
-    <!-- Insegnanti con card -->
-<h2 class="mb-4">I nostri insegnanti</h2>
-
-<% if (insegnanti.length > 0) { %>
-  <div class="row g-4 mb-5">
-    <% insegnanti.forEach(insegnante => { %>
-      <div class="col-md-3">
-        <div class="card shadow-sm h-100 border-0">
-        <img
-src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.trim() === 'img/insegnanti/' ? 'img/insegnanti/default.jpg' : insegnante.foto %>"
-          class="img-fluid rounded shadow-sm"
-          alt="<%= insegnante.nome %>"
-          />
-          <div class="card-body">
-            <h5 class="card-title"><%= insegnante.nome %></h5>
-            <a href="/accademia/insegnante?id=<%= insegnante.tag %>" class="btn btn-outline-primary w-100">Scopri il profilo</a>
-          </div>
+    <% if (insegnanti.length > 0) { %>
+      <div class="row align-items-center my-1">
+        <div>
+          <h2 class="mb-3 my-3">La classe</h2>
+          <p class="lead">
+            <%= corso.laClasse %>
+          </p>
         </div>
       </div>
-    <% }) %>
-  </div>
-<% } else { %>
-  <p class="text-muted">Al momento non ci sono insegnanti assegnati a questo corso. Contattaci se desideri maggiori informazioni!</p>
-<% } %>
+      <div class="row align-items-center mb-3">
+        <div class="d-flex justify-content-center">
+          <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow" alt="Strumento"
+            style="max-height: 400px; object-fit: cover;">
+        </div>
+      </div>
+
+      <!-- Obiettivi -->
+      <div class="row">
+        <h2 class="mb-4">Obiettivi del corso</h2>
+        <div class="col-12">
+          <ul class="list-group mb-5">
+            <% corso.obiettivi.forEach(obj => { %>
+              <li class="list-group-item d-flex align-items-start bg-light rounded-3 shadow-sm mb-2 border-0 px-4 py-3">
+                <i class="bi bi-check-circle-fill text-success me-3 fs-4 mt-1"></i>
+                <span class="fs-5"><%= obj %></span>
+              </li>
+            <% }) %>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Insegnanti con card -->
+      <h2 class="mb-4">I nostri insegnanti</h2>
+      <div class="row g-4 mb-5">
+        <% insegnanti.forEach(insegnante => { %>
+          <div class="col-md-3">
+            <div class="card shadow-sm h-100 border-0">
+              <img
+                src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.trim() === 'img/insegnanti/' ? 'img/insegnanti/default.jpg' : insegnante.foto %>"
+                class="img-fluid rounded shadow-sm"
+                alt="<%= insegnante.nome %>"
+              />
+              <div class="card-body">
+                <h5 class="card-title"><%= insegnante.nome %></h5>
+                <a href="/accademia/insegnante?id=<%= insegnante.tag %>" class="btn btn-outline-primary w-100">Scopri il profilo</a>
+              </div>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    <% } else { %>
+      <div class="container my-4">
+      <div class="alert alert-danger d-flex align-items-center p-4 rounded-4">
+        <img src="/<%= corso.fotoStrumento %>" class="img-fluid rounded shadow me-4" alt="Strumento"
+        style="max-height: 120px; object-fit: cover;">
+        <div>
+        <h5 class="mb-2">Nessun insegnante disponibile</h5>
+        <p class="mb-0">Al momento non ci sono insegnanti assegnati a questo corso. Contattaci se desideri maggiori informazioni!</p>
+        </div>
+      </div>
+      </div>
+    <% } %>
 
 
     <!-- Info pratiche -->
