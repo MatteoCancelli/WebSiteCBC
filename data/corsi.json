@@ -4,7 +4,7 @@
     "titolo": "Corso di Clarinetto",
     "hero": "img/hero/CL.webp",
     "descrizione": "Un corso completo per scoprire il clarinetto, sviluppando padronanza tecnica e musicalità, sia per principianti che per livelli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["corvaglia"],
@@ -20,7 +20,7 @@
     "titolo": "Corso di Oboe",
     "hero": "img/hero/OB.webp",
     "descrizione": "Un corso per scoprire l'oboe, uno strumento a fiato unico, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": [],
@@ -36,7 +36,7 @@
     "titolo": "Corso di Flauto Traverso",
     "hero": "img/hero/FL.webp",
     "descrizione": "Un corso per scoprire la dolcezza e la versatilità del flauto traverso, adatto a tutti i livelli.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": [],
@@ -52,7 +52,7 @@
     "titolo": "Corso di Ottavino",
     "hero": "img/hero/OTT.webp",
     "descrizione": "Un corso per scoprire il piccolo flauto, noto come ottavino, adatto a tutti i livelli.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": [],
@@ -68,7 +68,7 @@
     "titolo": "Corso di Clarinetto Basso",
     "hero": "img/hero/CL.webp",
     "descrizione": "Un corso per scoprire il clarinetto basso, uno strumento a fiato unico, adatto a tutti i livelli.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["corvaglia"],
@@ -84,7 +84,7 @@
     "titolo": "Corso di Fagotto",
     "hero": "img/hero/BSN.webp",
     "descrizione": "Un corso per scoprire il fagotto, uno strumento a fiato della famiglia dei legni, adatto a tutti i livelli.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": [],
@@ -123,7 +123,7 @@
     "titolo": "Corso di Tromba",
     "hero": "img/hero/TP.webp",
     "descrizione": "Un corso pensato per scoprire la potenza e la brillantezza della tromba, ideale per bambini, giovani e adulti.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": [],
@@ -159,7 +159,7 @@
     "titolo": "Corso di Euphonium",
     "hero": "img/hero/EUPH.webp",
     "descrizione": "Scopri il timbro caldo dell'euphonium con lezioni su misura per ogni livello.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": [],
@@ -175,7 +175,7 @@
     "titolo": "Corso di Tuba",
     "hero": "img/hero/TUB.webp",
     "descrizione": "Un corso per scoprire il ruolo fondamentale della tuba all'interno di bande e orchestre.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": [],
@@ -191,7 +191,7 @@
     "titolo": "Corso di Sassofono Contralto",
     "hero": "img/hero/SAXA.webp",
     "descrizione": "Un corso per scoprire il sassofono contralto, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["corvaglia"],
@@ -207,7 +207,7 @@
     "titolo": "Corso di Sassofono Tenore",
     "hero": "img/hero/SAXT.webp",
     "descrizione": "Un corso per scoprire il sassofono tenore, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["corvaglia"],
@@ -223,7 +223,7 @@
     "titolo": "Corso di Sassofono Baritono",
     "hero": "img/hero/SAXB.webp",
     "descrizione": "Un corso per scoprire il sassofono baritono, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["corvaglia"],
@@ -239,7 +239,7 @@
     "titolo": "Corso di Teoria e Solfeggio",
     "hero": "img/hero/TS.webp",
     "descrizione": "Un percorso completo per padroneggiare la teoria musicale, la lettura e il solfeggio ritmico e melodico.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["scalvini"],
@@ -255,7 +255,7 @@
     "titolo": "Corso di Percussioni",
     "hero": "img/hero/PERC.webp",
     "descrizione": "Un corso per scoprire le percussioni, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["mambretti"],
@@ -271,7 +271,7 @@
     "titolo": "Corso Propedeutico Musicale",
     "hero": "img/hero/PROPEDEUTICO.webp",
     "descrizione": "Un corso introduttivo per bambini e ragazzi, per avvicinarsi alla musica in modo divertente e stimolante.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["scalvini"],
@@ -287,7 +287,7 @@
     "titolo": "Corso di Pianoforte",
     "hero": "img/hero/PIANO.webp",
     "descrizione": "Un corso per scoprire il pianoforte, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["moraschi"],
@@ -303,7 +303,7 @@
     "titolo": "Corso di Canto",
     "hero": "img/hero/CANTO.webp",
     "descrizione": "Un corso per scoprire la propria voce, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["regenzi"],
@@ -319,7 +319,7 @@
     "titolo": "Corso di Chitarra",
     "hero": "img/hero/CHIT.webp",
     "descrizione": "Un corso per scoprire la chitarra, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["belleri"],
@@ -338,7 +338,7 @@
     "titolo": "Corso di Teoria e Solfeggio",
     "hero": "img/hero/TEO.webp",
     "descrizione": "Un corso fondamentale per ogni musicista, per migliorare la lettura musicale, il riconoscimento ritmico e sviluppare orecchio e autonomia musicale.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["scalvini"],
@@ -354,7 +354,7 @@
     "titolo": "Corso di Musica d'Insieme",
     "hero": "img/hero/MUS.webp",
     "descrizione": "Un corso per imparare a suonare in gruppo, adatto a tutti i livelli.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["mambretti"],
@@ -370,7 +370,7 @@
     "titolo": "Corso di Coro Pop",
     "hero": "img/hero/CORO.webp",
     "descrizione": "Un corso per cantare in coro, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["regenzi"],
@@ -386,7 +386,7 @@
     "titolo": "Laboratorio di Percussioni",
     "hero": "img/hero/PERC-LAB.webp",
     "descrizione": "Un laboratorio pratico per esplorare il mondo delle percussioni, adatto a tutti i livelli.",
-    "laClasse": "Al momento non è disponibile una descrizione dettagliata.",
+    "laClasse": "",
     "obiettivi": [
     ],
     "insegnanti": ["mambretti"],
