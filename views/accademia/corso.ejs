@@ -94,8 +94,8 @@ src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.t
   </div>
 
   <!-- Video -->
-  <h2 class="mb-4">Video dimostrativi</h2>
 <% if (corso.videoYoutube && corso.videoYoutube.length > 0) { %>
+  <h2 class="mb-4">Video dimostrativi</h2>
   <div class="row g-4 mb-5">
     <% corso.videoYoutube.forEach(link => { %>
       <div class="col-md-6">
@@ -108,9 +108,7 @@ src="/<%= !insegnante.foto || insegnante.foto.trim() === '' || insegnante.foto.t
       </div>
     <% }) %>
   </div>
-<% } else { %>
-  <p class="text-muted">Al momento non ci sono link attivi.</p>
-<% } %>
+ <% } %>
 
 
   <div class="text-center">
