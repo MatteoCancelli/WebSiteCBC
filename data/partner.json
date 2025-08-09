@@ -3,12 +3,24 @@
         "img": "img/partner/comuneCastelcovati.webp",
         "tier": "Istituzioni",
         "nome": "Comune di Castelcovati",
-        "link": "https://www.partner1.com"
+        "link": "https://www.comune.castelcovati.bs.it/it"
     },
     {
         "img": "img/partner/bibliotecaCastelcovati.webp",
         "tier": "Istituzioni",
         "nome": "Biblioteca Comunale Gianni Rodari",
-        "link": "https://www.partner1.com"
+        "link": ""
+    },
+    {
+        "img": "img/partner/btl.webp",
+        "tier": "Gold Partner",
+        "nome": "BTL Castelcovati",
+        "link": "https://www.bancadelterritoriolombardo.it/privati/"
+    },
+    {
+        "img": "img/partner/mambrecolor.webp",
+        "tier": "Platinum Partner",
+        "nome": "Mambrecolor",
+        "link": ""
     }
 ]
