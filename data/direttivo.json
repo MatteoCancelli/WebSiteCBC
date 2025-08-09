@@ -1,13 +1,13 @@
 {
-  "elezione": "5 Aprile 2025",
-  "scadenza": "Aprile 2028",
+  "elezione": "4 Ottobre 2022",
+  "scadenza": "Ottobre 2025",
   "consiglio": [
     {
-      "nome": "Francesco Agosti",
+      "nome": "Matteo Cancelli",
       "ruolo": "Presidente"
     },
     {
-      "nome": "Matteo Bertocchi",
+      "nome": "Luca Buizza",
       "ruolo": "Vicepresidente"
     },
     {
@@ -15,28 +15,28 @@
       "ruolo": "Segretario Tesoriere"
     },
     {
-      "nome": "Emanuele Gritti",
+      "nome": "Gaia Salvoni",
       "ruolo": "Consigliere"
     },
     {
-      "nome": "Veronica Rossi",
+      "nome": "Simone Mercandelli",
       "ruolo": "Consigliere"
     },
     {
-      "nome": "Gianfranco Scalvini",
+      "nome": "Samanda Tabaku",
       "ruolo": "Consigliere"
     },
     {
-      "nome": "Matteo Scalvini",
+      "nome": "Francesco Agosti",
       "ruolo": "Consigliere"
     }
   ],
   "revisori": [
     {
-      "nome": "Franco Lizza"
+      "nome": ""
     },
     {
-      "nome": "Roberta Festa"
+      "nome": ""
     }
   ],
   "altriRuoli": [
@@ -45,28 +45,36 @@
       "ruolo": "Responsabile Accademia Musicale"
     },
     {
-      "nome": "Mario Rossi",
+      "nome": "Claudio Farina",
       "ruolo": "Responsabile manutenzione e logistica"
     },
     {
-      "nome": "Lucia Bianchi",
+      "nome": "Gaia Salvoni",
       "ruolo": "Responsabile archivio"
     },
     {
-      "nome": "Sara Verdi",
+      "nome": "Luca Buizza",
       "ruolo": "Responsabile comunicazioni e relazioni esterne"
     },
     {
-      "nome": "Luigi Neri",
+      "nome": "Luca Buizza",
       "ruolo": "Responsabile inventario e magazzino"
     },
     {
-      "nome": "Elena Gialli",
+      "nome": "Matteo Cancelli",
       "ruolo": "Responsabile segreteria e amministrazione"
     },
     {
-      "nome": "Giulia Blu",
+      "nome": "Samanda Tabaku",
       "ruolo": "Responsabile social media e pubblicità"
+    },
+    {
+      "nome": "Daniele Sauda",
+      "ruolo": "Alfiere del gagliardetto"
+    },
+    {
+      "nome": "Katia Guerrini",
+      "ruolo": "Responsabile catering e ristorazione  per eventi"
     }
   ]
 }
