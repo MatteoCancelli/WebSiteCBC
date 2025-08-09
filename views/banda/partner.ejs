@@ -34,12 +34,19 @@
           %>
             <div class="<%= colClass %>">
               <div class="card border-0 shadow-sm h-100 text-center">
-                <a href="<%= partner.link %>" target="_blank" rel="noopener" class="text-decoration-none text-dark">
-                  <img src="<%= partner.img %>" class="card-img-top p-2" alt="<%= partner.nome %>" style="height: <%= imgHeight %>; object-fit: contain;">
-                  <div class="card-body p-2">
-                    <p class="card-text small mb-0"><%= partner.nome %></p>
-                  </div>
-                </a>
+                <% if (partner.link && partner.link.trim() !== "") { %>                 
+                    <a href="<%= partner.link %>" target="_blank" rel="noopener" class="text-decoration-none text-dark">
+                      <img src="<%= partner.img %>" class="card-img-top p-2" alt="<%= partner.nome %>" style="height: <%= imgHeight %>; object-fit: contain;">
+                      <div class="card-body p-2">
+                        <p class="card-text small mb-0"><%= partner.nome %></p>
+                      </div>
+                    </a>
+                  <% } else { %>
+                    <img src="<%= partner.img %>" class="card-img-top p-2" alt="<%= partner.nome %>" style="height: <%= imgHeight %>; object-fit: contain;">
+                    <div class="card-body p-2">
+                      <p class="card-text small mb-0"><%= partner.nome %></p>
+                    </div>
+                  <% } %>
               </div>
             </div>
           <% }) %>
