@@ -1,33 +1,20 @@
 {
   "tag": "direttore",
-  "nome": "M° Nome Cognome",
+  "nome": "Marco Rampini",
   "foto": "img/direzione/default.webp",
   "titolo": "Direttore Artistico",
-  "descrizione": "Direzione artistica, visione culturale, supervisione didattica",
-  "bio": "Il Maestro Nome Cognome è il direttore artistico dell’accademia e coordina le attività culturali, artistiche e formative dell’istituto. Con un'esperienza pluriennale nel mondo musicale e una visione pedagogica attenta, guida l’accademia verso l’eccellenza.",
+  "descrizione": "Direzione artistica, visione culturale",
+  "bio": "",
   "titoli": [
-    "Diploma in Conservatorio – Strumento",
-    "Master in Didattica Musicale",
-    "Direzione Artistica per Festival e Rassegne"
+
   ],
   "esperienza": [
-    "Direttore artistico per [Festival Musicale]",
-    "Docente presso [Conservatorio / Accademia]",
-    "Collaborazioni con artisti e ensemble internazionali"
+
   ],
   "videoYoutube": [
-    {
-      "titolo": "Intervista al Direttore",
-      "link": "https://www.youtube.com/embed/example1"
-    },
-    {
-      "titolo": "Performance live",
-      "link": "https://www.youtube.com/embed/example2"
-    }
+
   ],
   "galleria": [
-    "img/direzione/default.webp",
-    "img/direzione/default.webp",
-    "img/direzione/default.webp"
+
   ]
 }
