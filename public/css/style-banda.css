@@ -99,3 +99,12 @@
   background-color: #cc9f01 !important;
   color: #000 !important;
 }
+
+.border-custom {
+  border: 2px solid #FEC601;
+  border-radius: 16px;
+}
+
+.text-primary {
+  color: #C8553D !important;
+}

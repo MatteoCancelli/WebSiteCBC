@@ -74,10 +74,13 @@ export const mostraChiSiamo = (req, res) => {
   });
 };
 export const mostraStoria = (req, res) => {
+  const storiaPath = path.join(__dirname, "../data/storia.json");
+  const storia = JSON.parse(readFileSync(storiaPath));
   res.render("banda/storia", {
     title: "La nostra Storia",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    storia,
   });
 };
 export const mostraDirettore = (req, res) => {
