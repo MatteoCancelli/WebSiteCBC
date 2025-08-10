@@ -4,38 +4,36 @@
   <h1 class="mb-4 text-center">La nostra storia</h1>
 
   <div class="timeline">
-    <% 
-      let eventiPerAnno = {};
-      storia.forEach(function(item) {
-        if (!eventiPerAnno[item.anno]) {
-          eventiPerAnno[item.anno] = [];
-        }
-        eventiPerAnno[item.anno].push(item);
-      });
-    %>
-
-    <% Object.keys(eventiPerAnno).forEach(function(anno) { %>
-      <div class="mb-4 p-3 border-custom rounded">
-        <h4 class="fw-bold text-primary mb-3"><%= anno %></h4>
-        <% eventiPerAnno[anno].forEach(function(ev) { %>
-          <div class="row mb-1 align-items-center">
-            <% if (ev.img && ev.img.trim() !== "") { %>
-              <!-- Con immagine -->
-              <div class="col-md-6">
-                <p class="text-justify"><%= ev.evento %></p>
-              </div>
-              <div class="col-md-6">
-                <img src="<%= ev.img %>" alt="Foto <%= anno %>" class="img-fluid rounded shadow-sm my-2">
-              </div>
-            <% } else { %>
-              <!-- Solo testo -->
-              <div class="col-12">
-                <p class="text-justify"><%= ev.evento %></p>
-              </div>
+    <% let eventiPerAnno = {}; storia.forEach(function(item) { if
+    (!eventiPerAnno[item.anno]) { eventiPerAnno[item.anno] = []; }
+    eventiPerAnno[item.anno].push(item); }); %> <%
+    Object.keys(eventiPerAnno).forEach(function(anno) { %>
+    <div class="mb-4 p-3 border-custom rounded">
+      <h4 class="fw-bold text-primary mb-3"><%= anno %></h4>
+      <% eventiPerAnno[anno].forEach(function(ev) { %>
+      <div class="row mb-1 align-items-center">
+        <% if (ev.img && ev.img.trim() !== "") { %>
+        <div class="col-8">
+          <p class="text-justify"><%= ev.evento %></p>
+        </div>
+        <div class="col-4">
+          <a
+            href="<%= ev.img %>"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-md btn-primary mt-1"
+          >
+            📷 Vedi foto
+          </a>
+          <% } else { %>
+          <div class="col-12">
+            <p class="text-justify"><%= ev.evento %></p>
             <% } %>
           </div>
+        </div>
         <% }); %>
       </div>
-    <% }); %>
+      <% }); %>
+    </div>
   </div>
 </div>
