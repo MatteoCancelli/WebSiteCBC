@@ -4,7 +4,7 @@
   <h1 class="mb-4 text-center">I nostri insegnanti</h1>
   <div class="row g-4">
     <% insegnanti.forEach(ins => { %>
-      <div class="col-md-3">
+      <div class="col-sm-3 col-md-6 col-lg-6 col-xl-3">
         <div class="card h-100 shadow-sm border-0 d-flex flex-column">
           <img src="/<%= !ins.foto || ins.foto.trim() === '' || ins.foto.trim() === 'img/insegnanti/' ? 'img/insegnanti/default.webp' : ins.foto %>"
             class="card-img-top" style="height: 300px; object-fit: cover;">
