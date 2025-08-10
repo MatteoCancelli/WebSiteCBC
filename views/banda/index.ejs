@@ -1,11 +1,122 @@
 <% layout('layout') %>
 
-<h1 class="display-4 mb-3">Banda Musicale</h1>
-<p class="lead">Benvenuto nella home della banda!</p>
+<!-- HERO banner full-width -->
+<section class="banner mb-4">
+  <picture>
+    <img
+      src="/img/hero/banda-hero.webp"
+      alt="Corpo Bandistico di Castelcovati - foto di gruppo"
+      class="img-fluid w-100 banner-img rounded-3"
+    />
+  </picture>
+</section>
 
-<div class="row">
-  <p>"A volte, qualcuno sostiene amaramente, la gente avverte la funzione della banda solo quando manca, come succede per le persone il cui affetto si dà per scontato per lunga consuetudine, e poi, quando ci lasciano, ci consegnano a una incolmabile solitudine. Non cadiamo in questo pericolo: sosteniamo con costanza la nostra banda con lo stimolo, ai nostri giovani, perché si formino musicalmente e ne facciano parte."
+<!-- CONTENUTO -->
+<section class="container mb-5 content-overlay border-custom">
+  <div>
+    <h2 class="fw-bold text-center mb-3 text-primary">Corpo Bandistico di Castelcovati</h2>
+    <p class="fs-5 text-justify">
+      Dal 1985 il Corpo Bandistico di Castelcovati è un'associazione musicale che
+      promuove la cultura musicale e l'aggregazione sociale attraverso la
+      musica. Con una storia ricca e un repertorio variegato, il nostro corpo
+      bandistico è un punto di riferimento per la comunità locale e non solo.
+    </p>
+  </div>
+</section>
 
-<br>
-<p class="text-end"><strong>GIULIANO GRITTI</strong></p>
-</div>
+<!-- Mission & Vision -->
+<section class="container mb-5">
+  <div class="row align-items-stretch my-5">
+    <div class="col-md-6 mb-4 mb-md-0 ">
+      <div class="p-4 border-custom h-100 content-overlay">
+        <h3 class="text-primary text-center">Mission</h3>
+        <p class="fs-5 text-justify">
+
+        </p>
+      </div>
+    </div>
+    <div class="col-md-6 ">
+      <div class="p-4 border-custom h-100 content-overlay">
+        <h3 class="text-primary text-center">Vision</h3>
+        <p class="fs-5">
+
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Sezione eventi / corsi -->
+<section class="container mb-5 content-overlay border-custom">
+  <h3 class="fw-bold text-primary mb-3">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </h3>
+  <ul class="mb-0">
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+  </ul>
+</section>
+
+<style>
+  /* Sfondo fisso su tutto il body - sempre intero */
+  body {
+    background: url("/img/logoBanda.webp") center center / contain no-repeat
+      fixed;
+    background-color: #f8f9fa; /* fallback color */
+  }
+
+  /* Overlay semi-trasparente per migliorare la leggibilità */
+  .content-overlay {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* HERO banner full-width: mantiene immagine a tutta larghezza e altezza dinamica */
+  .banner {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    /* margin-left: calc(-50vw + 50%); evita le bande laterali se il layout usa container max-width */
+  }
+
+  /* banner-img: height variabile con object-fit per mantenere l'aspetto */
+  .banner-img {
+    display: block;
+    width: 100%;
+    height: clamp(200px, 40vh, 560px); /* adatta altezza a schermo */
+    object-fit: cover; /* usa 'contain' se vuoi mostrare sempre tutta l'immagine */
+    object-position: center center;
+  }
+
+  /* piccoli ritocchi immagine nella sezione chi siamo */
+  figure img {
+    height: auto;
+    max-height: 360px;
+    object-fit: cover;
+  }
+
+  /* Migliora la leggibilità delle sezioni con sfondo */
+  .bg-light {
+    background-color: rgba(248, 249, 250, 0.9) !important;
+  }
+
+  /* su schermi molto piccoli, mantieni lo sfondo fisso e intero */
+  @media (max-width: 576px) {
+    .banner-img {
+      height: clamp(140px, 30vh, 260px);
+      object-position: center top;
+    }
+
+    body {
+      background: url("/img/logoBanda.webp") center center / contain no-repeat
+        fixed;
+      /* Mantieni lo sfondo fisso anche su mobile */
+    }
+
+    .content-overlay {
+      padding: 1rem;
+    }
+  }
+</style>
