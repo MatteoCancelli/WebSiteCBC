@@ -79,7 +79,7 @@
   {
   "tag": "castaneda",
   "nome": "Maestra Elena Castaneda",
-  "foto": "img/insegnanti/",
+  "foto": "img/insegnanti/castaneda.webp",
   "descrizione": "Corno Francese",
   "bio": "Elena Castaneda è una cornista diplomata presso il Conservatorio “Luca Marenzio” di Darfo Boario Terme. Attualmente frequenta il biennio in Musicoterapia presso lo stesso istituto. Svolge attività didattica e collabora con diverse realtà musicali e orchestrali.",
   "titoli": [
@@ -92,7 +92,7 @@
     "Collaborazione con varie realtà bandistiche e orchestrali",
     "Partecipazione a masterclass con docenti italiani e internazionali"
   ],
-  "citazione": "",
+  "citazione": "L'importante è respirare!",
   "corsi": ["HF"]
 },
   {
