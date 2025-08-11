@@ -7,10 +7,13 @@ const __dirname = path.dirname(__filename);
 const { readFileSync } = fs;
 
 export const mostraHome = (req, res) => {
+  const direttorePath = path.join(__dirname, "../data/direttoreArtistico.json");
+  const direttore = JSON.parse(readFileSync(direttorePath));
   res.render("banda/index", {
     title: "Corpo Bandistico di Castelcovati",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    direttore,
   });
 };
 

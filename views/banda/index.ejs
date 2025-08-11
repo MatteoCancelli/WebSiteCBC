@@ -1,7 +1,7 @@
 <% layout('layout') %>
 
-<!-- HERO banner full-width -->
-<section class="banner mb-4">
+<!-- HERO -->
+<section class="banner mb-4 position-relative">
   <picture>
     <img
       src="/img/hero/banda-hero.webp"
@@ -11,112 +11,166 @@
   </picture>
 </section>
 
-<!-- CONTENUTO -->
+<!-- Citazione Giuliano Gritti -->
 <section class="container mb-5 content-overlay border-custom">
-  <div>
-    <h2 class="fw-bold text-center mb-3 text-primary">Corpo Bandistico di Castelcovati</h2>
-    <p class="fs-5 text-justify">
-      Dal 1985 il Corpo Bandistico di Castelcovati è un'associazione musicale che
-      promuove la cultura musicale e l'aggregazione sociale attraverso la
-      musica. Con una storia ricca e un repertorio variegato, il nostro corpo
-      bandistico è un punto di riferimento per la comunità locale e non solo.
-    </p>
+  <p class="fs-5 fst-italic">
+    "A volte, qualcuno sostiene amaramente, la gente avverte la funzione della
+    banda solo quando manca, come succede per le persone il cui affetto si dà
+    per scontato per lunga consuetudine, e poi, quando ci lasciano, ci
+    consegnano a una incolmabile solitudine. Non cadiamo in questo pericolo:
+    sosteniamo con costanza la nostra banda con lo stimolo, ai nostri giovani,
+    perché si formino musicalmente e ne facciano parte."
+  </p>
+  <p class="text-end"><strong>GIULIANO GRITTI</strong></p>
+</section>
+
+<!-- Chi siamo -->
+<section class="container mb-5 content-overlay border-custom">
+  <h2 class="fw-bold text-center mb-3 text-primary">
+    Corpo Bandistico di Castelcovati
+  </h2>
+  <p class="fs-5">
+    Dal 1985 il Corpo Bandistico di Castelcovati è un’associazione musicale che
+    promuove la cultura musicale e l’aggregazione sociale attraverso la musica.
+    Non siamo solo un corpo musicale: siamo una vera e propria “classe”
+    eterogenea, composta da persone di tutte le età e con capacità differenti,
+    unite dalla stessa passione per il suono e la condivisione. Ogni settimana
+    ci ritroviamo per provare insieme, affinare la nostra tecnica con il
+    Direttore Artistico e crescere come gruppo, non solo come musicisti. La
+    nostra storia è fatta di concerti, progetti e momenti condivisi che hanno
+    segnato il cammino dell’associazione.
+  </p>
+  <div class="text-center mt-3">
+    <a href="/storia" class="btn btn-primary px-4">Scopri la nostra storia</a>
   </div>
 </section>
 
-<!-- Mission & Vision -->
-<section class="container mb-5">
-  <div class="row align-items-stretch my-5">
-    <div class="col-md-6 mb-4 mb-md-0 ">
-      <div class="p-4 border-custom h-100 content-overlay">
-        <h3 class="text-primary text-center">Mission</h3>
-        <p class="fs-5 text-justify">
-
-        </p>
-      </div>
+<!-- Direttore Artistico -->
+<section class="container mb-5 content-overlay border-custom">
+  <div class="row align-items-center">
+    <div class="col-md-6 order-md-2 mb-4 mb-md-0">
+      <picture>
+       <img
+        <% if (direttore.foto && direttore.foto.trim()) { %>
+          src="<%= direttore.foto %>" 
+          <% } else { %>
+            src="/img/direzione/default.webp"
+          <% } %>
+            alt="<%= direttore.nome %>"
+          class="img-fluid rounded shadow-sm"
+          style="
+            max-width: 250px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          "
+        />
+      </picture>
     </div>
-    <div class="col-md-6 ">
-      <div class="p-4 border-custom h-100 content-overlay">
-        <h3 class="text-primary text-center">Vision</h3>
-        <p class="fs-5">
-
-        </p>
+    <div class="col-md-6 order-md-1">
+      <h2 class="text-center fw-bold text-primary mb-3">
+        Il Direttore Artistico
+      </h2>
+      <p class="fs-5">
+        Il Direttore Artistico guida le prove settimanali, cura il repertorio e
+        stimola la crescita musicale di ogni componente. La sua esperienza è il
+        filo conduttore che unisce l’energia dei giovani all’esperienza dei
+        veterani, creando un suono armonioso e coeso.
+      </p>
+      <div class="text-center mt-3">
+        <a href="/direttore" class="btn btn-primary px-4"
+          >Conosci il direttore</a
+        >
       </div>
     </div>
   </div>
 </section>
 
-
-<!-- Sezione eventi / corsi -->
+<!-- Accademia Musicale -->
 <section class="container mb-5 content-overlay border-custom">
-  <h3 class="fw-bold text-primary mb-3">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-  </h3>
-  <ul class="mb-0">
-    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-  </ul>
+  <div class="row align-items-center">
+    <div class="col-md-6 mb-4 mb-md-0">
+      <picture>
+        <img
+          src="/img/accademia.webp"
+          alt="Accademia musicale"
+          class="img-fluid rounded shadow-sm"
+        />
+      </picture>
+    </div>
+    <div class="col-md-6">
+      <h2 class="text-center fw-bold text-primary mb-3">
+        Vorresti unirti, ma non tocchi uno strumento dalle scuole medie?
+      </h2>
+      <p class="fs-5">
+        La nostra accademia è aperta a tutti
+        <strong> bambini, ragazzi e adulti </strong> che vogliono scoprire il
+        piacere di suonare uno strumento musicale. Che tu parta da zero o voglia
+        perfezionare le tue abilità, troverai <strong>lezioni personalizzate</strong> in base
+        alla tua età e alla tua esperienza. Non è solo un corso: è l’inizio di
+        un hobby che può accompagnarti per tutta la vita, regalandoti emozioni,
+        amicizie e soddisfazioni uniche. Iscriviti e unisciti a noi: il prossimo
+        musicista potresti essere tu!
+      </p>
+      <div class="text-center mt-3">
+        <a href="/accademia" class="btn btn-primary px-4"
+          >Scopri i corsi</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- instagram -->
+<section class="container mb-5 content-overlay border-custom">
+  <h2 class="fw-bold text-center mb-3 text-primary">
+    Seguici su Instagram
+  </h2>
+  <p class="fs-5">
+    La musica si vive, ma si ricorda anche con le immagini. Sul nostro profilo Instagram troverai le foto dei concerti,
+    delle prove, degli eventi speciali e dei momenti dietro le quinte che raccontano la vita del Corpo Bandistico. È il
+    modo migliore per restare aggiornato sulle prossime esibizioni e rivivere insieme le emozioni di quelle passate.
+    <strong>Non perdere il prossimo scatto: seguici e tieni il ritmo con noi!</strong>
+  </p>
+  <div class="text-center mt-3">
+    <a href="https://www.instagram.com/banda.castelcovati" target="_blank" rel="noopener" class="text-decoration-none">
+      <i class="bi bi-instagram fs-1" ></i>
+      <span class="visually-hidden">Instagram</span>
+    </a>
+  </div>
 </section>
 
 <style>
-  /* Sfondo fisso su tutto il body - sempre intero */
   body {
     background: url("/img/logoBanda.webp") center center / contain no-repeat
       fixed;
-    background-color: #f8f9fa; /* fallback color */
+    background-color: #f8f9fa;
   }
-
-  /* Overlay semi-trasparente per migliorare la leggibilità */
   .content-overlay {
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 10px;
     padding: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-
-  /* HERO banner full-width: mantiene immagine a tutta larghezza e altezza dinamica */
-  .banner {
-    width: 100%;
-    position: relative;
-    z-index: 2;
-    /* margin-left: calc(-50vw + 50%); evita le bande laterali se il layout usa container max-width */
-  }
-
-  /* banner-img: height variabile con object-fit per mantenere l'aspetto */
   .banner-img {
     display: block;
     width: 100%;
-    height: clamp(200px, 40vh, 560px); /* adatta altezza a schermo */
-    object-fit: cover; /* usa 'contain' se vuoi mostrare sempre tutta l'immagine */
-    object-position: center center;
-  }
-
-  /* piccoli ritocchi immagine nella sezione chi siamo */
-  figure img {
-    height: auto;
-    max-height: 360px;
+    height: clamp(200px, 40vh, 560px);
     object-fit: cover;
+    object-position: center;
   }
-
-  /* Migliora la leggibilità delle sezioni con sfondo */
-  .bg-light {
-    background-color: rgba(248, 249, 250, 0.9) !important;
-  }
-
-  /* su schermi molto piccoli, mantieni lo sfondo fisso e intero */
   @media (max-width: 576px) {
     .banner-img {
       height: clamp(140px, 30vh, 260px);
       object-position: center top;
     }
-
-    body {
-      background: url("/img/logoBanda.webp") center center / contain no-repeat
-        fixed;
-      /* Mantieni lo sfondo fisso anche su mobile */
-    }
-
     .content-overlay {
       padding: 1rem;
     }
+  }
+  .text-justify-custom {
+    text-align: justify;
   }
 </style>
