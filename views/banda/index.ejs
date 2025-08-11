@@ -2,13 +2,15 @@
 
 <!-- HERO -->
 <section class="banner mb-4 position-relative">
-  <picture>
-    <img
-      src="/img/hero/banda-hero.webp"
-      alt="Corpo Bandistico di Castelcovati - foto di gruppo"
-      class="img-fluid w-100 banner-img rounded-3"
-    />
-  </picture>
+  <div class="container">
+    <picture>
+      <img
+        src="/img/hero/banda-hero.webp"
+        alt="Corpo Bandistico di Castelcovati - foto di gruppo"
+        class="img-fluid banner-img rounded-3"
+      />
+    </picture>
+  </div>
 </section>
 
 <!-- Citazione Giuliano Gritti -->
@@ -141,36 +143,3 @@
     </a>
   </div>
 </section>
-
-<style>
-  body {
-    background: url("/img/logoBanda.webp") center center / contain no-repeat
-      fixed;
-    background-color: #f8f9fa;
-  }
-  .content-overlay {
-    background-color: rgba(255, 255, 255, 0.95);
-    border-radius: 10px;
-    padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  .banner-img {
-    display: block;
-    width: 100%;
-    height: clamp(200px, 40vh, 560px);
-    object-fit: cover;
-    object-position: center;
-  }
-  @media (max-width: 576px) {
-    .banner-img {
-      height: clamp(140px, 30vh, 260px);
-      object-position: center top;
-    }
-    .content-overlay {
-      padding: 1rem;
-    }
-  }
-  .text-justify-custom {
-    text-align: justify;
-  }
-</style>

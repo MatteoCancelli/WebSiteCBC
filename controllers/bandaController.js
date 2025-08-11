@@ -13,6 +13,7 @@ export const mostraHome = (req, res) => {
     title: "Corpo Bandistico di Castelcovati",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "home-page",
     direttore,
   });
 };

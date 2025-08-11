@@ -108,3 +108,32 @@
 .text-primary {
   color: #C8553D !important;
 }
+
+.home-page {
+  background: url("/img/logoBanda.webp") center center / contain no-repeat fixed;
+  background-color: #f8f9fa;
+}
+
+.home-page .content-overlay {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-page .banner-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 576px) {
+  .home-page .banner-img {
+    max-height: 260px;
+  }
+  .home-page .content-overlay {
+    padding: 1rem;
+  }
+}
