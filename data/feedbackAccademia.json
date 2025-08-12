@@ -1,22 +1,23 @@
 [
   {
-    "nome": "Luca R.",
-    "strumento": "Pianoforte",
-    "testimonianza": "Imparare musica qui è un sogno che si avvera!"
-  },
-  {
-    "nome": "Giulia B.",
+    "nome": "Gaia R.",
     "strumento": "Percussioni",
-    "testimonianza": "Ho trovato amici fantastici e insegnanti che mi ispirano ogni giorno."
+    "testimonianza": "Suonare, la cosa migliore che potessi imparare"
   },
   {
-    "nome": "Mattia S.",
-    "strumento": "Sax contralto",
-    "testimonianza": "Ogni lezione è un’avventura, la scuola è un posto bellissimo."
+    "nome": "Giulia F.",
+    "strumento": "Percussioni",
+    "testimonianza": "La musica mi ha dato la  possibilità di fare nuove amicizie"
   },
   {
-    "nome": "Chiara D.",
-    "strumento": "Flauto traverso",
-    "testimonianza": "Suonare insieme agli altri mi fa sentire parte di qualcosa di speciale."
+    "nome": "Libero F.",
+    "strumento": "Percussioni",
+    "testimonianza": "Le percussioni sono i migliori strumenti 🙂"
+  },
+  {
+    "nome": "Efrem R.",
+    "strumento": "Sax",
+    "testimonianza": "Suonare uno strumento è come dare voce alle proprie emozioni liberando la mente"
   }
 ]
+

@@ -319,8 +319,12 @@
     "titolo": "Corso di Chitarra",
     "hero": "img/hero/CHIT.webp",
     "descrizione": "Un corso per scoprire la chitarra, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "",
-    "obiettivi": [
+    "laClasse": "La classe di chitarra ha come obiettivo quello di rendere l’allievo un musicista autonomo, in grado di comprendere ciò che ascolta ed esprimersi attraverso il suo strumento, a prescindere dal genere o dalla finalità del percorso, che sia suonare nella banda, in una band rock di amici, comporre musica propria o intraprendere una carriera musicale professionale.",
+    "obiettivi": ["Padroneggiare tecnicamente lo strumento In contesti ritmici e solisti ad ogni livello",
+    "Comprensione ritmica, conseguente coordinazione e funzionalità degli arti superiori",
+    "Lettura, analisi ecomprensione armonica del brano per permettere esecuzione e composizione musicale",
+    "Ascolto attivo, ear training",
+    "Portare all’insegnante ogni tanto un panino con la mortazza che è il prosciutto dei muratori"
     ],
     "insegnanti": ["belleri"],
     "fotoStrumento": "img/corsiExtraBanda/Chit.webp",
