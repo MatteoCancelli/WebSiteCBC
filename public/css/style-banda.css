@@ -137,3 +137,34 @@
     padding: 1rem;
   }
 }
+
+/* Linea verticale centrale */
+.timeline {
+  border-left: 3px solid #C8553D;
+  padding-left: 2rem;
+}
+
+/* Punto sulla linea */
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  background-color: #C8553D;
+  border-radius: 50%;
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #C8553D;
+}
+
+/* Mobile: linea più sottile */
+@media (max-width: 576px) {
+  .timeline {
+    border-left-width: 2px;
+  }
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+    left: -8px;
+  }
+}

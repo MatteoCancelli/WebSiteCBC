@@ -3,7 +3,7 @@
 <div class="container my-5">
   <h1 class="mb-4 text-center">La nostra storia</h1>
 
-  <div class="timeline">
+  <div class="timeline position-relative">
     <% 
       let eventiPerAnno = {};
       storia.forEach(function(item) {
@@ -15,7 +15,8 @@
     %>
 
     <% Object.keys(eventiPerAnno).forEach(function(anno) { %>
-      <div class="mb-4 p-3 border-custom rounded">
+      <div class="timeline-item mb-4 p-3 border-custom rounded position-relative">
+        <div class="timeline-dot"></div>
         <h4 class="fw-bold text-primary mb-3"><%= anno %></h4>
         <% eventiPerAnno[anno].forEach(function(ev) { %>
           <div class="row mb-3 align-items-center">
@@ -45,6 +46,7 @@
     <% }); %>
   </div>
 </div>
+
 
 <!-- Modal per lightbox -->
 <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
