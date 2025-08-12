@@ -87,11 +87,22 @@
     </div>
   </div>
 
-  <!-- Testimonianze -->
-  <h3 class="text-center text-primary mb-4">Cosa dicono i nostri allievi</h3>
-  <div class="testimonianze-section text-white py-5 mb-5">
+<%
+  // Copia l'array originale per non modificarlo globalmente
+  let feedbackShuffled = [...feedback];
+
+  // Fisher–Yates shuffle
+  for (let i = feedbackShuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [feedbackShuffled[i], feedbackShuffled[j]] = [feedbackShuffled[j], feedbackShuffled[i]];
+  }
+%>
+
+<!-- Testimonianze -->
+<h3 class="text-center text-primary mb-4">Cosa dicono i nostri allievi</h3>
+<div class="testimonianze-section text-white py-5 mb-5">
   <div class="testimonianze-container">
-    <% feedback.forEach((item, index) => { %>
+    <% feedbackShuffled.forEach((item, index) => { %>
       <div class="testimonianza <%= index === 0 ? 'visibile' : '' %>">
         <div class="feedback-box mx-auto text-center">
           <p class="fs-5 fst-italic mb-3">"<%= item.testimonianza %>"</p>
@@ -102,7 +113,6 @@
     <% }) %>
   </div>
 </div>
-
 
   <!-- Call to action -->
   <div class="text-center mt-5">
