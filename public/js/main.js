@@ -22,3 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
   setTimeout(showNextItem, 5000);
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".open-image").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const imgSrc = btn.getAttribute("data-img");
+      document.getElementById("modalImage").src = imgSrc;
+    });
+  });
+});

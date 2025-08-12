@@ -23,6 +23,7 @@ export const mostraEventi = (req, res) => {
     title: "Eventi",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "",
   });
 };
 
@@ -49,6 +50,7 @@ const partners = JSON.parse(rawData);
     title: "Partner",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "",
     partnerByTier,
   });
 };
@@ -59,6 +61,7 @@ export const mostraContatti = (req, res) => {
     title: "Contatti",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "",
   });
 };
 
@@ -67,6 +70,7 @@ export const mostraDona = (req, res) => {
     title: "Fai una Donazione",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "",
   });
 };
 
@@ -75,6 +79,7 @@ export const mostraChiSiamo = (req, res) => {
     title: "Chi Siamo",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "",
   });
 };
 export const mostraStoria = (req, res) => {
@@ -84,6 +89,7 @@ export const mostraStoria = (req, res) => {
     title: "La nostra Storia",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "",
     storia,
   });
 };
@@ -95,6 +101,7 @@ export const mostraDirettore = (req, res) => {
     title: "Il Direttore Artistico",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "",
     direttore,
   });
 };
@@ -107,6 +114,7 @@ export const mostraConsiglio = (req, res) => {
     title: "Consiglio Direttivo",
     head: "partials/head-banda",
     navbar: "partials/navbar-banda",
+    bodyClass: "",
     direttivo,
   });
 };

@@ -16,6 +16,7 @@ export const mostraHome = (req, res) => {
     title: "Accademia Musicale",
     head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",
+    bodyClass: "",
     feedback,
   });
 };
@@ -25,6 +26,7 @@ export const mostraSceltaCorsi = (req, res) => {
     title: "Scelta Corsi",
     head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",
+    bodyClass: "",
   });
 };
 
@@ -50,6 +52,7 @@ export const mostraCorso = (req, res) => {
     title: corso.titolo,
     head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",
+    bodyClass: "",
   });
 };
 
@@ -71,7 +74,8 @@ export const mostraInsegnante = (req, res) => {
     corsiInsegnante,
     title: insegnante.nome,
     head: "partials/head-accademia",
-    navbar: "partials/navbar-accademia"
+    navbar: "partials/navbar-accademia",
+    bodyClass: "",
   });
 };
 
@@ -84,6 +88,7 @@ export const mostraContatti = (req, res) => {
     title: "Contatti e Iscrizioni",
     head: "partials/head-accademia",
     navbar: "partials/navbar-accademia",
+    bodyClass: "",
     corsi,
   });
 };
@@ -123,6 +128,7 @@ export const inviaIscrizione = async (req, res) => {
       title: "Contatti e Iscrizioni",
       head: "partials/head-accademia",
       navbar: "partials/navbar-accademia",
+      bodyClass: "",
       success: true,
       corsi: JSON.parse(
         readFileSync(path.join(__dirname, "../data/corsi.json"))
@@ -134,6 +140,7 @@ export const inviaIscrizione = async (req, res) => {
       title: "Contatti e Iscrizioni",
       head: "partials/head-accademia",
       navbar: "partials/navbar-accademia",
+      bodyClass: "",
       success: false,
       corsi: JSON.parse(
         readFileSync(path.join(__dirname, "../data/corsi.json"))
@@ -149,6 +156,7 @@ export const mostraInsegnanti = (req, res) => {
     insegnanti,
     title: "I nostri insegnanti",
     head: "partials/head-accademia",
-    navbar: "partials/navbar-accademia"
+    navbar: "partials/navbar-accademia",
+    bodyClass: "",
   });
 };

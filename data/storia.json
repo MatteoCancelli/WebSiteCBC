@@ -6,7 +6,7 @@
     },
     {
         "anno": "1992",
-        "evento": "Ampliamento e rinnovamento dell'organico sotto la direzione del Maestro Paolo Rubagoti.",
+        "evento": "Ampliamento e rinnovamento dell'organico sotto la direzione del Maestro Paolo Rubagotti.",
         "img": ""
     },
     {
@@ -27,7 +27,7 @@
     {
         "anno": "2010",
         "evento": "Il Maestro Mattia Rullo assume la direzione. La banda partecipa alle giornate di classificazione organizzate da ABMB a Brescia, ottenendo buoni risultati e incoraggiamenti.",
-        "img": ""
+        "img": "/img/storia/giornata2010.JPG"
     },
     {
         "anno": "2013",
@@ -41,18 +41,23 @@
     },
     {
         "anno": "2016",
+        "evento": "Concerto Sant'Antonio",
+        "img": "/img/storia/santAntonio2016.JPG"
+    },
+    {
+        "anno": "2016",
         "evento": "27° Concerto estivo con la soprano Alessia Pintossi",
-        "img": "/img/storia/alessiaPintossi.webp"
+        "img": "/img/storia/concertoEstivo2016.jpg"
     },
     {
         "anno": "2017",
         "evento": "32° Concerto di Sant'Antonio con il fisarmonicista Gino Zambelli.",
-        "img": ""
+        "img": "/img/storia/santAntonio2017.jpg"
     },
     {
         "anno": "2017",
         "evento": "28° Concerto estivo 'Concerto d'Estate' con la partecipazione del Civico Corpo bandistico Musicale 'Giuseppe Verdi' - Gambara.",
-        "img": ""
+        "img": "/img/storia/concertoEstivo2017.JPG"
     },
     {
         "anno": "2020",
@@ -82,12 +87,22 @@
     {
         "anno": "2025",
         "evento": "38° Concerto di Sant'Antonio con ospite la Banda Sociale di Mori-Brentonico.",
-        "img": ""
+        "img": "/img/storia/santAntonio2025.jpeg"
+    },
+    {
+        "anno": "2025",
+        "evento": "Festa della Liberazione con Corpo Bandistico, Musica d'Insieme e le classi Quinte della scuola primaria di di Castelcovati.",
+        "img": "/img/storia/liberazione2025.JPG"
+    },
+    {
+        "anno": "2025",
+        "evento": "Concerto di primavera 'la musica nelle tue mani' con il Corpo Bandistico di Urago Mella.",
+        "img": "/img/storia/concertoPrimavera2025.jpg"
     },
     {
         "anno": "2018",
         "evento": "33° Concerto di Sant'Antonio 'Winter Symphony'.",
-        "img": ""
+        "img": "/img/storia/santAntonio2018.jpg"
     },
     {
         "anno": "2018",
@@ -125,8 +140,54 @@
     },
     {
         "anno": "2024",
-        "evento": "Concerto in memoria di Don Lino Toninelli con il Corpo Bandistico di Urago Mella.",
+        "evento": "Concerto 'Ricordi e musica un omaggio a Don Lino Toninelli' con il Corpo Bandistico di Urago Mella.",
         "img": ""
+    },
+    {
+        "anno": "2002",
+        "evento": "Esibizione da Cavalli Musica",
+        "img": "/img/storia/cavalli2002.jpg"
+    },
+    {
+        "anno": "1987",
+        "evento": "Comunioni",
+        "img": "/img/storia/comunioni1987.jpg"
+    },
+    {
+        "anno": "1999",
+        "evento": "Comunioni",
+        "img": "/img/storia/comunioni1999.jpg"
+    },
+    {
+        "anno": "2004",
+        "evento": "Concerto estivo",
+        "img": "/img/storia/concertoEstivo2004.jpg"
+    },
+    {
+        "anno": "2010",
+        "evento": "Concerto Sant'Antonio",
+        "img": "/img/storia/santAntonio2010.JPG"
+    },
+    {
+        "anno": "2011",
+        "evento": "Concerto Sant'Antonio con soprano Tea Franchi",
+        "img": "/img/storia/santAntonio2011.JPG"
+    },
+    {
+        "anno": "2011",
+        "evento": "Concerto Estivo a Polaveno",
+        "img": "/img/storia/polaveno2011.JPG"
+    },
+    {
+        "anno": "2012",
+        "evento": "25° Concerto Sant'Antonio",
+        "img": "/img/storia/santAntonio2012.JPG"
+    },
+    {
+        "anno": "2015",
+        "evento": "Concerto Estivo",
+        "img": "/img/storia/concertoEstivo2015.jpg"
     }
+    
     
 ]

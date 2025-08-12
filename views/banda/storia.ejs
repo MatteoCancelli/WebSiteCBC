@@ -4,36 +4,55 @@
   <h1 class="mb-4 text-center">La nostra storia</h1>
 
   <div class="timeline">
-    <% let eventiPerAnno = {}; storia.forEach(function(item) { if
-    (!eventiPerAnno[item.anno]) { eventiPerAnno[item.anno] = []; }
-    eventiPerAnno[item.anno].push(item); }); %> <%
-    Object.keys(eventiPerAnno).forEach(function(anno) { %>
-    <div class="mb-4 p-3 border-custom rounded">
-      <h4 class="fw-bold text-primary mb-3"><%= anno %></h4>
-      <% eventiPerAnno[anno].forEach(function(ev) { %>
-      <div class="row mb-1 align-items-center">
-        <% if (ev.img && ev.img.trim() !== "") { %>
-        <div class="col-8">
-          <p class="text-justify"><%= ev.evento %></p>
-        </div>
-        <div class="col-4">
-          <a
-            href="<%= ev.img %>"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="btn btn-md btn-primary mt-1"
-          >
-            📷 Vedi foto
-          </a>
-          <% } else { %>
-          <div class="col-12">
-            <p class="text-justify"><%= ev.evento %></p>
+    <% 
+      let eventiPerAnno = {};
+      storia.forEach(function(item) {
+        if (!eventiPerAnno[item.anno]) {
+          eventiPerAnno[item.anno] = [];
+        }
+        eventiPerAnno[item.anno].push(item);
+      });
+    %>
+
+    <% Object.keys(eventiPerAnno).forEach(function(anno) { %>
+      <div class="mb-4 p-3 border-custom rounded">
+        <h4 class="fw-bold text-primary mb-3"><%= anno %></h4>
+        <% eventiPerAnno[anno].forEach(function(ev) { %>
+          <div class="row mb-3 align-items-center">
+            <% if (ev.img && ev.img.trim() !== "") { %>
+              <div class="col-md-8">
+                <p class="text-justify"><%= ev.evento %></p>
+              </div>
+              <div class="col-md-4 text-center">
+                <button 
+                  type="button" 
+                  class="btn btn-md btn-primary mt-1 open-image" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#imageModal" 
+                  data-img="<%= ev.img %>"
+                >
+                  📷 Vedi foto
+                </button>
+              </div>
+            <% } else { %>
+              <div class="col-12">
+                <p class="text-justify"><%= ev.evento %></p>
+              </div>
             <% } %>
           </div>
-        </div>
         <% }); %>
       </div>
-      <% }); %>
+    <% }); %>
+  </div>
+</div>
+
+<!-- Modal per lightbox -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-transparent border-0">
+      <div class="modal-body p-0">
+        <img id="modalImage" src="" alt="Foto evento" class="img-fluid rounded shadow">
+      </div>
     </div>
   </div>
 </div>
