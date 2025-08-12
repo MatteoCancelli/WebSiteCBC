@@ -9,7 +9,7 @@ import bandaRoutes from "./routes/banda.js";
 import accademiaRoutes from "./routes/accademia.js";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000; // Render assegna la porta via env
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,10 +21,15 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// === Health check route per Render ===
+app.get("/healthz", (req, res) => {
+  res.status(200).json({ status: "ok" });
+});
+
 // Usa le routes organizzate per sezione
 app.use("/", bandaRoutes);
 app.use("/accademia", accademiaRoutes);
 
 app.listen(port, () => {
-  console.log(`\uD83C\uDFB6 Server avviato su http://localhost:${port}`);
+  console.log(`🎶 Server avviato su http://localhost:${port}`);
 });
