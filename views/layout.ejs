@@ -2,6 +2,35 @@
 <html lang="it">
   <head>
     <%- include(head) %>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Corpo Bandistico di Castelcovati",
+        "url": "https://tua-url.it",
+        "logo": "https://tua-url.it/assets/img/logoBanda.webp",
+        "sameAs": [
+          "https://www.facebook.com/banda.castelcovati",
+          "https://www.instagram.com/banda.castelcovati",
+        ],
+        "description": "Il Corpo Bandistico di Castelcovati è un'associazione musicale che promuove la cultura musicale e l’aggregazione sociale dal 1985.",
+        "foundingDate": "1985",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Aldo Moro, presso il campo sportivo",
+          "addressLocality": "Castelcovati",
+          "addressRegion": "BS",
+          "addressCountry": "IT"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "corpobandistico.castelcovati@gmail.com",
+          "telephone": "+39-371-7711684"
+        }
+      }
+    </script>
+
   </head>
   <body class="<%= bodyClass || '' %>">
     <%- include(navbar) %>
