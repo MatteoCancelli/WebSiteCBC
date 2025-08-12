@@ -113,12 +113,18 @@
     "nome": "Maestro Matteo Antonini",
     "foto": "img/insegnanti/antonini.webp",
     "descrizione": "Trombone",
-    "bio": "",
-    "titoli": [],
-    "esperienza": [
-
+    "bio": "Matteo Antonini è un trombonista che sta frequentando il conservatorio Giuseppe Verdi di Milano. Ha studiato con tanti maestri di fama nazionale come per esempio Alessandro Pogliani o Domenico Brancati.",
+    "titoli": [
+      "Diplomato al liceo Veronica Gambara di Brescia",
+      "Frequenta il conservatorio Giuseppe Verdi di Milano",
+      "Corsi di perfezionamento con Antonello Mazzucco, Joseph Alessi, Michel Becquet…."
     ],
-    "citazione": "",
+    "esperienza": [
+      "Collabora con la HBB, Hesperia Brass Band.",
+      "Ha eseguito delle masterclass con importanti maestri internazionali e nazionali.",
+      "Collabora con diverse orchestre e bande del territorio bresciano."
+    ],
+    "citazione": "Nulla è impossibile, basta volerlo!",
     "corsi": ["TB"]
   }
 ]
