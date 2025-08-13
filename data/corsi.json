@@ -235,22 +235,6 @@
     "videoYoutube": []
   },
   {
-    "tag": "TS",
-    "titolo": "Corso di Teoria e Solfeggio",
-    "hero": "img/hero/TS.webp",
-    "descrizione": "Un percorso completo per padroneggiare la teoria musicale, la lettura e il solfeggio ritmico e melodico.",
-    "laClasse": "",
-    "obiettivi": [
-    ],
-    "insegnanti": ["scalvini"],
-    "fotoStrumento": "img/section/Solfeggio.webp",
-    "giornoLezione": "",
-    "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
-    "modalita": "Individuale",
-    "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
-    "videoYoutube": []
-  },
-  {
     "tag": "PERC",
     "titolo": "Corso di Percussioni",
     "hero": "img/hero/PERC.webp",
