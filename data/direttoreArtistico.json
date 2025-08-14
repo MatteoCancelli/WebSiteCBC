@@ -1,20 +1,29 @@
 {
   "tag": "direttore",
   "nome": "Marco Rampini",
-  "foto": "img/direzione/default.webp",
+  "foto": "img/direzione/direzione2.webp",
   "titolo": "Direttore Artistico",
   "descrizione": "Direzione artistica, visione culturale",
   "bio": "",
   "titoli": [
+    "Corsi di direzione presso il CFB di Brescia con i maestri Denis Salvini e Arturo Andreoli.",
+    "Corsi di perfezionamento con i M° Lorenzo della Fonte, José Vilaplana, Ronald Johnson"
 
   ],
   "esperienza": [
+    "Direttore della banda di Capriano del Colle dal 2017 al 2021",
+    "Insegnante di clarinetto a Manerbio dal 2013 al 2024",
+    "Direttore della banda di Urago Mella dal 2022 al 2025",
+    "Direttore della banda di Castelcovati dal 2022 ad oggi",
+    "Direttore del gruppo legni a Pontevico dal 2024  ad oggi"
 
   ],
   "videoYoutube": [
 
   ],
   "galleria": [
-
+    "img/direzione/direzione1.webp",
+    "img/direzione/direzione3.webp",
+    "img/direzione/direzione4.webp"
   ]
 }
