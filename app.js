@@ -44,3 +44,11 @@ app.use(express.static('./', {
 app.get('/sitemap.xml', (req, res) => {
   res.sendFile(path.join(__dirname, 'sitemap.xml'));
 });
+
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain');
+  res.send(`User-agent: *
+Allow: /
+
+Sitemap: https://bandacastelcovati.it/sitemap.xml`);
+});
