@@ -33,3 +33,14 @@ app.use("/accademia", accademiaRoutes);
 app.listen(port, () => {
   console.log(`🎶 Server avviato su http://localhost:${port}`);
 });
+
+// Serve file statici dalla root per sitemap.xml
+app.use(express.static('./', { 
+  index: false, // Non servire index.html dalla root
+  dotfiles: 'ignore'
+}));
+
+// Oppure solo per la sitemap
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(path.join(__dirname, 'sitemap.xml'));
+});
