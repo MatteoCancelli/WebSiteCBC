@@ -5,8 +5,7 @@
     "hero": "img/hero/CL.webp",
     "descrizione": "Un corso completo per scoprire il clarinetto, sviluppando padronanza tecnica e musicalità, sia per principianti che per livelli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Clarinet.webp",
     "giornoLezione": "",
@@ -21,8 +20,7 @@
     "hero": "img/hero/OB.webp",
     "descrizione": "Un corso per scoprire l'oboe, uno strumento a fiato unico, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": [],
     "fotoStrumento": "img/section/Oboe.webp",
     "giornoLezione": "",
@@ -37,8 +35,7 @@
     "hero": "img/hero/FL.webp",
     "descrizione": "Un corso per scoprire la dolcezza e la versatilità del flauto traverso, adatto a tutti i livelli.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": [],
     "fotoStrumento": "img/section/Flute.webp",
     "giornoLezione": "",
@@ -53,8 +50,7 @@
     "hero": "img/hero/OTT.webp",
     "descrizione": "Un corso per scoprire il piccolo flauto, noto come ottavino, adatto a tutti i livelli.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": [],
     "fotoStrumento": "img/section/Piccolo.webp",
     "giornoLezione": "",
@@ -69,8 +65,7 @@
     "hero": "img/hero/CL.webp",
     "descrizione": "Un corso per scoprire il clarinetto basso, uno strumento a fiato unico, adatto a tutti i livelli.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Bass_Clarinet.webp",
     "giornoLezione": "",
@@ -85,8 +80,7 @@
     "hero": "img/hero/BSN.webp",
     "descrizione": "Un corso per scoprire il fagotto, uno strumento a fiato della famiglia dei legni, adatto a tutti i livelli.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": [],
     "fotoStrumento": "img/section/Bassoon.webp",
     "giornoLezione": "",
@@ -124,8 +118,7 @@
     "hero": "img/hero/TP.webp",
     "descrizione": "Un corso pensato per scoprire la potenza e la brillantezza della tromba, ideale per bambini, giovani e adulti.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": [],
     "fotoStrumento": "img/section/Trumpet.webp",
     "giornoLezione": "",
@@ -146,7 +139,7 @@
       "Approccio a brani solistici, cameristici e orchestrali in preparazione per concerti e saggi.",
       "Ascolto attivo e intonazione relativa. Autonomia nello studio."
     ],
-    "insegnanti": ["antonini"],
+    "insegnanti": ["antonini", "capitanio"],
     "fotoStrumento": "img/section/Trombone.webp",
     "giornoLezione": "Martedì",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
@@ -159,12 +152,18 @@
     "titolo": "Corso di Euphonium",
     "hero": "img/hero/EUPH.webp",
     "descrizione": "Scopri il timbro caldo dell'euphonium con lezioni su misura per ogni livello.",
-    "laClasse": "",
+    "laClasse": "Imparare lo strumento, ma soprattutto imparare qualcosa su sé stessi e affrontare la vita con una marcia in più (non solo nel libretto)! In classe ti sentirai accettato e guidato secondo i tuoi naturali punti di forza.",
     "obiettivi": [
+      "Impostazione di base: suono, imboccatura e coulisse/pistoni.",
+      "Padronanza della tecnica di base: scale, arpeggi, flessibilità, dinamiche e registri.",
+      "Miglioramento dell’intonazione e della musicalità attraverso il canto e l'ascolto.",
+      "Lettura a prima vista",
+      "Studio progressivo di brani e studi in preparazione per concerti e saggi.",
+      "Autonomia nello studio e nel pensiero"
     ],
-    "insegnanti": [],
+    "insegnanti": ["capitanio"],
     "fotoStrumento": "img/section/Euphonium.webp",
-    "giornoLezione": "",
+    "giornoLezione": "Venerdì",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
@@ -176,8 +175,7 @@
     "hero": "img/hero/TUB.webp",
     "descrizione": "Un corso per scoprire il ruolo fondamentale della tuba all'interno di bande e orchestre.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": [],
     "fotoStrumento": "img/section/Tuba.webp",
     "giornoLezione": "",
@@ -192,8 +190,7 @@
     "hero": "img/hero/SAXA.webp",
     "descrizione": "Un corso per scoprire il sassofono contralto, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Alto_Sax.webp",
     "giornoLezione": "",
@@ -208,8 +205,7 @@
     "hero": "img/hero/SAXT.webp",
     "descrizione": "Un corso per scoprire il sassofono tenore, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Tenor_Sax.webp",
     "giornoLezione": "",
@@ -224,8 +220,7 @@
     "hero": "img/hero/SAXB.webp",
     "descrizione": "Un corso per scoprire il sassofono baritono, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["corvaglia"],
     "fotoStrumento": "img/section/Baritone_Sax.webp",
     "giornoLezione": "",
@@ -240,8 +235,7 @@
     "hero": "img/hero/PERC.webp",
     "descrizione": "Un corso per scoprire le percussioni, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/section/Percussion.webp",
     "giornoLezione": "",
@@ -256,8 +250,7 @@
     "hero": "img/hero/PROPEDEUTICO.webp",
     "descrizione": "Un corso introduttivo per bambini e ragazzi, per avvicinarsi alla musica in modo divertente e stimolante.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/corsiExtraBanda/Propedeutico.webp",
     "giornoLezione": "Mercoledì alle 17:00",
@@ -272,8 +265,7 @@
     "hero": "img/hero/PIANO.webp",
     "descrizione": "Un corso per scoprire il pianoforte, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["moraschi"],
     "fotoStrumento": "img/corsiExtraBanda/Piano.webp",
     "giornoLezione": "",
@@ -288,8 +280,7 @@
     "hero": "img/hero/CANTO.webp",
     "descrizione": "Un corso per scoprire la propria voce, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["regenzi"],
     "fotoStrumento": "img/corsiExtraBanda/Canto.webp",
     "giornoLezione": "",
@@ -304,11 +295,12 @@
     "hero": "img/hero/CHIT.webp",
     "descrizione": "Un corso per scoprire la chitarra, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "La classe di chitarra ha come obiettivo quello di rendere l’allievo un musicista autonomo, in grado di comprendere ciò che ascolta ed esprimersi attraverso il suo strumento, a prescindere dal genere o dalla finalità del percorso, che sia suonare nella banda, in una band rock di amici, comporre musica propria o intraprendere una carriera musicale professionale.",
-    "obiettivi": ["Padroneggiare tecnicamente lo strumento In contesti ritmici e solisti ad ogni livello",
-    "Comprensione ritmica, conseguente coordinazione e funzionalità degli arti superiori",
-    "Lettura, analisi ecomprensione armonica del brano per permettere esecuzione e composizione musicale",
-    "Ascolto attivo, ear training",
-    "Portare all’insegnante ogni tanto un panino con la mortazza che è il prosciutto dei muratori"
+    "obiettivi": [
+      "Padroneggiare tecnicamente lo strumento In contesti ritmici e solisti ad ogni livello",
+      "Comprensione ritmica, conseguente coordinazione e funzionalità degli arti superiori",
+      "Lettura, analisi ecomprensione armonica del brano per permettere esecuzione e composizione musicale",
+      "Ascolto attivo, ear training",
+      "Portare all’insegnante ogni tanto un panino con la mortazza che è il prosciutto dei muratori"
     ],
     "insegnanti": ["belleri"],
     "fotoStrumento": "img/corsiExtraBanda/Chit.webp",
@@ -327,8 +319,7 @@
     "hero": "img/hero/TEO.webp",
     "descrizione": "Un corso fondamentale per ogni musicista, per migliorare la lettura musicale, il riconoscimento ritmico e sviluppare orecchio e autonomia musicale.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["scalvini"],
     "fotoStrumento": "img/corsiExtraBanda/Teo.webp",
     "giornoLezione": "",
@@ -343,8 +334,7 @@
     "hero": "img/hero/MUS.webp",
     "descrizione": "Un corso per imparare a suonare in gruppo, adatto a tutti i livelli.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/corsiExtraBanda/Mus.webp",
     "giornoLezione": "",
@@ -359,8 +349,7 @@
     "hero": "img/hero/CORO.webp",
     "descrizione": "Un corso per cantare in coro, adatto a tutti i livelli, dai principianti agli avanzati.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["regenzi"],
     "fotoStrumento": "img/corsiExtraBanda/Coro.webp",
     "giornoLezione": "",
@@ -375,8 +364,7 @@
     "hero": "img/hero/PERC-LAB.webp",
     "descrizione": "Un laboratorio pratico per esplorare il mondo delle percussioni, adatto a tutti i livelli.",
     "laClasse": "",
-    "obiettivi": [
-    ],
+    "obiettivi": [],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/corsiExtraBanda/Perc-Lab.webp",
     "giornoLezione": "",
