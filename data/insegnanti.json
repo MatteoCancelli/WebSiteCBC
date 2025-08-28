@@ -90,17 +90,6 @@
     "corsi": ["HF"]
   },
   {
-    "tag": "regenzi",
-    "nome": "Maestra Chiara Regenzi",
-    "foto": "img/insegnanti/",
-    "descrizione": "Canto, Coro POP",
-    "bio": "",
-    "titoli": [],
-    "esperienza": [],
-    "citazione": "",
-    "corsi": ["CANTO", "CORO"]
-  },
-  {
     "tag": "antonini",
     "nome": "Maestro Matteo Antonini",
     "foto": "img/insegnanti/antonini.webp",
@@ -132,7 +121,43 @@
     "esperienza": [
       "Insegna trombone ed euphonium nelle scuole di musica locali e collabora con varie realtà musicali del territorio con entrambi gli strumenti."
     ],
-    "citazione": "se l'hai fatto una volta puoi rifarlo ancora meglio",
+    "citazione": "Se l'hai fatto una volta puoi rifarlo ancora meglio",
     "corsi": ["EUPH", "TB"]
+  },
+  {
+    "tag": "surace",
+    "nome": "Maestro Anthony Surace",
+    "foto": "img/insegnanti/surace.webp",
+    "descrizione": "Tromba",
+    "bio": "Inizia gli studi della tromba all'età di 11 anni presso la banda del paese, viene ammesso al conservatorio di Brescia sotto la guida del Mº Sergio Malacarne e si laurea sotto la guida del Mº Alberto Brini. Ha frequentato master di perfezionamento con alcuni tra i più grandi trombettisti tra cui Omar Tomasoni, Giuliano Sommerhalder, Allen Vizzuti e Marco Pierobon. Svolge attività didattica e collabora con diverse realtà musicali.",
+    "titoli": [
+      "Diploma accademico di II Livello (Biennio) in Tromba - Conservatorio “Luca Marenzio” di Brescia"
+    ],
+    "esperienza": [
+      "Attivita di insegnamento della tromba in diverse scuole di musica",
+      "Collaborazione con varie realtà bandistiche e gruppi musicali",
+      "Partecipazione a masterclass con docenti nazionali e internazionali"
+    ],
+    "citazione": "Respira e canta!",
+    "corsi": ["TP"]
+  },
+  {
+    "tag": "regenzi",
+    "nome": "Maestra Chiara Regenzi",
+    "foto": "img/insegnanti/",
+    "descrizione": "Canto, Coro Pop",
+    "bio": "Chiara Regenzi è una cantante e musicista, studia canto pop/rock presso il conservatorio “Gaetano Donizzetti” di Bergamo. Studia canto con la M. Gabriella Mazza e coro con la M. Elisa Rovida. Inoltre è flautista e pianista",
+    "titoli": [
+      "diploma di maturità presso Istituto di istruzione superiore “Serafino Riva” turismo e accoglienza turistica"
+    ],
+    "esperienza": [
+      "Collabora con alcune bande della provincia di Brescia",
+      "Nel 2016 ha suonato con Antonella Ruggiero",
+      "Nel 2017 ha suonato con Enrico Ruggeri",
+      "Nel 2018 ha suonato con i Nomadi",
+      "Sì esibisce in duo per i locali della Franciacorta"
+    ],
+    "citazione": "",
+    "corsi": ["CANTO", "CORO"]
   }
 ]
