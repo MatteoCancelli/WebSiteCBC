@@ -144,7 +144,7 @@
   {
     "tag": "regenzi",
     "nome": "Maestra Chiara Regenzi",
-    "foto": "img/insegnanti/",
+    "foto": "img/insegnanti/regenzi1.webp",
     "descrizione": "Canto, Coro Pop",
     "bio": "Chiara Regenzi è una cantante e musicista, studia canto pop/rock presso il conservatorio “Gaetano Donizzetti” di Bergamo. Studia canto con la M. Gabriella Mazza e coro con la M. Elisa Rovida. Inoltre è flautista e pianista",
     "titoli": [
@@ -157,7 +157,7 @@
       "Nel 2018 ha suonato con i Nomadi",
       "Sì esibisce in duo per i locali della Franciacorta"
     ],
-    "citazione": "",
+    "citazione": "La musica è una via di fuga, una terapia e una risata, tutto in uno",
     "corsi": ["CANTO", "CORO"]
   }
 ]
