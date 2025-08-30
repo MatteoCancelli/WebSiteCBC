@@ -239,17 +239,18 @@
     "titolo": "Corso di Percussioni",
     "hero": "img/hero/PERC.webp",
     "descrizione": "Un corso per scoprire le percussioni, adatto a tutti i livelli, dai principianti agli avanzati.",
-    "laClasse": "Un percorso appassionante che ti porta nel mondo delle percussioni: dalla potenza della batteria al fascino delle percussioni classiche. Le lezioni, pensate su misura per ogni livello, offrono l’occasione di sviluppare tecnica, musicalità ed espressività, guidati da un insegnante esperto e appassionato.",
+    "laClasse": "Un percorso appassionante che ti porta nel mondo delle percussioni: dalla potenza della batteria al fascino delle percussioni classiche. Le lezioni, pensate su misura per ogni livello, offrono l’occasione di sviluppare tecnica, musicalità ed espressività, guidati da un insegnante esperto e appassionato. Il corso rappresenta anche un valido supporto per la preparazione agli esami di ammissione al Liceo Musicale e al Conservatorio.",
     "obiettivi": [
       "Acquisire solide basi tecniche per strumenti a percussione e batteria",
       "Sviluppare precisione ritmica e controllo dinamico",
       "Approfondire l’interpretazione musicale attraverso repertori classici e moderni",
       "Potenziare la capacità di lettura ritmica e di esecuzione coordinata",
-      "Preparare l’allievo alla partecipazione a performance solistiche e d’ensemble"
+      "Preparare l’allievo alla partecipazione a performance solistiche e d’ensemble",
+      "Offrire una preparazione mirata agli esami di ammissione al Liceo Musicale e al Conservatorio"
     ],
     "insegnanti": ["mambretti"],
     "fotoStrumento": "img/section/Percussion.webp",
-    "giornoLezione": "",
+    "giornoLezione": "Mercoledì e Venerdì dalle 19:00",
     "lezioniDisponibili": ["30 minuti", "45 minuti", "60 minuti"],
     "modalita": "Individuale",
     "noteAggiuntive": "Saggio Musicale a Maggio ed opportunità di partecipare a Musica d'insieme o Coro Pop",
