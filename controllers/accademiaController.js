@@ -3,6 +3,7 @@ import { fileURLToPath } from "url";
 import { readFileSync } from "fs";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
+import SibApiV3Sdk from "@getbrevo/brevo";
 
 dotenv.config();
 
@@ -92,24 +93,25 @@ export const mostraContatti = (req, res) => {
   });
 };
 
+import SibApiV3Sdk from "@getbrevo/brevo";
+import { readFileSync } from "fs";
+import path from "path";
+
 export const inviaIscrizione = async (req, res) => {
   const { nome, email, telefono, note, corsi } = req.body;
 
   const corsiSelezionati = Array.isArray(corsi) ? corsi.join(", ") : corsi;
 
-const transporter = nodemailer.createTransport({
-  host: "smtp-relay.brevo.com",
-  port: 587,
-  auth: {
-    user: process.env.BREVO_USER, 
-    pass: process.env.BREVO_API_KEY, 
-  },
-});
-  const mailOptions = {
-    from: `"Iscrizione Accademia" <${process.env.EMAIL_USER}>`,
-    to: process.env.EMAIL_USER,
+  // Configurazione API Brevo
+  const defaultClient = SibApiV3Sdk.ApiClient.instance;
+  defaultClient.authentications["api-key"].apiKey = process.env.BREVO_API_KEY;
+
+  const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
+  const sendSmtpEmail = {
+    sender: { email: process.env.BREVO_USER, name: "Iscrizione Accademia" },
+    to: [{ email: process.env.EMAIL_USER }],
     subject: "Nuova richiesta di iscrizione",
-    html: `
+    htmlContent: `
       <h2>Nuova Iscrizione</h2>
       <p><b>Nome:</b> ${nome}</p>
       <p><b>Email:</b> ${email}</p>
@@ -120,7 +122,7 @@ const transporter = nodemailer.createTransport({
   };
 
   try {
-    await transporter.sendMail(mailOptions);
+    await apiInstance.sendTransacEmail(sendSmtpEmail);
     res.render("accademia/contatti", {
       title: "Contatti e Iscrizioni",
       head: "partials/head-accademia",
