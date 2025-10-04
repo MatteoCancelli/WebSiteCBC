@@ -97,11 +97,14 @@ export const inviaIscrizione = async (req, res) => {
   const { nome, email, telefono, note, corsi } = req.body;
   const corsiSelezionati = Array.isArray(corsi) ? corsi.join(", ") : corsi;
 
-  // Crea direttamente l'istanza dell'API
+  // Crea l'istanza API
   const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
 
-  // Imposta l'API Key
-  apiInstance.apiClient.authentications["api-key"].apiKey = process.env.BREVO_API_KEY;
+  // Imposta API Key correttamente
+  apiInstance.setApiKey(
+    SibApiV3Sdk.TransactionalEmailsApiApiKeys.apiKey,
+    process.env.BREVO_API_KEY
+  );
 
   const sendSmtpEmail = {
     sender: { email: process.env.BREVO_USER, name: "Iscrizione Accademia" },
