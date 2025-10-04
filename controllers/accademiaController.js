@@ -64,10 +64,10 @@ export const mostraInsegnante = (req, res) => {
   const insegnanti = JSON.parse(readFileSync(insegnantiPath));
   const corsi = JSON.parse(readFileSync(corsiPath));
 
-  const insegnante = insegnanti.find(i => i.tag === id);
+  const insegnante = insegnanti.find((i) => i.tag === id);
   if (!insegnante) return res.status(404).render("404");
 
-  const corsiInsegnante = corsi.filter(c => insegnante.corsi.includes(c.tag));
+  const corsiInsegnante = corsi.filter((c) => insegnante.corsi.includes(c.tag));
 
   res.render("accademia/insegnante", {
     insegnante,
@@ -78,7 +78,6 @@ export const mostraInsegnante = (req, res) => {
     bodyClass: "",
   });
 };
-
 
 export const mostraContatti = (req, res) => {
   const corsiPath = path.join(__dirname, "../data/corsi.json");
@@ -98,16 +97,14 @@ export const inviaIscrizione = async (req, res) => {
 
   const corsiSelezionati = Array.isArray(corsi) ? corsi.join(", ") : corsi;
 
-  const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com", // oppure smtp.yourdomain.com
-    port: 587,
-    secure: false,
-    auth: {
-      user: process.env.EMAIL_USER,
-      pass: process.env.EMAIL_PASS,
-    },
-  });
-
+const transporter = nodemailer.createTransport({
+  host: "smtp-relay.brevo.com",
+  port: 587,
+  auth: {
+    user: process.env.BREVO_USER, 
+    pass: process.env.BREVO_API_KEY, 
+  },
+});
   const mailOptions = {
     from: `"Iscrizione Accademia" <${process.env.EMAIL_USER}>`,
     to: process.env.EMAIL_USER,
