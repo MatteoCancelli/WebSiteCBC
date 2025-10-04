@@ -93,10 +93,6 @@ export const mostraContatti = (req, res) => {
   });
 };
 
-import SibApiV3Sdk from "@getbrevo/brevo";
-import { readFileSync } from "fs";
-import path from "path";
-
 export const inviaIscrizione = async (req, res) => {
   const { nome, email, telefono, note, corsi } = req.body;
 
