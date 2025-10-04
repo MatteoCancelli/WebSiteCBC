@@ -95,14 +95,14 @@ export const mostraContatti = (req, res) => {
 
 export const inviaIscrizione = async (req, res) => {
   const { nome, email, telefono, note, corsi } = req.body;
-
   const corsiSelezionati = Array.isArray(corsi) ? corsi.join(", ") : corsi;
 
-  // Configurazione API Brevo
-  const defaultClient = SibApiV3Sdk.ApiClient.instance;
-  defaultClient.authentications["api-key"].apiKey = process.env.BREVO_API_KEY;
-
+  // Crea direttamente l'istanza dell'API
   const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
+
+  // Imposta l'API Key
+  apiInstance.apiClient.authentications["api-key"].apiKey = process.env.BREVO_API_KEY;
+
   const sendSmtpEmail = {
     sender: { email: process.env.BREVO_USER, name: "Iscrizione Accademia" },
     to: [{ email: process.env.EMAIL_USER }],
@@ -125,9 +125,7 @@ export const inviaIscrizione = async (req, res) => {
       navbar: "partials/navbar-accademia",
       bodyClass: "",
       success: true,
-      corsi: JSON.parse(
-        readFileSync(path.join(__dirname, "../data/corsi.json"))
-      ),
+      corsi: JSON.parse(readFileSync(path.join(__dirname, "../data/corsi.json"))),
     });
   } catch (error) {
     console.error("Errore invio email:", error);
@@ -137,9 +135,7 @@ export const inviaIscrizione = async (req, res) => {
       navbar: "partials/navbar-accademia",
       bodyClass: "",
       success: false,
-      corsi: JSON.parse(
-        readFileSync(path.join(__dirname, "../data/corsi.json"))
-      ),
+      corsi: JSON.parse(readFileSync(path.join(__dirname, "../data/corsi.json"))),
     });
   }
 };
