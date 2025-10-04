@@ -109,7 +109,7 @@ export const inviaIscrizione = async (req, res) => {
   const sendSmtpEmail = {
     sender: { email: process.env.BREVO_USER, name: "Iscrizione Accademia" },
     to: [{ email: process.env.EMAIL_USER }],
-    subject: "Nuova richiesta di iscrizione",
+    subject: `Nuova richiesta di iscrizione - ${new Date().toLocaleString()}`,
     htmlContent: `
       <h2>Nuova Iscrizione</h2>
       <p><b>Nome:</b> ${nome}</p>
