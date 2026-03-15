@@ -1,0 +1,427 @@
+<% layout('layout') -%>
+
+<%# Stile inline specifico per la pagina masterclass %>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+  .mc-hero {
+    background: #1A1A1A;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 380px;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .mc-hero-text {
+    padding: 2.5rem 1.5rem 2.5rem 2.5rem;
+    display: flex; flex-direction: column; justify-content: space-between;
+    z-index: 2;
+  }
+  .mc-eyebrow {
+    font-size: 10px; letter-spacing: .18em; text-transform: uppercase;
+    color: #E8A838; font-weight: 500; margin-bottom: .5rem;
+  }
+  .mc-title {
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: .95; font-size: 4.2rem; color: #fff; margin: 0;
+  }
+  .mc-title span { color: #C8553D; }
+  .mc-sub {
+    font-size: .8rem; color: #aaa; text-transform: uppercase;
+    letter-spacing: .14em; margin: .5rem 0 0;
+  }
+  .mc-badge {
+    display: inline-flex; align-items: center; gap: .5rem;
+    background: #C8553D; color: #fff;
+    font-size: .75rem; font-weight: 500; letter-spacing: .06em;
+    padding: .4rem .9rem; border-radius: 4px; margin-top: 1.5rem; width: fit-content;
+  }
+  .mc-hero-img {
+    position: relative; overflow: hidden;
+  }
+  .mc-hero-img img {
+    width: 100%; height: 100%; object-fit: cover; object-position: center top;
+    filter: grayscale(20%) contrast(1.1);
+  }
+  .mc-hero-img::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(to right, #1A1A1A 0%, transparent 55%);
+  }
+
+  /* STRIPE */
+  .mc-stripe {
+    background: #C8553D; color: #fff;
+    padding: .8rem 1.5rem;
+    display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;
+    border-radius: .5rem; margin-bottom: 2rem;
+  }
+  .mc-stripe-item {
+    display: flex; align-items: center; gap: .5rem;
+    font-size: .82rem; font-weight: 500;
+  }
+  .mc-stripe-item i { opacity: .85; }
+
+  /* SECTION LABEL */
+  .mc-section { margin-bottom: 2.5rem; }
+  .mc-section-label {
+    font-size: 10px; letter-spacing: .16em; text-transform: uppercase;
+    color: #6c757d; font-weight: 500; margin-bottom: 1rem;
+    display: flex; align-items: center; gap: .6rem;
+  }
+  .mc-section-label::before {
+    content: ''; display: block; width: 18px; height: 1.5px; background: #C8553D;
+  }
+
+  /* PROGRAMMA */
+  .mc-program-grid { display: grid; gap: .75rem; }
+  .mc-prog-item {
+    display: grid; grid-template-columns: 3rem 1fr;
+    gap: .75rem; align-items: start;
+    padding: .9rem 1.1rem;
+    background: #f8f9fa;
+    border-radius: .5rem;
+    border: 1px solid #e9ecef;
+  }
+  .mc-prog-num {
+    font-family: 'Bebas Neue', sans-serif; font-size: 2.2rem;
+    color: #C8553D; line-height: 1;
+  }
+  .mc-prog-title { font-size: .95rem; font-weight: 600; margin-bottom: .2rem; color: #1A1A1A; }
+  .mc-prog-desc { font-size: .82rem; color: #6c757d; line-height: 1.6; }
+
+  /* JAM SESSION */
+  .mc-jam-box {
+    background: #1A1A1A; color: #fff;
+    border-radius: .6rem; padding: 1.5rem;
+    display: grid; grid-template-columns: auto 1fr;
+    gap: 1rem; align-items: center;
+    border: 1px solid rgba(200,85,61,.4);
+  }
+  .mc-jam-icon { font-size: 2.5rem; line-height: 1; }
+  .mc-jam-label { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: #E8A838; margin-bottom: .2rem; }
+  .mc-jam-title { font-size: 1rem; font-weight: 600; margin-bottom: .3rem; }
+  .mc-jam-desc { font-size: .82rem; color: #aaa; line-height: 1.6; }
+  .mc-jam-tag {
+    display: inline-block; margin-top: .6rem;
+    font-size: .72rem; color: #C8553D;
+    border: 1px solid #C8553D; border-radius: 3px;
+    padding: .15rem .5rem;
+  }
+
+  /* DOCENTE */
+  .mc-teacher-card {
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: .6rem;
+    border-left: 4px solid #C8553D;
+  }
+  .mc-teacher-name { font-size: 1.2rem; font-weight: 700; margin-bottom: .2rem; }
+  .mc-teacher-role { font-size: .75rem; color: #C8553D; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 1.25rem; }
+  .mc-bio-section { margin-bottom: 1.1rem; }
+  .mc-bio-section-title {
+    font-size: .7rem; letter-spacing: .14em; text-transform: uppercase;
+    color: #C8553D; font-weight: 600; margin-bottom: .5rem;
+    display: flex; align-items: center; gap: .4rem;
+  }
+  .mc-bio-section-title::before { content: ''; display: block; width: 12px; height: 1.5px; background: #C8553D; }
+  .mc-bio-list { list-style: none; padding: 0; margin: 0; }
+  .mc-bio-list li {
+    font-size: .82rem; color: #495057; line-height: 1.6;
+    padding: .3rem 0; border-bottom: 1px solid #f0f0f0;
+    display: grid; grid-template-columns: 6rem 1fr; gap: .75rem;
+  }
+  .mc-bio-list li:last-child { border-bottom: none; }
+  .mc-bio-list li.no-date { grid-template-columns: 1fr; }
+  .mc-bio-year { font-size: .75rem; color: #C8553D; font-weight: 600; white-space: nowrap; padding-top: .05rem; }
+  .mc-bio-text-block { font-size: .82rem; color: #495057; line-height: 1.7; }
+
+  /* FORM SECTION */
+  .mc-form-box {
+    background: #f8f9fa; border-radius: 1rem;
+    padding: 2rem; border: 1px solid #e9ecef;
+  }
+  .mc-form-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem; margin-bottom: .3rem; color: #1A1A1A;
+  }
+  .mc-form-sub { font-size: .85rem; color: #6c757d; margin-bottom: 1.5rem; line-height: 1.6; }
+
+  /* LOCANDINA */
+  .mc-poster-wrapper {
+    position: relative; border-radius: .75rem; overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,.15);
+  }
+  .mc-poster-wrapper img { width: 100%; display: block; }
+
+  @media (max-width: 576px) {
+    .mc-hero { grid-template-columns: 1fr; }
+    .mc-hero-img { height: 220px; }
+    .mc-title { font-size: 3rem; }
+    .mc-teacher-card { grid-template-columns: 1fr; }
+    .mc-stripe { gap: 1rem; }
+  }
+</style>
+
+<div class="container py-5">
+
+  <%# HERO %>
+  <div class="mc-hero">
+    <div class="mc-hero-text">
+      <div>
+        <div class="mc-eyebrow">Masterclass Esclusiva</div>
+        <h1 class="mc-title">MASTER<br><span>CLASS</span><br>BATTERIA</h1>
+        <p class="mc-sub">con Alan Beretta</p>
+      </div>
+      <span class="mc-badge">
+        <i class="bi bi-clock"></i> 6 ore &middot; Evento speciale
+      </span>
+    </div>
+    <div class="mc-hero-img">
+      <%# Sostituisci con il percorso reale della foto %>
+      <img src="/img/masterclass/alan-beretta.jpg" alt="Alan Beretta" 
+           onerror="this.parentElement.style.background='#2a2a2a'">
+    </div>
+  </div>
+
+  <%# STRIPE INFO %>
+  <div class="mc-stripe">
+    <div class="mc-stripe-item">
+      <i class="bi bi-calendar-event"></i>
+      <span><%= masterclass.data || 'Data da definire' %></span>
+    </div>
+    <div class="mc-stripe-item">
+      <i class="bi bi-clock"></i>
+      <span>6 ore di sessioni intensive</span>
+    </div>
+    <div class="mc-stripe-item">
+      <i class="bi bi-geo-alt"></i>
+      <span>Via Aldo Moro 79, Castelcovati (BS)</span>
+    </div>
+    <div class="mc-stripe-item">
+      <i class="bi bi-people"></i>
+      <span>Posti limitati</span>
+    </div>
+  </div>
+
+  <div class="row g-5">
+    <div class="col-lg-7">
+
+      <%# PROGRAMMA %>
+      <div class="mc-section">
+        <div class="mc-section-label">Programma della giornata</div>
+        <div class="mc-program-grid">
+          <div class="mc-prog-item">
+            <div class="mc-prog-num" style="font-size:1.1rem;padding-top:.2rem;color:#6c757d;font-family:var(--font-sans);font-weight:600;">9:30</div>
+            <div>
+              <div class="mc-prog-title">Accoglienza e materiali</div>
+              <div class="mc-prog-desc">Ogni partecipante riceve il fascicolo con gli esercizi della giornata, a cura di un volontario dell'associazione.</div>
+            </div>
+          </div>
+          <div class="mc-prog-item">
+            <div class="mc-prog-num" style="font-size:.9rem;padding-top:.2rem;color:#6c757d;font-family:var(--font-sans);font-weight:600;">10:00<br>12:30</div>
+            <div>
+              <div class="mc-prog-title">Riscaldamento collettivo</div>
+              <div class="mc-prog-desc">Effettivi e uditori partecipano insieme. Gli uditori lavorano sul proprio pad e bacchette; gli effettivi sugli strumenti. Il docente guida il riscaldamento e introduce i temi della giornata.</div>
+            </div>
+          </div>
+          <div class="mc-prog-item">
+            <div class="mc-prog-num" style="font-size:.9rem;padding-top:.2rem;color:#6c757d;font-family:var(--font-sans);font-weight:600;">12:30<br>14:00</div>
+            <div>
+              <div class="mc-prog-title">Pausa pranzo <span class="badge" style="background:#f0f0f0;color:#6c757d;font-size:.65rem;font-weight:500;vertical-align:middle;border-radius:3px;padding:.15rem .4rem;">Facoltativo</span></div>
+              <div class="mc-prog-desc">Pranzo facoltativo presso il <strong>Ristorante Marconi di Cizzago</strong> (13€ a persona, pagamento diretto al ristorante). Indicare l'adesione al momento della pre-iscrizione.</div>
+            </div>
+          </div>
+          <div class="mc-prog-item">
+            <div class="mc-prog-num" style="font-size:.9rem;padding-top:.2rem;color:#6c757d;font-family:var(--font-sans);font-weight:600;">14:00<br>17:30</div>
+            <div>
+              <div class="mc-prog-title">Sessione pomeridiana</div>
+              <div class="mc-prog-desc">Gli iscritti effettivi suonano i propri esercizi davanti al docente e ricevono feedback individuali. Gli uditori assistono e continuano a esercitarsi sul pad.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <%# COSA PORTARE %>
+      <div class="mc-section">
+        <div class="mc-section-label">Cosa portare</div>
+        <div class="mc-jam-box">
+          <div class="mc-jam-icon">🥁</div>
+          <div>
+            <div class="mc-jam-label">Attrezzatura obbligatoria</div>
+            <div class="mc-jam-title">Tutti i partecipanti devono portare pad e bacchette</div>
+            <div class="mc-jam-desc">
+              Sia gli iscritti effettivi che gli uditori devono presentarsi con il proprio <strong style="color:#fff;">pad da esercitazione</strong> e le proprie <strong style="color:#fff;">bacchette</strong>. Durante il riscaldamento collettivo e la sessione pomeridiana, il pad è lo strumento di lavoro principale per gli uditori.
+            </div>
+            <span class="mc-jam-tag">Pad · Bacchette · Fascicolo esercizi (fornito in sede)</span>
+          </div>
+        </div>
+      </div>
+
+      <%# DOCENTE %>
+      <div class="mc-section">
+        <div class="mc-section-label">Il docente</div>
+        <div class="mc-teacher-card">
+          <div class="mc-teacher-name">Alan Beretta</div>
+          <div class="mc-teacher-role">Batterista &middot; Percussionista &middot; Docente</div>
+
+          <%# STUDI %>
+          <div class="mc-bio-section">
+            <div class="mc-bio-section-title">Studi</div>
+            <ul class="mc-bio-list">
+              <li><span class="mc-bio-year">1982–1987</span><span>Inizia gli studi alla Batteria con il M° Valerio Abeni.</span></li>
+              <li><span class="mc-bio-year">1988–1989</span><span>Frequenta l'Accademia di Tullio De Piscopo a Milano.</span></li>
+              <li><span class="mc-bio-year">1989–1991</span><span>Corsi di alto perfezionamento con Dave Weckl, Peter Erskine e Roberto Gatto.</span></li>
+              <li><span class="mc-bio-year">1991–1998</span><span>Conservatorio di Brescia con i M° Andrea Dulbecco e Antonio Segafreddo — diploma brillante in Strumenti a Percussione.</span></li>
+              <li><span class="mc-bio-year">Dal 1998</span><span>Sei mesi al Berklee College of Music di Boston; perfezionamenti con J. DeJohnette e B. Stewart (Conservatorio di Groningen) e alla Berklee di Umbria Jazz 2000.</span></li>
+              <li><span class="mc-bio-year">2003–2005</span><span>Corso biennale di Composizione Jazz al Conservatorio Luca Marenzio di Brescia.</span></li>
+            </ul>
+          </div>
+
+          <%# COLLABORAZIONI %>
+          <div class="mc-bio-section">
+            <div class="mc-bio-section-title">Collaborazioni</div>
+            <p class="mc-bio-text-block">
+              In ambito classico ha suonato con l'Orchestra Egmont di Brescia, Mozart di Milano, '700 Musica, Dedalo Ensemble, il gruppo Simone Mayr e l'associazione Arcana. Ha partecipato a una tournée in Spagna con l'Orchestra Vox Aura.
+            </p>
+            <p class="mc-bio-text-block">
+              Dal 1995 forma con la pianista Daniela Ferracin un Duo da Camera (marimba/vibrafono e pianoforte), attivo in numerosi concerti con repertorio di Rosauro, Milhaud, Stravinsky, Bach. Ha registrato la colonna sonora dell'Enciclopedia della Musica dei Compositori Italiani (M° A. Giacometti) e dal 2005 al 2009 è stato percussionista stabile della Brescia Wind Orchestra.
+            </p>
+            <p class="mc-bio-text-block">
+              Come batterista jazz ha collaborato con F. D'Andrea, P. Fresu, Andrea Dulbecco, Sandro Gibellini, Stefano Caniato e molti altri, nonché con l'Orchestra RAI di Milano e con <strong>Eros Ramazzotti</strong> e <strong>Paolo Conte</strong>.
+            </p>
+          </div>
+
+          <%# DIDATTICA %>
+          <div class="mc-bio-section">
+            <div class="mc-bio-section-title">Attività didattica</div>
+            <ul class="mc-bio-list">
+              <li><span class="mc-bio-year">1999–2012</span><span>Docente di batteria e percussioni presso la Civica Scuola di Musica di Chiari (BS).</span></li>
+              <li><span class="mc-bio-year">Dal 2007</span><span>Docente presso l'Associazione Culturale Musicale di Castiglione delle Stiviere (MN).</span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-5">
+
+      <%# LOCANDINA %>
+      <div class="mc-section">
+        <div class="mc-section-label">Locandina</div>
+        <div class="mc-poster-wrapper">
+          <img src="/img/masterclass/locandina-masterclass.jpg" alt="Locandina Masterclass Batteria">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <%# FORM ISCRIZIONE %>
+  <div class="mc-form-box mt-2" id="form-iscrizione">
+    <div class="mc-section-label">Iscrizioni</div>
+    <div class="mc-form-title">Prenota il tuo posto</div>
+    <div class="mc-form-sub">
+      I posti sono limitati. Compila il form per riservare il tuo posto — ti ricontatteremo per confermare l'iscrizione e comunicare la quota di partecipazione.
+    </div>
+
+    <% if (typeof success !== 'undefined') { %>
+      <% if (success) { %>
+        <div class="alert alert-success d-flex align-items-center gap-2">
+          <i class="bi bi-check-circle-fill"></i>
+          <span>Richiesta inviata! Ti ricontatteremo presto per confermare l'iscrizione.</span>
+        </div>
+      <% } else { %>
+        <div class="alert alert-danger d-flex align-items-center gap-2">
+          <i class="bi bi-exclamation-triangle-fill"></i>
+          <span>Errore nell'invio. Riprova o scrivici su WhatsApp.</span>
+        </div>
+      <% } %>
+    <% } %>
+
+    <form action="/accademia/masterclass/iscriviti" method="POST">
+      <input type="hidden" name="evento" value="Masterclass Batteria – Alan Beretta">
+
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="nome" class="form-label">Nome e Cognome *</label>
+          <input type="text" class="form-control" id="nome" name="nome" required>
+        </div>
+        <div class="col-md-6">
+          <label for="eta" class="form-label">Età</label>
+          <input type="number" class="form-control" id="eta" name="eta" min="5" max="99" placeholder="es. 16">
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email *</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="col-md-6">
+          <label for="telefono" class="form-label">Telefono *</label>
+          <input type="tel" class="form-control" id="telefono" name="telefono" required
+                 pattern="[0-9]{8,15}" title="Inserisci un numero valido senza spazi">
+        </div>
+        <div class="col-12">
+          <div class="p-3 rounded" style="background:#fff;border:1px solid #e9ecef;">
+            <div class="form-label mb-2">Modalità di partecipazione *</div>
+            <span class="text-muted d-block mb-3" style="font-size:.8rem;">
+              <strong>Effettivo</strong> — partecipazione attiva con feedback individuale del docente (8–12 posti) &middot; 40€ esterni / 20€ soci<br>
+              <strong>Uditore</strong> — riscaldamento collettivo sul pad + assistenza alla sessione pomeridiana (fino a 15 posti) &middot; 20€ esterni / 10€ soci
+            </span>
+            <div class="d-flex gap-2">
+              <input type="radio" class="btn-check" name="categoria" id="cat-effettivo" value="Effettivo" autocomplete="off" required>
+              <label class="btn btn-outline-primary" for="cat-effettivo">Effettivo</label>
+              <input type="radio" class="btn-check" name="categoria" id="cat-uditore" value="Uditore" autocomplete="off">
+              <label class="btn btn-outline-primary" for="cat-uditore">Uditore</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <label for="livello" class="form-label">Livello</label>
+          <select class="form-select" id="livello" name="livello">
+            <option value="">Seleziona il tuo livello</option>
+            <option value="Principiante">Principiante (mai suonato / meno di 1 anno)</option>
+            <option value="Intermedio">Intermedio (1–4 anni di pratica)</option>
+            <option value="Avanzato">Avanzato (5+ anni di pratica)</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="p-3 rounded" style="background:#fff;border:1px solid #e9ecef;">
+            <div class="form-label mb-2">Pranzo facoltativo – Ristorante Marconi di Cizzago</div>
+            <span class="text-muted d-block mb-3" style="font-size:.8rem;">
+              13€ a persona &middot; pagamento diretto al ristorante il giorno dell'evento
+            </span>
+            <div class="d-flex gap-2">
+              <input type="radio" class="btn-check" name="pranzo" id="pranzo-si" value="Sì" autocomplete="off">
+              <label class="btn btn-outline-primary" for="pranzo-si">Sì, partecipo</label>
+              <input type="radio" class="btn-check" name="pranzo" id="pranzo-no" value="No" autocomplete="off" checked>
+              <label class="btn btn-outline-primary" for="pranzo-no">No, grazie</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <label for="note" class="form-label">Note o domande</label>
+          <textarea class="form-control" id="note" name="note" rows="3"
+                    placeholder="Es. ho già una batteria, sono allievo dell'accademia..."></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary w-100 py-2">
+            <i class="bi bi-send me-2"></i>Invia richiesta di iscrizione
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <hr class="my-4">
+    <p class="text-center text-muted small mb-2">Preferisci scrivere direttamente?</p>
+    <div class="text-center">
+      <a href="https://wa.me/393717711684?text=Ciao!%20Vorrei%20iscrivermi%20alla%20Masterclass%20Batteria%20con%20Alan%20Beretta."
+         target="_blank" class="btn btn-success">
+        <i class="bi bi-whatsapp me-2"></i>Iscriviti su WhatsApp
+      </a>
+    </div>
+  </div>
+
+</div>

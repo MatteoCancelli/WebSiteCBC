@@ -154,3 +154,77 @@ export const mostraInsegnanti = (req, res) => {
     bodyClass: "",
   });
 };
+
+export const mostraMasterclass = (req, res) => {
+  res.render("accademia/masterclass", {
+    title: "Masterclass Batteria – Alan Beretta",
+    head: "partials/head-accademia",
+    navbar: "partials/navbar-accademia",
+    bodyClass: "",
+    masterclass: {
+      data: "Sabato 12 aprile 2025",   // ← aggiorna con la data reale
+      docenteNome: "Alan Beretta",
+      docenteFoto: "",                 // ← es. "img/insegnanti/alan-beretta.webp"
+      docenteBio: "Alan Beretta è batterista professionista con oltre 15 anni di esperienza in contesti live e in studio. Ha collaborato con artisti di rilievo nazionale e tiene regolarmente masterclass e workshop in tutta Italia. La sua didattica unisce tecnica rigorosa e improvvisazione creativa.",
+    },
+  });
+};
+
+export const inviaIscrizioneMasterclass = async (req, res) => {
+  const { nome, email, telefono, eta, livello, note, evento } = req.body;
+
+  const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
+  apiInstance.setApiKey(
+    SibApiV3Sdk.TransactionalEmailsApiApiKeys.apiKey,
+    process.env.BREVO_API_KEY
+  );
+
+  const sendSmtpEmail = {
+    sender: { email: process.env.BREVO_USER, name: "Iscrizione Masterclass" },
+    to: [{ email: process.env.EMAIL_USER }],
+    subject: `Nuova iscrizione: ${evento} – ${new Date().toLocaleString("it-IT")}`,
+    htmlContent: `
+      <h2>Nuova richiesta di iscrizione</h2>
+      <p><b>Evento:</b> ${evento}</p>
+      <hr>
+      <p><b>Nome:</b> ${nome}</p>
+      <p><b>Email:</b> ${email}</p>
+      <p><b>Telefono:</b> ${telefono}</p>
+      <p><b>Età:</b> ${eta || "Non specificata"}</p>
+      <p><b>Livello:</b> ${livello || "Non specificato"}</p>
+      <p><b>Note:</b> ${note || "Nessuna"}</p>
+    `,
+  };
+
+  try {
+    await apiInstance.sendTransacEmail(sendSmtpEmail);
+    res.render("accademia/masterclass", {
+      title: "Masterclass Batteria – Alan Beretta",
+      head: "partials/head-accademia",
+      navbar: "partials/navbar-accademia",
+      bodyClass: "",
+      success: true,
+      masterclass: {
+        data: "Sabato 12 aprile 2025",
+        docenteNome: "Alan Beretta",
+        docenteFoto: "",
+        docenteBio: "Alan Beretta è batterista professionista...",
+      },
+    });
+  } catch (error) {
+    console.error("Errore invio email masterclass:", error);
+    res.render("accademia/masterclass", {
+      title: "Masterclass Batteria – Alan Beretta",
+      head: "partials/head-accademia",
+      navbar: "partials/navbar-accademia",
+      bodyClass: "",
+      success: false,
+      masterclass: {
+        data: "Sabato 12 aprile 2025",
+        docenteNome: "Alan Beretta",
+        docenteFoto: "",
+        docenteBio: "Alan Beretta è batterista professionista...",
+      },
+    });
+  }
+};

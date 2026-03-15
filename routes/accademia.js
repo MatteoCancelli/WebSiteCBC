@@ -1,5 +1,5 @@
 import express from "express";
-import { mostraHome, mostraSceltaCorsi, mostraCorso, mostraInsegnante, mostraContatti, inviaIscrizione, mostraInsegnanti } from "../controllers/accademiaController.js";
+import { mostraHome, mostraSceltaCorsi, mostraCorso, mostraInsegnante, mostraContatti, inviaIscrizione, mostraInsegnanti, mostraMasterclass, inviaIscrizioneMasterclass } from "../controllers/accademiaController.js";
 
 const router = express.Router();
 
@@ -10,5 +10,7 @@ router.get("/insegnante", mostraInsegnante);
 router.get("/contatti", mostraContatti);
 router.post("/invia-iscrizione", inviaIscrizione);
 router.get("/insegnanti", mostraInsegnanti);
+router.get("/masterclass", mostraMasterclass);
+router.post("/masterclass/iscriviti", inviaIscrizioneMasterclass);
 
 export default router;
