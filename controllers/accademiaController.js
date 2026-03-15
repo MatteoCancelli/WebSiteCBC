@@ -162,7 +162,7 @@ export const mostraMasterclass = (req, res) => {
     navbar: "partials/navbar-accademia",
     bodyClass: "",
     masterclass: {
-      data: "Sabato 12 aprile 2025",   // ← aggiorna con la data reale
+      data: "Domenica 24 Maggio 2026",   // ← aggiorna con la data reale
       docenteNome: "Alan Beretta",
       docenteFoto: "",                 // ← es. "img/insegnanti/alan-beretta.webp"
       docenteBio: "Alan Beretta è batterista professionista con oltre 15 anni di esperienza in contesti live e in studio. Ha collaborato con artisti di rilievo nazionale e tiene regolarmente masterclass e workshop in tutta Italia. La sua didattica unisce tecnica rigorosa e improvvisazione creativa.",
@@ -205,7 +205,7 @@ export const inviaIscrizioneMasterclass = async (req, res) => {
       bodyClass: "",
       success: true,
       masterclass: {
-        data: "Sabato 12 aprile 2025",
+        data: "Domenica 24 Maggio 2026",
         docenteNome: "Alan Beretta",
         docenteFoto: "",
         docenteBio: "Alan Beretta è batterista professionista...",
@@ -220,7 +220,7 @@ export const inviaIscrizioneMasterclass = async (req, res) => {
       bodyClass: "",
       success: false,
       masterclass: {
-        data: "Sabato 12 aprile 2025",
+        data: "Domenica 24 Maggio 2026",
         docenteNome: "Alan Beretta",
         docenteFoto: "",
         docenteBio: "Alan Beretta è batterista professionista...",
