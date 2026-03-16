@@ -1,5 +1,15 @@
 import express from "express";
-import { mostraHome, mostraSceltaCorsi, mostraCorso, mostraInsegnante, mostraContatti, inviaIscrizione, mostraInsegnanti, mostraMasterclass, inviaIscrizioneMasterclass } from "../controllers/accademiaController.js";
+import {
+  mostraHome,
+  mostraSceltaCorsi,
+  mostraCorso,
+  mostraInsegnante,
+  mostraContatti,
+  inviaIscrizione,
+  mostraInsegnanti,
+  mostraMasterclass,
+  inviaIscrizioneMasterclass
+} from "../controllers/accademiaController.js";
 
 const router = express.Router();
 
