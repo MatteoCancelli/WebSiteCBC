@@ -171,8 +171,8 @@ export const mostraMasterclass = (req, res) => {
 };
 
 export const inviaIscrizioneMasterclass = async (req, res) => {
-  const { nome, email, telefono, eta, livello, note, evento } = req.body;
-
+  const { nome, email, telefono, eta, categoria, livello, pranzo, note, evento } = req.body;
+  
   const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
   apiInstance.setApiKey(
     SibApiV3Sdk.TransactionalEmailsApiApiKeys.apiKey,
@@ -191,7 +191,9 @@ export const inviaIscrizioneMasterclass = async (req, res) => {
       <p><b>Email:</b> ${email}</p>
       <p><b>Telefono:</b> ${telefono}</p>
       <p><b>Età:</b> ${eta || "Non specificata"}</p>
+      <p><b>Categoria:</b> ${categoria || "Non specificata"}</p>
       <p><b>Livello:</b> ${livello || "Non specificato"}</p>
+      <p><b>Pranzo:</b> ${pranzo === "Sì" ? "✅ Sì" : "❌ No"}</p>
       <p><b>Note:</b> ${note || "Nessuna"}</p>
     `,
   };
