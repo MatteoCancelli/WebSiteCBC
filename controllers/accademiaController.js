@@ -214,7 +214,7 @@ export const inviaIscrizioneMasterclass = async (req, res) => {
       },
     });
   } catch (error) {
-    console.error("Errore invio email masterclass:", error);
+    console.error("Errore invio email masterclass:", error.message);
     res.render("accademia/masterclass", {
       title: "Masterclass Batteria – Alan Beretta",
       head: "partials/head-accademia",
