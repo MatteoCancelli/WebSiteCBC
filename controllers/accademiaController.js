@@ -200,6 +200,7 @@ export const inviaIscrizioneMasterclass = async (req, res) => {
 
   try {
     await apiInstance.sendTransacEmail(sendSmtpEmail);
+    console.log("Email inviata con successo a:", process.env.EMAIL_USER);
     res.render("accademia/masterclass", {
       title: "Masterclass Batteria – Alan Beretta",
       head: "partials/head-accademia",
@@ -214,7 +215,7 @@ export const inviaIscrizioneMasterclass = async (req, res) => {
       },
     });
   } catch (error) {
-    console.error("Errore invio email masterclass:", error.message);
+    console.error("Errore:", error.message, JSON.stringify(error.response?.data));
     res.render("accademia/masterclass", {
       title: "Masterclass Batteria – Alan Beretta",
       head: "partials/head-accademia",
