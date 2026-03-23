@@ -121,10 +121,19 @@
           ></textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary w-10">
+        <button type="submit" class="btn btn-primary w-10" id="btn-invia-iscrizione-corsi">
           Invia richiesta
         </button>
       </form>
     </div>
   </div>
 </div>
+
+<script>
+  document.getElementById('btn-invia-iscrizione-corsi').addEventListener('click', function () {
+    gtag('event', 'click_iscrizione_corsi', {
+      event_category: 'form',
+      event_label: 'Iscrizione Corsi Accademia'
+    });
+  });
+</script>
